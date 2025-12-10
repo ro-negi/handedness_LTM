@@ -1,6 +1,11 @@
 # Handedness_LTM
 
-This repository contains:
-- raw_data/ → unprocessed data
-- clean_data/ → cleaned datasets
-- scripts/ → R or Python code for data cleaning and analysis
+handedness_LTM/
+│
+├── clean_data/                 → cleaned datasets ready for analysis  
+├── raw_data/                   → original, unprocessed data  
+├── scripts/                    → R scripts used for data cleaning & analysis  
+│
+├── handedness_manuscript/      → current manuscript + full version history  
+├── README.md                   → (you are here)
+└── handedness_LTM.Rproj        → R project file
