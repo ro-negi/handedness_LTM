@@ -5,6 +5,7 @@
 
 # Required libraries ----------------------------------------------------------
 library(tidyverse)
+library(rmcorr)
 
 # Read the file ---------------------------------------------------------------
 # Original cleaned file (if needed later)
@@ -411,10 +412,10 @@ xdata_cv <- xdata_rmcorr %>%
 
 
 # -------------------------------------------------------------------
-# STEP 11: Compute mean, std, cv, and handedness.index (absolute cv)
+# STEP 11: Compute mean, std, cv, and cv_abs (absolute cv)
 # Input: xdata_cv with: subj.id, gutt.score, right.hand, left.hand
 # Output: xdata_cv with new columns:
-#   mean_HI, std_prop, cv, handedness.index
+#   mean_HI, std_prop, cv, cv_abs (old handedness.index)
 # -------------------------------------------------------------------
 
 xdata_cv <- xdata_cv %>%
@@ -436,30 +437,49 @@ xdata_cv <- xdata_cv %>%
     # 3. CV = std / mean
     cv = std_prop / mean_HI,
     
-    # 4. Absolute CV (no direction)
-    handedness.index = abs(cv)
+    # 4. Absolute CV (no direction) – keep as cv_abs
+    cv_abs = abs(cv)
   )
 
-# Step 12: find the largest finite handedness.index value
+# -------------------------------------------------------------------
+# STEP 12: Handle Inf in cv_abs by replacing with next rounded integer
+# above the largest finite value
+# -------------------------------------------------------------------
+
+# find the largest finite cv_abs value
 max_finite <- xdata_cv %>%
-  filter(!is.infinite(handedness.index)) %>%
-  summarise(max_val = max(handedness.index, na.rm = TRUE)) %>%
+  filter(!is.infinite(cv_abs)) %>%
+  summarise(max_val = max(cv_abs, na.rm = TRUE)) %>%
   pull(max_val)
 
 # define replacement value = next rounded integer above max_finite
 replacement_val <- ceiling(max_finite)
 
-# replace Inf ONLY in handedness.index
+# replace Inf ONLY in cv_abs
 xdata_cv <- xdata_cv %>%
   mutate(
-    handedness.index = ifelse(is.infinite(handedness.index),
-                              replacement_val,
-                              handedness.index)
+    cv_abs = ifelse(is.infinite(cv_abs),
+                    replacement_val,
+                    cv_abs)
   )
 
-# Show the replacement value
+# (optional) check what replacement value was used
 replacement_val
 
+# -------------------------------------------------------------------
+# STEP 13: Rescale cv_abs to 0–1 handedness.index
+#  - smallest cv_abs  -> handedness.index = 1 (strongest handedness)
+#  - largest  cv_abs  -> handedness.index = 0 (weakest handedness)
+# -------------------------------------------------------------------
+
+cv_min <- min(xdata_cv$cv_abs, na.rm = TRUE)
+cv_max <- max(xdata_cv$cv_abs, na.rm = TRUE)
+
+xdata_cv <- xdata_cv %>%
+  mutate(
+    cv_norm = (cv_abs - cv_min) / (cv_max - cv_min),   # 0 = strongest, 1 = weakest
+    handedness.index = 1 - cv_norm                    # 1 = strongest, 0 = weakest
+  )
 
 # Save a copy so you can inspect in Excel / CSV viewer if you want
 write_csv(
@@ -467,7 +487,21 @@ write_csv(
   "clean_data/2025.12.10_simple_to_complex_xdata_cv_subj_task_RN.csv"
 )
 
+## Repeated Measures Correlation (rm corr)
 
+
+# Check missing values 
+colSums(is.na(xdata_cv))
+
+# rm corr using the 0–1 scaled handedness.index
+rm_out <- rmcorr(
+  participant = subj.id,
+  measure1   = gutt.score,
+  measure2   = handedness.index,
+  dataset    = xdata_cv
+)
+
+rm_out
 
 
 
