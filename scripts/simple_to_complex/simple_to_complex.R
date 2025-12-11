@@ -562,3 +562,5 @@ ggplot(df_plot, aes(x = gutt.score, y = handedness.index)) +
   
   theme_classic(base_size = 16) +
   theme(legend.position = "right")
+
+### END ###
