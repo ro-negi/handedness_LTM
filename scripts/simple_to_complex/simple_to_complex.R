@@ -6,6 +6,7 @@
 # Required libraries ----------------------------------------------------------
 library(tidyverse)
 library(rmcorr)
+library(ggplot2)
 
 # Read the file ---------------------------------------------------------------
 # Original cleaned file (if needed later)
@@ -504,10 +505,60 @@ rm_out <- rmcorr(
 rm_out
 
 
+# Plots
 
+# -------------------------------------------------------------------
+# STEP 14: Bubble plot of handedness vs task complexity
+#          (size & colour = overlap) + overall trend line + CI
+# -------------------------------------------------------------------
+# Uses:
+#   - xdata_cv          (subj.id, gutt.score, handedness.index)
+#   - rm_out            (rmcorr result, for r and p if needed)
+# -------------------------------------------------------------------
 
+# 14.1 Count overlapping points at each (gutt.score, handedness.index)
+df_plot <- xdata_cv %>%
+  count(gutt.score, handedness.index, name = "n_points")
 
-
-
-
-
+# ---- Final plot ----
+ggplot(df_plot, aes(x = gutt.score, y = handedness.index)) +
+  
+  # Bubbles (no boundary)
+  geom_point(aes(size = n_points, colour = n_points),
+             alpha = 0.85,
+             shape = 16) +
+  
+  # Regression line + CI ribbon
+  geom_smooth(
+    data   = xdata_cv,
+    aes(x = gutt.score, y = handedness.index),
+    method = "lm",
+    se     = TRUE,
+    colour = "black",
+    fill   = "grey70",
+    linewidth = 1,
+    alpha  = 0.3,
+    inherit.aes = FALSE
+  ) +
+  
+  coord_cartesian(ylim = c(0.75, 1.00)) +
+  
+  scale_x_continuous(
+    breaks = c(0, 0.2, 0.4, 0.6, 0.8),
+    labels = c("Rubbing", "Pounding", "Washing", "Nut-cracking", "Oysters")
+  ) +
+  
+  scale_size_continuous(range = c(4, 22)) +
+  
+  scale_colour_gradient(
+    name = "No. of monkeys",
+    low  = "#c6dbef",
+    high = "#08306b"
+  ) +
+  
+  guides(size = "none") +
+  
+  labs(x = "Tasks", y = "Handedness Index") +
+  
+  theme_classic(base_size = 16) +
+  theme(legend.position = "right")
