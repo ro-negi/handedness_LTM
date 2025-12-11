@@ -383,3 +383,97 @@ xdata_rmcorr <- xdata_filtered %>%
 #)
 
 
+# -------------------------------------------------------------------
+# STEP 11: Collapse to one row per subject × task (for CV / HI work)
+# -------------------------------------------------------------------
+# Goal:
+# From the trial-level dataset xdata_rmcorr (one row per uni.id),
+# create a task-level dataset with ONE row per subj.id × gutt.score.
+# For each subject and task, we pool all trials by summing right.hand
+# and left.hand across trials.
+#
+# Resulting data frame: xdata_cv
+# Columns kept:
+#   - subj.id
+#   - gutt.score
+#   - right.hand  (total across all trials in that task)
+#   - left.hand   (total across all trials in that task)
+# -------------------------------------------------------------------
+
+xdata_cv <- xdata_rmcorr %>%
+  group_by(subj.id, gutt.score) %>%
+  summarise(
+    right.hand = sum(right.hand, na.rm = TRUE),
+    left.hand  = sum(left.hand,  na.rm = TRUE),
+    .groups    = "drop"
+  ) %>%
+  arrange(subj.id, gutt.score)
+
+
+# -------------------------------------------------------------------
+# STEP 11: Compute mean, std, cv, and handedness.index (absolute cv)
+# Input: xdata_cv with: subj.id, gutt.score, right.hand, left.hand
+# Output: xdata_cv with new columns:
+#   mean_HI, std_prop, cv, handedness.index
+# -------------------------------------------------------------------
+
+xdata_cv <- xdata_cv %>%
+  mutate(
+    # Total events
+    n_total = right.hand + left.hand,
+    
+    # Proportions
+    p_right = right.hand / n_total,
+    p_left  = left.hand / n_total,
+    
+    # 1. Mean handedness index
+    mean_HI = (right.hand - left.hand) / n_total,
+    
+    # 2. Standard deviation of proportions
+    variance_prop = (p_right * p_left) / n_total,
+    std_prop = sqrt(variance_prop),
+    
+    # 3. CV = std / mean
+    cv = std_prop / mean_HI,
+    
+    # 4. Absolute CV (no direction)
+    handedness.index = abs(cv)
+  )
+
+# Step 12: find the largest finite handedness.index value
+max_finite <- xdata_cv %>%
+  filter(!is.infinite(handedness.index)) %>%
+  summarise(max_val = max(handedness.index, na.rm = TRUE)) %>%
+  pull(max_val)
+
+# define replacement value = next rounded integer above max_finite
+replacement_val <- ceiling(max_finite)
+
+# replace Inf ONLY in handedness.index
+xdata_cv <- xdata_cv %>%
+  mutate(
+    handedness.index = ifelse(is.infinite(handedness.index),
+                              replacement_val,
+                              handedness.index)
+  )
+
+# Show the replacement value
+replacement_val
+
+
+# Save a copy so you can inspect in Excel / CSV viewer if you want
+write_csv(
+  xdata_cv,
+  "clean_data/2025.12.10_simple_to_complex_xdata_cv_subj_task_RN.csv"
+)
+
+
+
+
+
+
+
+
+
+
+
