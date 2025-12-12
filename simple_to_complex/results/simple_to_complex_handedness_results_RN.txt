@@ -1,0 +1,37 @@
+Description - 
+
+We studied how the likelihood of handedness (hand preference) change from simple to complex tasks. 
+
+Mathematical operations - 
+
+Handedness index = Coefficient of variation (cv) 
+
+cv = standard dev/abs. mean 
+
+variance of proportions (v) = (probability of using right hand * probability of using left hand) / total number of events 
+
+standard dev = √v
+
+mean = (right hand - left hand)/total number of events
+
+
+Statistical analysis: Repeated Measures Correlation 
+
+We computed a correlation between task complexity (gutt score) and handedness index. 
+
+
+Results - 
+
+r (rm corr)
+0.355989
+
+degrees of freedom
+61
+
+p-value
+0.004190645
+
+95% confidence interval
+0.1186929 0.5548182 
+
+
