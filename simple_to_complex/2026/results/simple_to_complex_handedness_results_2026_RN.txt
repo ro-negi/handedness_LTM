@@ -1,0 +1,30 @@
+Description - 
+
+We studied how the likelihood of handedness (hand preference) change from simple to complex tasks. 
+
+Mathematical operations - 
+
+Handedness index (HI) = (right-left)/(right+left)
+
+HI = mean = (right hand - left hand)/total number of events
+
+
+Statistical analysis: Repeated Measures Correlation 
+
+We computed a correlation between task complexity (gutt score) and handedness index. 
+
+
+Results - 
+
+r (rm corr)
+0.6076312
+
+degrees of freedom
+102
+
+p-value
+7.943182e-12
+
+95% confidence interval
+0.4700493 0.716386 
+

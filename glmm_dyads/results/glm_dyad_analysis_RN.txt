@@ -1,0 +1,90 @@
+Model details - 
+
+Here i have modeled the likelihood of same or different handed tool users as a function of their behavioral context and spatial proximity to each other. 
+
+---
+
+Model equation -
+
+full = glm(handedness_pair ~ context + proximity, 
+           family = binomial,
+           data = xdata)
+
+null = glm(handedness_pair ~ 1, 
+           family = binomial,
+           data = xdata)
+
+---
+
+full null model comparission - 
+
+Resid. Df Resid. Dev Df Deviance Pr(>Chi)
+1      1874   2594.072 NA       NA       NA
+2      1870   2553.218  4   40.855        0
+
+---
+
+GLM Output -
+
+Call:
+glm(formula = handedness_pair ~ context + proximity, family = binomial, 
+    data = xdata)
+
+Coefficients:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                     0.6739     0.1244   5.417 6.08e-08 ***
+contextforaging_without_tools  -0.7414     0.1661  -4.464 8.06e-06 ***
+contextother                   -0.5610     0.1062  -5.280 1.29e-07 ***
+proximity<3m>                  -0.1040     0.1286  -0.808  0.41899    
+proximity<5m>                  -0.3212     0.1166  -2.754  0.00588 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 2594.1  on 1874  degrees of freedom
+Residual deviance: 2553.2  on 1870  degrees of freedom
+AIC: 2563.2
+
+Number of Fisher Scoring iterations: 4 
+
+--
+
+Coefficients:
+                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -0.06747    0.17067  -0.395  0.69259    
+contextother           0.18045    0.15872   1.137  0.25557    
+contextstone_tool_use  0.74140    0.16610   4.464 8.06e-06 ***
+proximity<3m>         -0.10395    0.12862  -0.808  0.41899    
+proximity<5m>         -0.32125    0.11663  -2.754  0.00588 ** 
+--
+
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                    0.11298    0.09129   1.238  0.21588    
+contextstone_tool_use          0.56095    0.10624   5.280 1.29e-07 ***
+contextforaging_without_tools -0.18045    0.15872  -1.137  0.25557    
+proximity<3m>                 -0.10395    0.12862  -0.808  0.41899    
+proximity<5m>                 -0.32125    0.11663  -2.754  0.00588 ** 
+---
+
+Coefficients:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                     0.5700     0.1094   5.211 1.88e-07 ***
+contextother                   -0.5610     0.1062  -5.280 1.29e-07 ***
+contextforaging_without_tools  -0.7414     0.1661  -4.464 8.06e-06 ***
+proximity<1m>                   0.1040     0.1286   0.808   0.4190    
+proximity<5m>                  -0.2173     0.1133  -1.917   0.0552 .  
+---
+
+Coefficients:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                    0.35268    0.09419   3.744 0.000181 ***
+contextother                  -0.56095    0.10624  -5.280 1.29e-07 ***
+contextforaging_without_tools -0.74140    0.16610  -4.464 8.06e-06 ***
+proximity<3m>                  0.21730    0.11333   1.917 0.055184 .  
+proximity<1m>                  0.32125    0.11663   2.754 0.005880 ** 
+---
+
+Final message - 
+
+Compared to stone-tool use at very close range, both foraging_without_tools and other contexts significantly reduce the chance that a dyad is different-handed, and being at <5m also reduces the chance of different-handedness; <3m looks similar to <1m>.
