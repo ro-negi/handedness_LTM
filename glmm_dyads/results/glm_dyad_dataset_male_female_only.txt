@@ -1,0 +1,81 @@
+Model details - 
+
+Here i have modeled the likelihood of same or different handed tool users as a function of their behavioral context and spatial proximity to each other only for male-female dyads.  
+
+---
+
+Model equation -
+
+full = glm(handedness_pair ~ context + proximity, 
+           family = binomial,
+           data = xdata)
+
+null = glm(handedness_pair ~ 1, 
+           family = binomial,
+           data = xdata)
+
+---
+
+full null model comparission - 
+
+  Resid. Df Resid. Dev Df Deviance Pr(>Chi)
+1       431    594.789 NA       NA       NA
+2       427    576.383  4   18.406    0.001
+
+---
+
+Overdispersion test -
+     chisq  df         P dispersion.parameter
+1 433.0568 427 0.4094049             1.014185
+
+---
+
+GLM Output -
+
+Call:
+glm(formula = handedness_pair ~ context + proximity, family = binomial, 
+    data = xdata)
+
+Coefficients:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                     0.8301     0.2761   3.006 0.002646 ** 
+contextforaging_without_tools  -0.9962     0.3570  -2.790 0.005268 ** 
+contextother                   -0.9000     0.2429  -3.706 0.000211 ***
+proximity<3m>                  -0.1661     0.2767  -0.600 0.548312    
+proximity<5m>                   0.1932     0.2376   0.813 0.416040    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 594.79  on 431  degrees of freedom
+Residual deviance: 576.38  on 427  degrees of freedom
+AIC: 586.38
+
+Number of Fisher Scoring iterations: 4
+--
+
+Coefficients:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                   -0.06989    0.19264  -0.363 0.716768    
+contextstone_tool_use          0.89995    0.24286   3.706 0.000211 ***
+contextforaging_without_tools -0.09628    0.31633  -0.304 0.760849    
+proximity<3m>                 -0.16613    0.27674  -0.600 0.548312    
+proximity<5m>                  0.19323    0.23759   0.813 0.416040    
+
+--
+
+Coefficients:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                    0.12335    0.16488   0.748 0.454397    
+contextstone_tool_use          0.89995    0.24286   3.706 0.000211 ***
+contextforaging_without_tools -0.09628    0.31633  -0.304 0.760849    
+proximity<1m>                 -0.19323    0.23759  -0.813 0.416040    
+proximity<3m>                 -0.35936    0.24722  -1.454 0.146061 
+
+---
+
+
+Final message - 
+
+Hand-use diversity in mixed-sex dyads is strongly context-dependent, being highest during stone-tool foraging, and not influenced by proximity between partners.

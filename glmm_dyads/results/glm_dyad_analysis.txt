@@ -24,6 +24,12 @@ Resid. Df Resid. Dev Df Deviance Pr(>Chi)
 
 ---
 
+Overdispersion test -
+     chisq   df         P dispersion.parameter
+1 1874.322 1870 0.4675185             1.002311
+
+---
+
 GLM Output -
 
 Call:
