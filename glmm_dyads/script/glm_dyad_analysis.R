@@ -11,7 +11,7 @@ xdata$context
 
 hist(xdata$handedness_pair)
 
-full = glm(handedness_pair ~ context + proximity, 
+full = glm(handedness_pair ~ context*proximity, 
            family = binomial,
            data = xdata)
 
