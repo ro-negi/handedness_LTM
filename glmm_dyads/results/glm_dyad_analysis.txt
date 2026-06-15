@@ -1,6 +1,6 @@
 Model details - 
 
-Here i have modeled the likelihood of same or different handed tool users as a function of their behavioral context and spatial proximity to each other. 
+Here i have modeled the likelihood of same (0) or different handed (1) tool users as a function of their behavioral context and spatial proximity to each other. 
 
 ---
 
