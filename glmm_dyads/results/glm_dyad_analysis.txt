@@ -6,7 +6,7 @@ Here i have modeled the likelihood of same or different handed tool users as a f
 
 Model equation -
 
-full = glm(handedness_pair ~ context + proximity, 
+full = glm(handedness_pair ~ context*proximity, 
            family = binomial,
            data = xdata)
 
@@ -18,77 +18,66 @@ null = glm(handedness_pair ~ 1,
 
 full null model comparission - 
 
-Resid. Df Resid. Dev Df Deviance Pr(>Chi)
+ Resid. Df Resid. Dev Df Deviance Pr(>Chi)
 1      1874   2594.072 NA       NA       NA
-2      1870   2553.218  4   40.855        0
+2      1866   2541.001  8   53.072        0
 
 ---
 
-Overdispersion test -
-     chisq   df         P dispersion.parameter
-1 1874.322 1870 0.4675185             1.002311
+Overdisp.test(full)
+  chisq   df       P dispersion.parameter
+1  1875 1866 0.43723             1.004823
 
 ---
-
-GLM Output -
-
-Call:
-glm(formula = handedness_pair ~ context + proximity, family = binomial, 
-    data = xdata)
 
 Coefficients:
-                              Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                     0.6739     0.1244   5.417 6.08e-08 ***
-contextforaging_without_tools  -0.7414     0.1661  -4.464 8.06e-06 ***
-contextother                   -0.5610     0.1062  -5.280 1.29e-07 ***
-proximity<3m>                  -0.1040     0.1286  -0.808  0.41899    
-proximity<5m>                  -0.3212     0.1166  -2.754  0.00588 ** 
+                                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                  0.81093    0.22713   3.570 0.000356 ***
+contextforaging_without_tools               -1.35747    0.44173  -3.073 0.002119 ** 
+contextother                                -0.69018    0.24834  -2.779 0.005450 ** 
+proximity<3m>                                0.02267    0.27268   0.083 0.933747    
+proximity<5m>                               -0.64439    0.25294  -2.548 0.010848 *  
+contextforaging_without_tools:proximity<3m>  0.13301    0.53925   0.247 0.805174    
+contextother:proximity<3m>                  -0.27695    0.31654  -0.875 0.381619    
+contextforaging_without_tools:proximity<5m>  1.04522    0.49404   2.116 0.034374 *  
+contextother:proximity<5m>                   0.39879    0.28997   1.375 0.169039    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 (Dispersion parameter for binomial family taken to be 1)
 
     Null deviance: 2594.1  on 1874  degrees of freedom
-Residual deviance: 2553.2  on 1870  degrees of freedom
-AIC: 2563.2
+Residual deviance: 2541.0  on 1866  degrees of freedom
+AIC: 2559
 
-Number of Fisher Scoring iterations: 4 
+Number of Fisher Scoring iterations: 4
 
 --
 
 Coefficients:
-                      Estimate Std. Error z value Pr(>|z|)    
-(Intercept)           -0.06747    0.17067  -0.395  0.69259    
-contextother           0.18045    0.15872   1.137  0.25557    
-contextstone_tool_use  0.74140    0.16610   4.464 8.06e-06 ***
-proximity<3m>         -0.10395    0.12862  -0.808  0.41899    
-proximity<5m>         -0.32125    0.11663  -2.754  0.00588 ** 
+                                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                   0.1665     0.1113   1.496 0.134664    
+contextforaging_without_tools                -0.3122     0.2212  -1.411 0.158151    
+contextother                                 -0.2914     0.1497  -1.947 0.051582 .  
+proximity<1m>                                 0.6444     0.2529   2.548 0.010848 *  
+proximity<3m>                                 0.6671     0.1875   3.557 0.000375 ***
+contextforaging_without_tools:proximity<1m>  -1.0452     0.4940  -2.116 0.034374 *  
+contextother:proximity<1m>                   -0.3988     0.2900  -1.375 0.169039    
+contextforaging_without_tools:proximity<3m>  -0.9122     0.3803  -2.399 0.016448 *  
+contextother:proximity<3m>                   -0.6757     0.2468  -2.738 0.006191 ** 
 --
 
-                              Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                    0.11298    0.09129   1.238  0.21588    
-contextstone_tool_use          0.56095    0.10624   5.280 1.29e-07 ***
-contextforaging_without_tools -0.18045    0.15872  -1.137  0.25557    
-proximity<3m>                 -0.10395    0.12862  -0.808  0.41899    
-proximity<5m>                 -0.32125    0.11663  -2.754  0.00588 ** 
----
-
 Coefficients:
-                              Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                     0.5700     0.1094   5.211 1.88e-07 ***
-contextother                   -0.5610     0.1062  -5.280 1.29e-07 ***
-contextforaging_without_tools  -0.7414     0.1661  -4.464 8.06e-06 ***
-proximity<1m>                   0.1040     0.1286   0.808   0.4190    
-proximity<5m>                  -0.2173     0.1133  -1.917   0.0552 .  
----
-
-Coefficients:
-                              Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                    0.35268    0.09419   3.744 0.000181 ***
-contextother                  -0.56095    0.10624  -5.280 1.29e-07 ***
-contextforaging_without_tools -0.74140    0.16610  -4.464 8.06e-06 ***
-proximity<3m>                  0.21730    0.11333   1.917 0.055184 .  
-proximity<1m>                  0.32125    0.11663   2.754 0.005880 ** 
+                                    Estimate Std. Error z value Pr(>|z|)  
+(Intercept)                         -0.14571    0.19120  -0.762   0.4460  
+contextstone_tool_use                0.31225    0.22125   1.411   0.1582  
+contextother                         0.02086    0.21580   0.097   0.9230  
+proximity<1m>                       -0.40083    0.42438  -0.945   0.3449  
+proximity<3m>                       -0.24515    0.33083  -0.741   0.4587  
+contextstone_tool_use:proximity<1m>  1.04522    0.49404   2.116   0.0344 *
+contextother:proximity<1m>           0.64643    0.44744   1.445   0.1485  
+contextstone_tool_use:proximity<3m>  0.91222    0.38028   2.399   0.0164 *
+contextother:proximity<3m>           0.23647    0.36772   0.643   0.5202  
 ---
 
 Final message - 
