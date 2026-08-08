@@ -10,13 +10,25 @@
 #   3. Vector PDF with raster satellite background
 ###############################################################
 
-
-
 ###############################################################
-# 1. SET THE PERSONAL R PACKAGE LIBRARY
+# 1 INSTALL REQUIRED PACKAGES
 ###############################################################
+
+# Define the folder where packages will be installed
 
 user_library <- "C:/Users/rohit_negi/R/win-library/4.3"
+
+
+# Create the folder if it does not exist
+
+dir.create(
+  user_library,
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+
+# Tell R to use this package library
 
 .libPaths(
   c(
@@ -26,8 +38,56 @@ user_library <- "C:/Users/rohit_negi/R/win-library/4.3"
 )
 
 
+# List the packages required by the map script
+
+required_packages <- c(
+  "rstac",
+  "terra",
+  "sf",
+  "ggplot2",
+  "ggspatial",
+  "cowplot",
+  "magick"
+)
+
+
+# Identify packages that are not installed in this library
+
+missing_packages <- required_packages[
+  !vapply(
+    required_packages,
+    function(package_name) {
+      requireNamespace(
+        package_name,
+        quietly = TRUE
+      )
+    },
+    logical(1)
+  )
+]
+
+
+# Install only missing packages
+
+if (length(missing_packages) > 0) {
+  
+  install.packages(
+    missing_packages,
+    repos = "https://cloud.r-project.org",
+    lib = user_library,
+    dependencies = TRUE
+  )
+  
+} else {
+  
+  message(
+    "All required packages are already installed."
+  )
+}
+
+
 ###############################################################
-# 2. LOAD PACKAGES
+# 2 LOAD REQUIRED PACKAGES
 ###############################################################
 
 library(rstac)
@@ -37,6 +97,10 @@ library(ggplot2)
 library(ggspatial)
 library(cowplot)
 library(magick)
+
+
+
+
 
 
 ###############################################################
@@ -52,7 +116,7 @@ thailand_map_file <-
 # Folder where all new files will be saved
 
 output_folder <-
-  "C:/Users/rohit_negi/Desktop/New folder"
+  "C:/Users/rohit_negi/Desktop/field_map"
 
 
 # Create the output folder if it does not already exist
@@ -77,14 +141,14 @@ if (!file.exists(thailand_map_file)) {
 
 
 ###############################################################
-# 4 COPERNICUS MAP EXTENT
+# 4. FINAL KO BOI MAP EXTENT
 ###############################################################
 
 ko_boi_bbox <- c(
-  xmin = 98.425827,
-  ymin = 8.012316,
-  xmax = 98.662720,
-  ymax = 8.271971
+  xmin = 98.524100,
+  ymin = 8.085000,
+  xmax = 98.596000,
+  ymax = 8.178500
 )
 
 ko_boi_aoi <- sf::st_as_sfc(
@@ -442,244 +506,254 @@ write.csv(
 )
 
 ###############################################################
-# 9. SELECT A SPECIFIC FULLER-COVERAGE DATE
+# 9. SELECT DATES FOR THE MULTI-DATE COMPOSITE
 ###############################################################
 
-selected_imagery_date <- as.Date(
-  "2026-03-21"
+composite_dates <- as.Date(
+  c(
+    "2026-03-21",
+    "2026-04-12",
+    "2026-03-26"
+  )
 )
 
-
-# Find all catalogue scenes from this date
-
-selected_date_rows <- which(
-  coverage_information$date ==
-    selected_imagery_date
-)
+print(composite_dates)
 
 
-if (length(selected_date_rows) == 0) {
-  stop(
-    paste(
-      "No scenes were found for",
-      selected_imagery_date
+###############################################################
+# 10. FUNCTION TO MOSAIC ONE COLOUR BAND
+###############################################################
+
+create_band_mosaic <- function(
+    selected_scenes,
+    band_name,
+    geographic_boundary
+) {
+  
+  cropped_tiles <- lapply(
+    selected_scenes,
+    function(scene) {
+      
+      satellite_tile <- terra::rast(
+        scene$assets[[band_name]]$href
+      )
+      
+      boundary_in_tile_crs <- sf::st_transform(
+        geographic_boundary,
+        terra::crs(satellite_tile)
+      )
+      
+      terra::crop(
+        satellite_tile,
+        terra::vect(boundary_in_tile_crs)
+      )
+    }
+  )
+  
+  band_mosaic <- do.call(
+    terra::mosaic,
+    c(
+      cropped_tiles,
+      list(
+        fun = "mean"
+      )
     )
+  )
+  
+  return(band_mosaic)
+}
+
+
+###############################################################
+# 11. CREATE ONE RGB MOSAIC FOR EACH DATE
+###############################################################
+
+date_mosaics <- lapply(
+  composite_dates,
+  function(current_date) {
+    
+    message(
+      paste(
+        "Processing:",
+        current_date
+      )
+    )
+    
+    current_indices <- which(
+      coverage_information$date == current_date
+    )
+    
+    if (length(current_indices) == 0) {
+      stop(
+        paste(
+          "No satellite scenes were found for",
+          current_date
+        )
+      )
+    }
+    
+    current_scenes <- sentinel_search$features[
+      current_indices
+    ]
+    
+    message(
+      paste(
+        "Number of tiles:",
+        length(current_scenes)
+      )
+    )
+    
+    if (length(current_scenes) < 2) {
+      stop(
+        paste(
+          "Fewer than two tiles were found for",
+          current_date
+        )
+      )
+    }
+    
+    current_red <- create_band_mosaic(
+      selected_scenes = current_scenes,
+      band_name = "red",
+      geographic_boundary = ko_boi_aoi
+    )
+    
+    current_green <- create_band_mosaic(
+      selected_scenes = current_scenes,
+      band_name = "green",
+      geographic_boundary = ko_boi_aoi
+    )
+    
+    current_blue <- create_band_mosaic(
+      selected_scenes = current_scenes,
+      band_name = "blue",
+      geographic_boundary = ko_boi_aoi
+    )
+    
+    current_rgb <- c(
+      current_red,
+      current_green,
+      current_blue
+    )
+    
+    names(current_rgb) <- c(
+      "red",
+      "green",
+      "blue"
+    )
+    
+    return(current_rgb)
+  }
+)
+
+names(date_mosaics) <- as.character(
+  composite_dates
+)
+
+
+###############################################################
+# 12. ALIGN THE DATE MOSAICS
+###############################################################
+
+# Use the first date as the spatial template.
+
+mosaic_template <- date_mosaics[[1]]
+
+
+aligned_date_mosaics <- lapply(
+  date_mosaics,
+  function(current_mosaic) {
+    
+    geometry_matches <- terra::compareGeom(
+      current_mosaic,
+      mosaic_template,
+      stopOnError = FALSE
+    )
+    
+    if (isTRUE(geometry_matches)) {
+      
+      current_mosaic
+      
+    } else {
+      
+      terra::resample(
+        current_mosaic,
+        mosaic_template,
+        method = "bilinear"
+      )
+    }
+  }
+)
+
+
+###############################################################
+# 13. CALCULATE THE MULTI-DATE MEDIAN
+###############################################################
+
+# Start each colour stack with the first date.
+
+red_date_stack <- aligned_date_mosaics[[1]][[1]]
+green_date_stack <- aligned_date_mosaics[[1]][[2]]
+blue_date_stack <- aligned_date_mosaics[[1]][[3]]
+
+
+# Add the remaining dates to each colour stack.
+
+for (
+  date_number in 2:length(aligned_date_mosaics)
+) {
+  
+  red_date_stack <- c(
+    red_date_stack,
+    aligned_date_mosaics[[date_number]][[1]]
+  )
+  
+  green_date_stack <- c(
+    green_date_stack,
+    aligned_date_mosaics[[date_number]][[2]]
+  )
+  
+  blue_date_stack <- c(
+    blue_date_stack,
+    aligned_date_mosaics[[date_number]][[3]]
   )
 }
 
 
-# Identify the clearest scene on this date for metadata
+# Confirm that each stack contains three dates.
 
-clearest_position <- which.min(
-  coverage_information$cloud_cover[
-    selected_date_rows
-  ]
+print(red_date_stack)
+print(green_date_stack)
+print(blue_date_stack)
+
+
+# Calculate the median separately for each colour band.
+
+median_red <- terra::app(
+  red_date_stack,
+  fun = median,
+  na.rm = TRUE
 )
 
+median_green <- terra::app(
+  green_date_stack,
+  fun = median,
+  na.rm = TRUE
+)
 
-selected_scene_number <-
-  coverage_information$scene_number[
-    selected_date_rows[
-      clearest_position
-    ]
-  ]
-
-
-selected_scene <- sentinel_search$features[[selected_scene_number]]
-
-
-selected_cloud_cover <- min(
-  coverage_information$cloud_cover[
-    selected_date_rows
-  ],
+median_blue <- terra::app(
+  blue_date_stack,
+  fun = median,
   na.rm = TRUE
 )
 
 
-message(
-  paste(
-    "Selected acquisition date:",
-    selected_imagery_date
-  )
-)
-
-
-message(
-  paste(
-    "Number of available tiles:",
-    length(selected_date_rows)
-  )
-)
-
-
-message(
-  paste(
-    "Lowest reported cloud cover:",
-    round(
-      selected_cloud_cover,
-      3
-    ),
-    "%"
-  )
-)
-
-###############################################################
-# 10. GET BOTH TILES FROM THE SELECTED DATE
-###############################################################
-
-same_date_indices <- selected_date_rows
-
-same_date_scenes <- sentinel_search$features[
-  same_date_indices
-]
-
-message(
-  paste(
-    "Number of tiles being combined:",
-    length(same_date_scenes)
-  )
-)
-
-if (length(same_date_scenes) < 2) {
-  stop(
-    "Fewer than two tiles were found for the selected date."
-  )
-}
-
-
-###############################################################
-# 11. READ THE RED BANDS FIRST
-###############################################################
-
-red_tiles <- lapply(
-  same_date_scenes,
-  function(scene) {
-    terra::rast(
-      scene$assets$red$href
-    )
-  }
-)
-
-
-# Check whether both tiles use the same CRS
-
-tile_crs_values <- sapply(
-  red_tiles,
-  terra::crs
-)
-
-print(
-  unique(tile_crs_values)
-)
-
-
-###############################################################
-# 12. CROP AND MOSAIC THE TWO TILES
-###############################################################
-
-# Transform the map boundary to the CRS of the first tile
-
-ko_boi_aoi_utm <- sf::st_transform(
-  ko_boi_aoi,
-  terra::crs(red_tiles[[1]])
-)
-
-
-# Crop each red tile before mosaicking.
-# This avoids processing the complete 100 km satellite tiles.
-
-red_tiles_cropped <- lapply(
-  red_tiles,
-  function(tile) {
-    terra::crop(
-      tile,
-      terra::vect(ko_boi_aoi_utm)
-    )
-  }
-)
-
-
-# Read and crop the green tiles
-
-green_tiles_cropped <- lapply(
-  same_date_scenes,
-  function(scene) {
-    
-    tile <- terra::rast(
-      scene$assets$green$href
-    )
-    
-    terra::crop(
-      tile,
-      terra::vect(ko_boi_aoi_utm)
-    )
-  }
-)
-
-
-# Read and crop the blue tiles
-
-blue_tiles_cropped <- lapply(
-  same_date_scenes,
-  function(scene) {
-    
-    tile <- terra::rast(
-      scene$assets$blue$href
-    )
-    
-    terra::crop(
-      tile,
-      terra::vect(ko_boi_aoi_utm)
-    )
-  }
-)
-
-
-# Combine the two red tiles
-
-red_band <- do.call(
-  terra::mosaic,
-  c(
-    red_tiles_cropped,
-    list(
-      fun = "mean"
-    )
-  )
-)
-
-
-# Combine the two green tiles
-
-green_band <- do.call(
-  terra::mosaic,
-  c(
-    green_tiles_cropped,
-    list(
-      fun = "mean"
-    )
-  )
-)
-
-
-# Combine the two blue tiles
-
-blue_band <- do.call(
-  terra::mosaic,
-  c(
-    blue_tiles_cropped,
-    list(
-      fun = "mean"
-    )
-  )
-)
-
-
-# Combine the mosaicked colour bands
+# Combine the three median bands.
 
 sentinel_rgb <- c(
-  red_band,
-  green_band,
-  blue_band
+  median_red,
+  median_green,
+  median_blue
 )
 
 names(sentinel_rgb) <- c(
@@ -690,18 +764,19 @@ names(sentinel_rgb) <- c(
 
 print(sentinel_rgb)
 
+
 ###############################################################
-# SAVE THE COMPLETE TWO-TILE MOSAIC
+# SAVE THE MULTI-DATE MEDIAN MOSAIC
 ###############################################################
 
-full_mosaic_file <- file.path(
+multidate_mosaic_file <- file.path(
   output_folder,
-  "Ko_Boi_complete_Sentinel2_mosaic.tif"
+  "Ko_Boi_multidate_median_mosaic.tif"
 )
 
 terra::writeRaster(
   sentinel_rgb,
-  full_mosaic_file,
+  multidate_mosaic_file,
   overwrite = TRUE,
   gdal = c(
     "COMPRESS=LZW",
@@ -711,8 +786,8 @@ terra::writeRaster(
 
 message(
   paste(
-    "Complete mosaic saved at:",
-    full_mosaic_file
+    "Multi-date median mosaic saved at:",
+    multidate_mosaic_file
   )
 )
 

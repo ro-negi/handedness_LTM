@@ -1,11 +1,11 @@
-setwd("C:/Users/rohit_negi/Desktop/Max Planck PhD_RN/3. project III - handedness_RN/final_analysis")
+setwd("C:/Users/rohit_negi/Desktop/handedness_LTM/glmm_dyads/data/clean")
 
 source("diagnostic_fcns.r")
 
 install.packages("DHARMa")
 library(DHARMa)
 
-xdata = read.table(file="glm_dyad_dataset.csv", header = T, sep=",", stringsAsFactors=T)
+xdata = read.table(file="glm_dyad_dataset_RN.csv", header = T, sep=",", stringsAsFactors=T)
 
 xdata$context
 
@@ -32,13 +32,15 @@ testDispersion(full)
 ##Calculating Randomized Quantile residuals usind Dharma
 simulationOutput <- simulateResiduals(fittedModel = full, n = 1000, plot = T)
 
+## Summary
+summary(full)
+
 ## Re-level factor, model: stone_tool_use
 
 xdata$context <- relevel(xdata$context, ref="stone_tool_use")
 
 xdata$proximity <- relevel(xdata$proximity, ref="<5m>")
 
-## Summary
-summary(full)
+
 
 

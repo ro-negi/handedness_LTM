@@ -5,6 +5,15 @@
 # Run the complete script to create a new satellite preview.
 ###############################################################
 
+library(
+  ggplot2,
+  lib.loc = user_library
+)
+
+library(
+  ggspatial,
+  lib.loc = user_library
+)
 
 ###############################################################
 # PACKAGE LIBRARY
@@ -40,11 +49,11 @@ library(
 ###############################################################
 
 mosaic_file <- paste0(
-  "C:/Users/rohit_negi/Desktop/New folder/",
-  "Ko_Boi_complete_Sentinel2_mosaic.tif"
+  "C:/Users/rohit_negi/Desktop/field_map/",
+  "Ko_Boi_multidate_median_mosaic.tif"
 )
 
-output_folder <- "C:/Users/rohit_negi/Desktop/New folder"
+output_folder <- "C:/Users/rohit_negi/Desktop/field_map"
 
 
 if (!file.exists(mosaic_file)) {
@@ -69,10 +78,10 @@ if (!file.exists(mosaic_file)) {
 # ymax = northern latitude
 
 crop_coordinates <- c(
-  xmin = 98.509342,
-  ymin = 8.067190,
-  xmax = 98.629417,
-  ymax = 8.161000
+  xmin = 98.524100,
+  ymin = 8.085000,
+  xmax = 98.596000,
+  ymax = 8.178500
 )
 
 
@@ -174,97 +183,245 @@ satellite_crop_display <- terra::stretch(
 
 
 ###############################################################
-# 10. DISPLAY THE CROP IN R
+# 10. CONVERT THE SATELLITE CROP FOR GGPLOT2
 ###############################################################
 
-terra::plotRGB(
+satellite_df <- as.data.frame(
   satellite_crop_display,
-  r = 1,
-  g = 2,
-  b = 3,
-  scale = 255,
-  axes = TRUE
+  xy = TRUE,
+  na.rm = FALSE
+)
+
+names(satellite_df) <- c(
+  "x",
+  "y",
+  "red",
+  "green",
+  "blue"
 )
 
 
-###############################################################
-# 11. CALCULATE PREVIEW DIMENSIONS
-###############################################################
+# Keep colour values within the valid RGB range.
 
-# Preserve the natural shape of the selected crop.
-
-maximum_preview_dimension <- 2400
-
-preview_factor <- maximum_preview_dimension / max(
-  terra::ncol(satellite_crop_display),
-  terra::nrow(satellite_crop_display)
+satellite_df$red <- pmax(
+  0,
+  pmin(
+    255,
+    satellite_df$red
+  )
 )
 
-preview_width <- round(
-  terra::ncol(satellite_crop_display) *
-    preview_factor
+satellite_df$green <- pmax(
+  0,
+  pmin(
+    255,
+    satellite_df$green
+  )
 )
 
-preview_height <- round(
-  terra::nrow(satellite_crop_display) *
-    preview_factor
-)
-
-
-message(
-  paste(
-    "Preview dimensions:",
-    preview_width,
-    "x",
-    preview_height,
-    "pixels"
+satellite_df$blue <- pmax(
+  0,
+  pmin(
+    255,
+    satellite_df$blue
   )
 )
 
 
+# Convert the red, green and blue bands into display colours.
+
+valid_pixels <- complete.cases(
+  satellite_df[
+    c(
+      "red",
+      "green",
+      "blue"
+    )
+  ]
+)
+
+satellite_df$colour <- NA_character_
+
+satellite_df$colour[valid_pixels] <- rgb(
+  red = satellite_df$red[valid_pixels],
+  green = satellite_df$green[valid_pixels],
+  blue = satellite_df$blue[valid_pixels],
+  maxColorValue = 255
+)
+
+
 ###############################################################
-# 12. CREATE A NAME FOR THE PREVIEW
+# 11. CREATE A CLEAN MAP WITH A 1000-METRE SCALE
+###############################################################
+
+map_extent <- terra::ext(
+  satellite_crop_display
+)
+
+map_xmin <- terra::xmin(map_extent)
+map_xmax <- terra::xmax(map_extent)
+map_ymin <- terra::ymin(map_extent)
+map_ymax <- terra::ymax(map_extent)
+
+map_width <- map_xmax - map_xmin
+map_height <- map_ymax - map_ymin
+
+
+###############################################################
+# DEFINE THE MANUAL 1000-METRE SCALE
+###############################################################
+
+scale_length <- 1000
+
+scale_x_end <- map_xmax - 0.09 * map_width
+scale_x_start <- scale_x_end - scale_length
+scale_x_middle <- scale_x_start + scale_length / 2
+
+scale_y <- map_ymin + 0.035 * map_height
+scale_tick_height <- 0.012 * map_height
+scale_label_y <- scale_y + 0.028 * map_height
+
+
+###############################################################
+# CREATE THE MAP
+###############################################################
+
+crop_map <- ggplot() +
+  
+  geom_raster(
+    data = satellite_df,
+    aes(
+      x = x,
+      y = y,
+      fill = colour
+    )
+  ) +
+  
+  scale_fill_identity() +
+  
+  # Black 1000-m scale line
+  
+  annotate(
+    "segment",
+    x = scale_x_start,
+    xend = scale_x_end,
+    y = scale_y,
+    yend = scale_y,
+    colour = "black",
+    linewidth = 1.2
+  ) +
+  
+  # Black end ticks
+  
+  annotate(
+    "segment",
+    x = c(
+      scale_x_start,
+      scale_x_end
+    ),
+    xend = c(
+      scale_x_start,
+      scale_x_end
+    ),
+    y = scale_y - scale_tick_height,
+    yend = scale_y + scale_tick_height,
+    colour = "black",
+    linewidth = 1.2
+  ) +
+  
+  # Single scale label
+  
+  annotate(
+    "text",
+    x = scale_x_middle,
+    y = scale_label_y,
+    label = "1000 m",
+    colour = "black",
+    fontface = "bold",
+    size = 4
+  ) +
+  
+  # Full north arrow without a background panel
+  
+  ggspatial::annotation_north_arrow(
+    location = "tl",
+    which_north = "true",
+    height = grid::unit(
+      1.6,
+      "cm"
+    ),
+    width = grid::unit(
+      1.6,
+      "cm"
+    ),
+    pad_x = grid::unit(
+      0.31,
+      "cm"
+    ),
+    pad_y = grid::unit(
+      0.38,
+      "cm"
+    ),
+    style = ggspatial::north_arrow_fancy_orienteering
+  ) +
+  
+  coord_sf(
+    crs = sf::st_crs(
+      terra::crs(satellite_crop_display)
+    ),
+    expand = FALSE
+  ) +
+  
+  theme_void() +
+  
+  theme(
+    plot.margin = margin(
+      t = 0,
+      r = 0,
+      b = 0,
+      l = 0
+    ),
+    
+    panel.border = element_rect(
+      colour = "black",
+      fill = NA,
+      linewidth = 0.8
+    )
+  )
+
+print(crop_map)
+
+
+###############################################################
+# 12. CREATE THE PREVIEW FILENAME
 ###############################################################
 
 preview_file <- file.path(
   output_folder,
-  "Ko_Boi_crop_preview.png"
+  "Ko_Boi_crop_preview_with_scale_and_north_arrow.png"
 )
 
 
 ###############################################################
-# 13. SAVE THE CLEAN PREVIEW
+# 13. SAVE THE MAP PREVIEW
 ###############################################################
 
-png(
+ggsave(
   filename = preview_file,
-  width = preview_width,
-  height = preview_height,
-  units = "px",
+  plot = crop_map,
+  width = 16,
+  height = 20,
+  units = "cm",
+  dpi = 300,
   bg = "white"
 )
 
-par(
-  mar = c(
-    0,
-    0,
-    0,
-    0
+message(
+  paste(
+    "Map preview saved at:",
+    preview_file
   )
 )
-
-terra::plotRGB(
-  satellite_crop_display,
-  r = 1,
-  g = 2,
-  b = 3,
-  scale = 255,
-  axes = FALSE,
-  box = FALSE
-)
-
-dev.off()
-
 
 ###############################################################
 # 14. SAVE THE GEOGRAPHIC CROP
@@ -305,3 +462,8 @@ message(
 )
 
 print(crop_coordinates)
+
+
+--------------
+  
+ 
