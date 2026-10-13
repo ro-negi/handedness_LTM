@@ -1,0 +1,7 @@
+foraging_method,slice,within_method_prop,method_share,overall_prop,percentage,method_label,legend_label
+tool assisted,Other shellfish,0.13388286128795882,0.4388364183062675,0.05875267532020269,5.875267532020269,Tool-assisted,Tool-assisted: Other shellfish (5.9%)
+tool assisted,Others,0.032998340401733786,0.4388364183062675,0.014480873511947856,1.4480873511947856,Tool-assisted,Tool-assisted: Others (1.4%)
+tool assisted,Oysters,0.8331187983103074,0.4388364183062675,0.365602869474117,36.560286947411704,Tool-assisted,Tool-assisted: Oysters (36.6%)
+without tools,Fruits,0.6225516063187275,0.5611635816937324,0.34935328919100356,34.93532891910036,Without tools,Without tools: Fruits (34.9%)
+without tools,Insects,0.1884076718004854,0.5611635816937324,0.1057275239261376,10.57275239261376,Without tools,Without tools: Insects (10.6%)
+without tools,Others,0.18904072188078708,0.5611635816937324,0.1060827685765912,10.60827685765912,Without tools,Without tools: Others (10.6%)

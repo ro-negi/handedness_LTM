@@ -1,0 +1,17 @@
+STAGE B FOOD FORAGING DATASET: BUILD REPORT
+Source rows: 79914
+Malformed rows audited: 0
+Total individual identities included: 29
+Unique exposure strata: 846
+Monthly category rows: 25380
+Monthly item rows: 2838
+Total weighted observation seconds: 1471236.6
+Total weighted categorized seconds (including unassigned search): 642775.45
+Maximum absolute category-vs-method difference: 4.54747350886464e-13
+IMPORTANT: Monthly exposure repeats on 10 categories x 3 method classes; NEVER sum repeated exposure.
+Unassigned search is kept SEPARATE from tool/non-tool. It was Moving in activity budget.
+Drink stays without tools (consistent with the prior activity budget) but is not calorie-bearing food.
+Unknown contains unidentified foods. Search without success and Drink are explicit categories.
+The 08 descriptive proportions are raw weighted proportions and are NOT season/landscape/model adjusted.
+Oyster share among shellfish computed by predicted Oysters/(Oysters+Other shellfish).
+Dates are parsed as Thai local times from the weighted raw file.

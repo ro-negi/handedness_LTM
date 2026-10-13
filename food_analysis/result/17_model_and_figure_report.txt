@@ -1,0 +1,147 @@
+MALES + 18 FEMALES: MODEL-ADJUSTED FORAGING COMPOSITION
+Subjects, female: 18 male: 11 
+Sexes are averaged equally in adjusted predictions.
+Missing food-category time treated as zero within sampled strata.
+Search and Drink removed from composition denominator; unsuccessful Search
+is not included in either tool/non-tool method.
+
+Method model:
+ Family: tweedie  ( log )
+Formula:          weighted_method_seconds ~ foraging_method * sex + landscape +  
+    sin_season + cos_season + offset(log_observation) + (1 |      subj_id)
+Data: method_model_dat
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  17166.8   17226.6   -8572.4   17144.8      1681 
+
+Random effects:
+
+Conditional model:
+ Groups  Name        Variance  Std.Dev. 
+ subj_id (Intercept) 1.442e-08 0.0001201
+Number of obs: 1692, groups:  subj_id, 29
+
+Dispersion parameter for tweedie family ():   30 
+
+Conditional model:
+                                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                          -2.414974   0.087904 -27.473  < 2e-16 ***
+foraging_methodwithout tools         -0.003474   0.073346  -0.047  0.96223    
+sexMale                              -0.538950   0.123946  -4.348 1.37e-05 ***
+landscapeMangrove                     0.738339   0.093276   7.916 2.46e-15 ***
+landscapeShore                        1.250831   0.084705  14.767  < 2e-16 ***
+sin_season                            0.196123   0.049313   3.977 6.98e-05 ***
+cos_season                           -0.108477   0.046216  -2.347  0.01892 *  
+foraging_methodwithout tools:sexMale  0.498719   0.166723   2.991  0.00278 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Tool food model:
+ Family: tweedie  ( log )
+Formula:          weighted_foraging_seconds ~ food.category + sex + landscape +  
+    sin_season + cos_season + offset(log_food_exposure) + (1 |      subj_id)
+Data: d
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  10480.9   10554.0   -5227.5   10454.9      2037 
+
+Random effects:
+
+Conditional model:
+ Groups  Name        Variance  Std.Dev. 
+ subj_id (Intercept) 1.659e-09 4.074e-05
+Number of obs: 2050, groups:  subj_id, 29
+
+Dispersion parameter for tweedie family ():   36 
+
+Conditional model:
+                             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                   0.88868    0.16633   5.343 9.15e-08 ***
+food.categoryOther shellfish -1.82821    0.07770 -23.528  < 2e-16 ***
+food.categorySeeds           -3.45041    0.12424 -27.773  < 2e-16 ***
+food.categoryOthers          -5.55628    0.23202 -23.948  < 2e-16 ***
+food.categoryUnknown         -5.51838    0.22953 -24.042  < 2e-16 ***
+sexMale                       0.13974    0.09111   1.534   0.1251    
+landscapeMangrove            -0.91633    0.17801  -5.148 2.64e-07 ***
+landscapeShore               -1.14896    0.16662  -6.896 5.36e-12 ***
+sin_season                   -0.08401    0.04802  -1.750   0.0802 .  
+cos_season                    0.07529    0.04451   1.692   0.0907 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Non-tool food model:
+ Family: tweedie  ( log )
+Formula:          weighted_foraging_seconds ~ food.category + sex + landscape +  
+    sin_season + cos_season + offset(log_food_exposure) + (1 |      subj_id)
+Data: d
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  16529.0   16633.7   -8248.5   16497.0      5144 
+
+Random effects:
+
+Conditional model:
+ Groups  Name        Variance  Std.Dev. 
+ subj_id (Intercept) 3.198e-09 5.655e-05
+Number of obs: 5160, groups:  subj_id, 29
+
+Dispersion parameter for tweedie family (): 40.1 
+
+Conditional model:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                  -7.311548   0.399998 -18.279  < 2e-16 ***
+food.categoryOther shellfish  3.374704   0.422169   7.994 1.31e-15 ***
+food.categoryFruits           6.864630   0.397477  17.270  < 2e-16 ***
+food.categoryLeaves           4.401281   0.409597  10.745  < 2e-16 ***
+food.categorySeeds            4.006263   0.415203   9.649  < 2e-16 ***
+food.categoryInsects          5.669411   0.402202  14.096  < 2e-16 ***
+food.categoryOthers           4.349804   0.409480  10.623  < 2e-16 ***
+food.categoryUnknown          3.842941   0.415925   9.240  < 2e-16 ***
+sexMale                       0.026684   0.094007   0.284  0.77652    
+landscapeMangrove            -0.197033   0.098112  -2.008  0.04462 *  
+landscapeShore                0.009713   0.092362   0.105  0.91624    
+sin_season                   -0.105271   0.058798  -1.790  0.07339 .  
+cos_season                    0.169778   0.057097   2.974  0.00294 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Adjusted method shares:
+  foraging_method  response          SE  df asymp.LCL asymp.UCL predicted_rate method_share
+1   tool assisted 0.1345104 0.008907515 Inf 0.1181375 0.1531525      0.1345104    0.4388364
+2   without tools 0.1720057 0.009642280 Inf 0.1541083 0.1919815      0.1720057    0.5611636
+
+Adjusted within-method food composition:
+   foraging_method   food.category predicted_rate within_method_prop
+1    tool assisted         Oysters    1.305374428       0.8331187983
+2    tool assisted Other shellfish    0.209774721       0.1338828613
+3    tool assisted           Seeds    0.041423108       0.0264371428
+4    tool assisted          Others    0.005042806       0.0032184305
+5    tool assisted         Unknown    0.005237624       0.0033427671
+6    without tools         Oysters    0.000649081       0.0006499867
+7    without tools Other shellfish    0.018963316       0.0189897781
+8    without tools          Fruits    0.621684086       0.6225516063
+9    without tools          Leaves    0.052935955       0.0530098235
+10   without tools           Seeds    0.035661283       0.0357110460
+11   without tools         Insects    0.188145127       0.1884076718
+12   without tools          Others    0.050279922       0.0503500845
+13   without tools         Unknown    0.030287738       0.0303300030
+
+Oyster share within shellfish:
+# A tibble: 4 × 5
+  foraging_method food.category   predicted_rate within_method_prop shellfish_fraction
+  <chr>           <fct>                    <dbl>              <dbl>              <dbl>
+1 tool assisted   Oysters               1.31               0.833                0.862 
+2 tool assisted   Other shellfish       0.210              0.134                0.138 
+3 without tools   Oysters               0.000649           0.000650             0.0331
+4 without tools   Other shellfish       0.0190             0.0190               0.967 
+
+Final pie slices:
+# A tibble: 6 × 3
+  method_label  slice           percentage
+  <chr>         <chr>                <dbl>
+1 Tool-assisted Oysters              36.6 
+2 Tool-assisted Other shellfish       5.88
+3 Tool-assisted Others                1.45
+4 Without tools Fruits               34.9 
+5 Without tools Insects              10.6 
+6 Without tools Others               10.6 

@@ -1,0 +1,2539 @@
+subj_id,sex,year_month,repro_state,landscape,foraging_method,total_method_seconds,weighted_method_seconds
+Ali,Male,2024-03,Male,Shore,tool assisted,361,243.16620103978744
+Ali,Male,2024-03,Male,Shore,unassigned search,41,32.848278243451986
+Ali,Male,2024-03,Male,Shore,without tools,143,110.17143011408754
+Ali,Male,2024-04,Male,Forest,tool assisted,84,84
+Ali,Male,2024-04,Male,Forest,unassigned search,0,0
+Ali,Male,2024-04,Male,Forest,without tools,0,0
+Ali,Male,2024-04,Male,Mangrove,tool assisted,642,642
+Ali,Male,2024-04,Male,Mangrove,unassigned search,19,19
+Ali,Male,2024-04,Male,Mangrove,without tools,65,65
+Ali,Male,2024-04,Male,Shore,tool assisted,0,0
+Ali,Male,2024-04,Male,Shore,unassigned search,0,0
+Ali,Male,2024-04,Male,Shore,without tools,0,0
+Ali,Male,2024-05,Male,Forest,tool assisted,0,0
+Ali,Male,2024-05,Male,Forest,unassigned search,46,46
+Ali,Male,2024-05,Male,Forest,without tools,881,881
+Ali,Male,2024-05,Male,Mangrove,tool assisted,0,0
+Ali,Male,2024-05,Male,Mangrove,unassigned search,0,0
+Ali,Male,2024-05,Male,Mangrove,without tools,0,0
+Ali,Male,2024-07,Male,Forest,tool assisted,0,0
+Ali,Male,2024-07,Male,Forest,unassigned search,110,110
+Ali,Male,2024-07,Male,Forest,without tools,538,538
+Ali,Male,2024-07,Male,Mangrove,tool assisted,0,0
+Ali,Male,2024-07,Male,Mangrove,unassigned search,0,0
+Ali,Male,2024-07,Male,Mangrove,without tools,144,144
+Ali,Male,2024-08,Male,Mangrove,tool assisted,0,0
+Ali,Male,2024-08,Male,Mangrove,unassigned search,37,37
+Ali,Male,2024-08,Male,Mangrove,without tools,245,245
+Ali,Male,2024-09,Male,Mangrove,tool assisted,0,0
+Ali,Male,2024-09,Male,Mangrove,unassigned search,0,0
+Ali,Male,2024-09,Male,Mangrove,without tools,0,0
+Ali,Male,2024-09,Male,Shore,tool assisted,0,0
+Ali,Male,2024-09,Male,Shore,unassigned search,0,0
+Ali,Male,2024-09,Male,Shore,without tools,0,0
+Ali,Male,2024-11,Male,Forest,tool assisted,0,0
+Ali,Male,2024-11,Male,Forest,unassigned search,0,0
+Ali,Male,2024-11,Male,Forest,without tools,0,0
+Ali,Male,2024-11,Male,Mangrove,tool assisted,0,0
+Ali,Male,2024-11,Male,Mangrove,unassigned search,41,41
+Ali,Male,2024-11,Male,Mangrove,without tools,872,858.8803669414957
+Ali,Male,2024-11,Male,Shore,tool assisted,0,0
+Ali,Male,2024-11,Male,Shore,unassigned search,0,0
+Ali,Male,2024-11,Male,Shore,without tools,57,49.87791348252626
+Ali,Male,2024-12,Male,Shore,tool assisted,518,352.5448119414869
+Ali,Male,2024-12,Male,Shore,unassigned search,255,197.8893541279456
+Ali,Male,2024-12,Male,Shore,without tools,90,73.82633660541028
+Ali,Male,2025-01,Male,Mangrove,tool assisted,0,0
+Ali,Male,2025-01,Male,Mangrove,unassigned search,0,0
+Ali,Male,2025-01,Male,Mangrove,without tools,0,0
+Ali,Male,2025-01,Male,Shore,tool assisted,1606,1143.7856321974596
+Ali,Male,2025-01,Male,Shore,unassigned search,52,37.2983332560018
+Ali,Male,2025-01,Male,Shore,without tools,1073,871.1405233121637
+Ali,Male,2025-02,Male,Forest,tool assisted,0,0
+Ali,Male,2025-02,Male,Forest,unassigned search,0,0
+Ali,Male,2025-02,Male,Forest,without tools,137,137
+Ali,Male,2025-02,Male,Mangrove,tool assisted,0,0
+Ali,Male,2025-02,Male,Mangrove,unassigned search,0,0
+Ali,Male,2025-02,Male,Mangrove,without tools,0,0
+Ali,Male,2025-02,Male,Shore,tool assisted,0,0
+Ali,Male,2025-02,Male,Shore,unassigned search,0,0
+Ali,Male,2025-02,Male,Shore,without tools,0,0
+Ali,Male,2025-03,Male,Forest,tool assisted,0,0
+Ali,Male,2025-03,Male,Forest,unassigned search,0,0
+Ali,Male,2025-03,Male,Forest,without tools,49,49
+Ali,Male,2025-03,Male,Mangrove,tool assisted,0,0
+Ali,Male,2025-03,Male,Mangrove,unassigned search,0,0
+Ali,Male,2025-03,Male,Mangrove,without tools,4,4
+Ali,Male,2025-03,Male,Shore,tool assisted,116,79.69570236730515
+Ali,Male,2025-03,Male,Shore,unassigned search,172,118.16948971703864
+Ali,Male,2025-03,Male,Shore,without tools,528,362.75285215463026
+Ali,Male,2026-02,Male,Shore,tool assisted,495,332.5181469920883
+Ali,Male,2026-02,Male,Shore,unassigned search,55,36.9464607768987
+Ali,Male,2026-02,Male,Shore,without tools,288,193.46510370448772
+Ali,Male,2026-03,Male,Forest,tool assisted,0,0
+Ali,Male,2026-03,Male,Forest,unassigned search,0,0
+Ali,Male,2026-03,Male,Forest,without tools,0,0
+Ali,Male,2026-03,Male,Shore,tool assisted,623,423.8719968371115
+Ali,Male,2026-03,Male,Shore,unassigned search,45,30.616757395939032
+Ali,Male,2026-03,Male,Shore,without tools,14,9.525213412069922
+Aura,Female,2024-04,Pregnant,Forest,tool assisted,0,0
+Aura,Female,2024-04,Pregnant,Forest,unassigned search,0,0
+Aura,Female,2024-04,Pregnant,Forest,without tools,15,15
+Aura,Female,2024-04,Pregnant,Shore,tool assisted,465,304.94808232662746
+Aura,Female,2024-04,Pregnant,Shore,unassigned search,17,11.148639568930465
+Aura,Female,2024-04,Pregnant,Shore,without tools,115,75.41726767217668
+Aura,Female,2024-05,Lactating,Shore,tool assisted,1298,1166.0570846704964
+Aura,Female,2024-05,Lactating,Shore,unassigned search,87,77.29759137557872
+Aura,Female,2024-05,Lactating,Shore,without tools,126,111.94823578532089
+Aura,Female,2024-05,Pregnant,Forest,tool assisted,0,0
+Aura,Female,2024-05,Pregnant,Forest,unassigned search,22,22
+Aura,Female,2024-05,Pregnant,Forest,without tools,204,204
+Aura,Female,2024-05,Pregnant,Shore,tool assisted,1822,1672.336358365528
+Aura,Female,2024-05,Pregnant,Shore,unassigned search,0,0
+Aura,Female,2024-05,Pregnant,Shore,without tools,16,14.661805756539104
+Aura,Female,2024-06,Lactating,Shore,tool assisted,2566,2141.7862666521773
+Aura,Female,2024-06,Lactating,Shore,unassigned search,50,40.91671282557416
+Aura,Female,2024-06,Lactating,Shore,without tools,435,367.81482960724935
+Aura,Female,2024-07,Lactating,Forest,tool assisted,0,0
+Aura,Female,2024-07,Lactating,Forest,unassigned search,0,0
+Aura,Female,2024-07,Lactating,Forest,without tools,577,577
+Aura,Female,2024-07,Lactating,Shore,tool assisted,1233,957.1597884055055
+Aura,Female,2024-07,Lactating,Shore,unassigned search,33,25.363408161334934
+Aura,Female,2024-07,Lactating,Shore,without tools,456,353.7398089247947
+Aura,Female,2024-08,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Aura,Female,2024-08,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Aura,Female,2024-08,Non-lactating & non-pregnant,Forest,without tools,9,9
+Aura,Female,2024-08,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Aura,Female,2024-08,Non-lactating & non-pregnant,Mangrove,unassigned search,67,67
+Aura,Female,2024-08,Non-lactating & non-pregnant,Mangrove,without tools,1478,1478
+Aura,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,2649,3237.7779825932435
+Aura,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,241,325.94383067858155
+Aura,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,571,500.09817930392654
+Aura,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,881,656.0135494650797
+Aura,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,113,84.8544979498359
+Aura,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,817,603.4120545460197
+Aura,Female,2024-10,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Aura,Female,2024-10,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Aura,Female,2024-10,Non-lactating & non-pregnant,Forest,without tools,0,0
+Aura,Female,2024-10,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Aura,Female,2024-10,Non-lactating & non-pregnant,Mangrove,unassigned search,333,333
+Aura,Female,2024-10,Non-lactating & non-pregnant,Mangrove,without tools,518,518
+Aura,Female,2024-10,Non-lactating & non-pregnant,Shore,tool assisted,550,492.2517750763836
+Aura,Female,2024-10,Non-lactating & non-pregnant,Shore,unassigned search,80,71.43232235928522
+Aura,Female,2024-10,Non-lactating & non-pregnant,Shore,without tools,1013,1542.7372619138682
+Aura,Female,2024-11,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Aura,Female,2024-11,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Aura,Female,2024-11,Non-lactating & non-pregnant,Forest,without tools,10,10
+Aura,Female,2024-11,Non-lactating & non-pregnant,Mangrove,tool assisted,38,38
+Aura,Female,2024-11,Non-lactating & non-pregnant,Mangrove,unassigned search,6,6
+Aura,Female,2024-11,Non-lactating & non-pregnant,Mangrove,without tools,51,51
+Aura,Female,2024-11,Non-lactating & non-pregnant,Shore,tool assisted,0,0
+Aura,Female,2024-11,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Aura,Female,2024-11,Non-lactating & non-pregnant,Shore,without tools,0,0
+Aura,Female,2024-11,Pregnant,Forest,tool assisted,0,0
+Aura,Female,2024-11,Pregnant,Forest,unassigned search,0,0
+Aura,Female,2024-11,Pregnant,Forest,without tools,0,0
+Aura,Female,2024-11,Pregnant,Mangrove,tool assisted,0,0
+Aura,Female,2024-11,Pregnant,Mangrove,unassigned search,0,0
+Aura,Female,2024-11,Pregnant,Mangrove,without tools,690,690
+Aura,Female,2024-11,Pregnant,Shore,tool assisted,0,0
+Aura,Female,2024-11,Pregnant,Shore,unassigned search,169,164.3217885175023
+Aura,Female,2024-11,Pregnant,Shore,without tools,34,33.05882135855076
+Aura,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Aura,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Aura,Female,2024-12,Pregnant,Forest,without tools,0,0
+Aura,Female,2024-12,Pregnant,Mangrove,tool assisted,0,0
+Aura,Female,2024-12,Pregnant,Mangrove,unassigned search,0,0
+Aura,Female,2024-12,Pregnant,Mangrove,without tools,0,0
+Aura,Female,2024-12,Pregnant,Shore,tool assisted,1346,1090.405007622927
+Aura,Female,2024-12,Pregnant,Shore,unassigned search,239,184.69447659843993
+Aura,Female,2024-12,Pregnant,Shore,without tools,702,612.3765099859568
+Aura,Female,2025-01,Pregnant,Mangrove,tool assisted,39,39
+Aura,Female,2025-01,Pregnant,Mangrove,unassigned search,152,152
+Aura,Female,2025-01,Pregnant,Mangrove,without tools,628,628
+Aura,Female,2025-01,Pregnant,Shore,tool assisted,2031,1686.4398892421543
+Aura,Female,2025-01,Pregnant,Shore,unassigned search,90,75.46165982185603
+Aura,Female,2025-01,Pregnant,Shore,without tools,427,345.09221764642894
+Aura,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Aura,Female,2025-02,Pregnant,Forest,unassigned search,0,0
+Aura,Female,2025-02,Pregnant,Forest,without tools,238,238
+Aura,Female,2025-02,Pregnant,Mangrove,tool assisted,0,0
+Aura,Female,2025-02,Pregnant,Mangrove,unassigned search,0,0
+Aura,Female,2025-02,Pregnant,Mangrove,without tools,0,0
+Aura,Female,2025-03,Pregnant,Mangrove,tool assisted,387,387
+Aura,Female,2025-03,Pregnant,Mangrove,unassigned search,78,78
+Aura,Female,2025-03,Pregnant,Mangrove,without tools,109,100.20801100232885
+Aura,Female,2025-03,Pregnant,Shore,tool assisted,2916,2373.571499063679
+Aura,Female,2025-03,Pregnant,Shore,unassigned search,23,18.34515794327207
+Aura,Female,2025-03,Pregnant,Shore,without tools,335,270.77956475049007
+Aura,Female,2025-12,Lactating,Forest,tool assisted,0,0
+Aura,Female,2025-12,Lactating,Forest,unassigned search,0,0
+Aura,Female,2025-12,Lactating,Forest,without tools,136,136
+Aura,Female,2025-12,Lactating,Mangrove,tool assisted,174,169.99080127590705
+Aura,Female,2025-12,Lactating,Mangrove,unassigned search,3,2.832950053162794
+Aura,Female,2025-12,Lactating,Mangrove,without tools,316,303.3042040403723
+Aura,Female,2025-12,Lactating,Shore,tool assisted,0,0
+Aura,Female,2025-12,Lactating,Shore,unassigned search,87,82.15555154172102
+Aura,Female,2025-12,Lactating,Shore,without tools,88,83.09986822610863
+Aura,Female,2026-01,Lactating,Shore,tool assisted,674,546.4244635964934
+Aura,Female,2026-01,Lactating,Shore,unassigned search,0,0
+Aura,Female,2026-01,Lactating,Shore,without tools,240,194.5725092925199
+Aura,Female,2026-01,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Aura,Female,2026-01,Non-lactating & non-pregnant,Forest,unassigned search,121,121
+Aura,Female,2026-01,Non-lactating & non-pregnant,Forest,without tools,207,207
+Aura,Female,2026-01,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Aura,Female,2026-01,Non-lactating & non-pregnant,Mangrove,unassigned search,6,6
+Aura,Female,2026-01,Non-lactating & non-pregnant,Mangrove,without tools,1699,1711.7303325627454
+Aura,Female,2026-01,Non-lactating & non-pregnant,Shore,tool assisted,1267,1025.9305758854161
+Aura,Female,2026-01,Non-lactating & non-pregnant,Shore,unassigned search,119,103.06771418086377
+Aura,Female,2026-01,Non-lactating & non-pregnant,Shore,without tools,1251,1122.0345505787723
+Aura,Female,2026-02,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Aura,Female,2026-02,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Aura,Female,2026-02,Non-lactating & non-pregnant,Forest,without tools,65,65
+Aura,Female,2026-02,Non-lactating & non-pregnant,Shore,tool assisted,556,522.2276974406852
+Aura,Female,2026-02,Non-lactating & non-pregnant,Shore,unassigned search,10,9.39258448634326
+Aura,Female,2026-02,Non-lactating & non-pregnant,Shore,without tools,193,181.2768805864249
+Aura,Female,2026-02,Pregnant,Forest,tool assisted,0,0
+Aura,Female,2026-02,Pregnant,Forest,unassigned search,212,212
+Aura,Female,2026-02,Pregnant,Forest,without tools,1212,1212
+Aura,Female,2026-02,Pregnant,Mangrove,tool assisted,0,0
+Aura,Female,2026-02,Pregnant,Mangrove,unassigned search,0,0
+Aura,Female,2026-02,Pregnant,Mangrove,without tools,95,95
+Aura,Female,2026-02,Pregnant,Shore,tool assisted,657,510.57998699164375
+Aura,Female,2026-02,Pregnant,Shore,unassigned search,53,41.18833989430307
+Aura,Female,2026-02,Pregnant,Shore,without tools,1070,946.7958937940414
+Aura,Female,2026-03,Pregnant,Forest,tool assisted,0,0
+Aura,Female,2026-03,Pregnant,Forest,unassigned search,0,0
+Aura,Female,2026-03,Pregnant,Forest,without tools,0,0
+Aura,Female,2026-03,Pregnant,Mangrove,tool assisted,427,427
+Aura,Female,2026-03,Pregnant,Mangrove,unassigned search,0,0
+Aura,Female,2026-03,Pregnant,Mangrove,without tools,0,0
+Babosa,Male,2024-05,Male,Mangrove,tool assisted,0,0
+Babosa,Male,2024-05,Male,Mangrove,unassigned search,0,0
+Babosa,Male,2024-05,Male,Mangrove,without tools,357,357
+Babosa,Male,2024-06,Male,Forest,tool assisted,0,0
+Babosa,Male,2024-06,Male,Forest,unassigned search,0,0
+Babosa,Male,2024-06,Male,Forest,without tools,0,0
+Babosa,Male,2024-07,Male,Shore,tool assisted,924,707.399691999061
+Babosa,Male,2024-07,Male,Shore,unassigned search,0,0
+Babosa,Male,2024-07,Male,Shore,without tools,10,7.65584082250066
+Babosa,Male,2024-08,Male,Shore,tool assisted,874,678.4669865319386
+Babosa,Male,2024-08,Male,Shore,unassigned search,0,0
+Babosa,Male,2024-08,Male,Shore,without tools,39,30.274842648450345
+Babosa,Male,2024-09,Male,Forest,tool assisted,0,0
+Babosa,Male,2024-09,Male,Forest,unassigned search,23,23
+Babosa,Male,2024-09,Male,Forest,without tools,154,154
+Babosa,Male,2024-10,Male,Forest,tool assisted,0,0
+Babosa,Male,2024-10,Male,Forest,unassigned search,0,0
+Babosa,Male,2024-10,Male,Forest,without tools,0,0
+Babosa,Male,2024-10,Male,Shore,tool assisted,698,566.0564596823554
+Babosa,Male,2024-10,Male,Shore,unassigned search,98,71.42129514597404
+Babosa,Male,2024-10,Male,Shore,without tools,480,423.0465828727814
+Babosa,Male,2024-11,Male,Forest,tool assisted,0,0
+Babosa,Male,2024-11,Male,Forest,unassigned search,101,101
+Babosa,Male,2024-11,Male,Forest,without tools,271,271
+Babosa,Male,2024-11,Male,Mangrove,tool assisted,0,0
+Babosa,Male,2024-11,Male,Mangrove,unassigned search,0,0
+Babosa,Male,2024-11,Male,Mangrove,without tools,18,18
+Babosa,Male,2024-11,Male,Shore,tool assisted,937,744.1828616026295
+Babosa,Male,2024-11,Male,Shore,unassigned search,0,0
+Babosa,Male,2024-11,Male,Shore,without tools,76,59.709309062075626
+Babosa,Male,2024-12,Male,Forest,tool assisted,0,0
+Babosa,Male,2024-12,Male,Forest,unassigned search,47,47
+Babosa,Male,2024-12,Male,Forest,without tools,713,713
+Babosa,Male,2024-12,Male,Mangrove,tool assisted,138,289.67569079817946
+Babosa,Male,2024-12,Male,Mangrove,unassigned search,0,0
+Babosa,Male,2024-12,Male,Mangrove,without tools,0,0
+Babosa,Male,2024-12,Male,Shore,tool assisted,564,1183.8919536969074
+Babosa,Male,2024-12,Male,Shore,unassigned search,0,0
+Babosa,Male,2024-12,Male,Shore,without tools,0,0
+Babosa,Male,2025-01,Male,Mangrove,tool assisted,0,0
+Babosa,Male,2025-01,Male,Mangrove,unassigned search,0,0
+Babosa,Male,2025-01,Male,Mangrove,without tools,740,740
+Babosa,Male,2025-01,Male,Shore,tool assisted,1618,1318.776162296026
+Babosa,Male,2025-01,Male,Shore,unassigned search,97,76.7032556095499
+Babosa,Male,2025-01,Male,Shore,without tools,249,204.2165156031814
+Babosa,Male,2025-02,Male,Forest,tool assisted,0,0
+Babosa,Male,2025-02,Male,Forest,unassigned search,0,0
+Babosa,Male,2025-02,Male,Forest,without tools,417,417
+Babosa,Male,2025-02,Male,Mangrove,tool assisted,0,0
+Babosa,Male,2025-02,Male,Mangrove,unassigned search,0,0
+Babosa,Male,2025-02,Male,Mangrove,without tools,145,106.04580809388372
+Babosa,Male,2025-02,Male,Shore,tool assisted,360,259.10290603068296
+Babosa,Male,2025-02,Male,Shore,unassigned search,75,53.97977208972562
+Babosa,Male,2025-02,Male,Shore,without tools,0,0
+Babosa,Male,2025-03,Male,Forest,tool assisted,0,0
+Babosa,Male,2025-03,Male,Forest,unassigned search,58,58
+Babosa,Male,2025-03,Male,Forest,without tools,291,291
+Babosa,Male,2025-03,Male,Mangrove,tool assisted,0,0
+Babosa,Male,2025-03,Male,Mangrove,unassigned search,0,0
+Babosa,Male,2025-03,Male,Mangrove,without tools,0,0
+Babosa,Male,2025-03,Male,Shore,tool assisted,1620,1184.3334727666563
+Babosa,Male,2025-03,Male,Shore,unassigned search,198,144.55685898367645
+Babosa,Male,2025-03,Male,Shore,without tools,149,107.7911849170011
+Babosa,Male,2026-01,Male,Shore,tool assisted,1824,1449.0378629547124
+Babosa,Male,2026-01,Male,Shore,unassigned search,12,25.127200450482484
+Babosa,Male,2026-01,Male,Shore,without tools,105,139.5428784905718
+Babosa,Male,2026-02,Male,Forest,tool assisted,0,0
+Babosa,Male,2026-02,Male,Forest,unassigned search,60,60
+Babosa,Male,2026-02,Male,Forest,without tools,152,152
+Babosa,Male,2026-02,Male,Shore,tool assisted,1230,1063.1531922127137
+Babosa,Male,2026-02,Male,Shore,unassigned search,253,190.9167700308349
+Babosa,Male,2026-02,Male,Shore,without tools,350,517.9427849027164
+Babosa,Male,2026-03,Male,Shore,tool assisted,97,74.63887084158839
+Babosa,Male,2026-03,Male,Shore,unassigned search,89,68.48308767939552
+Babosa,Male,2026-03,Male,Shore,without tools,634,487.8458156037838
+Bat,Male,2024-04,Male,Mangrove,tool assisted,787,787
+Bat,Male,2024-04,Male,Mangrove,unassigned search,0,0
+Bat,Male,2024-04,Male,Mangrove,without tools,0,0
+Bat,Male,2024-04,Male,Shore,tool assisted,631,513.7527218127412
+Bat,Male,2024-04,Male,Shore,unassigned search,26,21.168891865501223
+Bat,Male,2024-04,Male,Shore,without tools,100,81.41881486731239
+Bat,Male,2024-05,Male,Forest,tool assisted,0,0
+Bat,Male,2024-05,Male,Forest,unassigned search,0,0
+Bat,Male,2024-05,Male,Forest,without tools,0,0
+Bat,Male,2024-05,Male,Shore,tool assisted,851,823.1606979843322
+Bat,Male,2024-05,Male,Shore,unassigned search,0,0
+Bat,Male,2024-05,Male,Shore,without tools,790,867.7709029039725
+Bat,Male,2024-06,Male,Mangrove,tool assisted,0,0
+Bat,Male,2024-06,Male,Mangrove,unassigned search,17,17
+Bat,Male,2024-06,Male,Mangrove,without tools,77,77
+Bat,Male,2024-10,Male,Shore,tool assisted,452,385.07882142432965
+Bat,Male,2024-10,Male,Shore,unassigned search,37,31.52193892190309
+Bat,Male,2024-10,Male,Shore,without tools,185,157.60969460951546
+Bat,Male,2024-11,Male,Shore,tool assisted,942,977.3700587376902
+Bat,Male,2024-11,Male,Shore,unassigned search,43,38.176583634147406
+Bat,Male,2024-11,Male,Shore,without tools,0,0
+Bat,Male,2024-12,Male,Forest,tool assisted,0,0
+Bat,Male,2024-12,Male,Forest,unassigned search,0,0
+Bat,Male,2024-12,Male,Forest,without tools,456,456
+Bat,Male,2025-01,Male,Forest,tool assisted,0,0
+Bat,Male,2025-01,Male,Forest,unassigned search,0,0
+Bat,Male,2025-01,Male,Forest,without tools,8,8
+Bat,Male,2025-02,Male,Mangrove,tool assisted,0,0
+Bat,Male,2025-02,Male,Mangrove,unassigned search,0,0
+Bat,Male,2025-02,Male,Mangrove,without tools,0,0
+Bat,Male,2025-02,Male,Shore,tool assisted,1138,968.7386359738889
+Bat,Male,2025-02,Male,Shore,unassigned search,244,207.7115732529245
+Bat,Male,2025-02,Male,Shore,without tools,94,91.74429601609073
+Belanda,Male,2024-03,Male,Forest,tool assisted,0,0
+Belanda,Male,2024-03,Male,Forest,unassigned search,0,0
+Belanda,Male,2024-03,Male,Forest,without tools,0,0
+Belanda,Male,2024-04,Male,Forest,tool assisted,0,0
+Belanda,Male,2024-04,Male,Forest,unassigned search,5,5
+Belanda,Male,2024-04,Male,Forest,without tools,15,15
+Belanda,Male,2024-04,Male,Shore,tool assisted,0,0
+Belanda,Male,2024-04,Male,Shore,unassigned search,0,0
+Belanda,Male,2024-04,Male,Shore,without tools,920,582.1528034295239
+Belanda,Male,2024-05,Male,Forest,tool assisted,0,0
+Belanda,Male,2024-05,Male,Forest,unassigned search,34,34
+Belanda,Male,2024-05,Male,Forest,without tools,799,799
+Belanda,Male,2024-06,Male,Forest,tool assisted,0,0
+Belanda,Male,2024-06,Male,Forest,unassigned search,180,180
+Belanda,Male,2024-06,Male,Forest,without tools,1647,1647
+Belanda,Male,2024-06,Male,Shore,tool assisted,171,108.75059933693288
+Belanda,Male,2024-06,Male,Shore,unassigned search,6,3.815810503050276
+Belanda,Male,2024-06,Male,Shore,without tools,204,129.73755710370938
+Belanda,Male,2024-08,Male,Mangrove,tool assisted,0,0
+Belanda,Male,2024-08,Male,Mangrove,unassigned search,0,0
+Belanda,Male,2024-08,Male,Mangrove,without tools,0,0
+Belanda,Male,2024-09,Male,Forest,tool assisted,0,0
+Belanda,Male,2024-09,Male,Forest,unassigned search,0,0
+Belanda,Male,2024-09,Male,Forest,without tools,0,0
+Belanda,Male,2024-09,Male,Mangrove,tool assisted,0,0
+Belanda,Male,2024-09,Male,Mangrove,unassigned search,0,0
+Belanda,Male,2024-09,Male,Mangrove,without tools,393,393
+Belanda,Male,2024-11,Male,Forest,tool assisted,0,0
+Belanda,Male,2024-11,Male,Forest,unassigned search,0,0
+Belanda,Male,2024-11,Male,Forest,without tools,14,14
+Belanda,Male,2024-11,Male,Shore,tool assisted,212,144.30748575254995
+Belanda,Male,2024-11,Male,Shore,unassigned search,87,59.22052481354644
+Belanda,Male,2024-11,Male,Shore,without tools,608,482.47292163178764
+Belanda,Male,2024-12,Male,Forest,tool assisted,0,0
+Belanda,Male,2024-12,Male,Forest,unassigned search,0,0
+Belanda,Male,2024-12,Male,Forest,without tools,18,18
+Belanda,Male,2024-12,Male,Mangrove,tool assisted,0,0
+Belanda,Male,2024-12,Male,Mangrove,unassigned search,0,0
+Belanda,Male,2024-12,Male,Mangrove,without tools,66,124.73231937609894
+Belanda,Male,2024-12,Male,Shore,tool assisted,193,134.7254073538574
+Belanda,Male,2024-12,Male,Shore,unassigned search,424,333.4268691948487
+Belanda,Male,2024-12,Male,Shore,without tools,1169,1194.2841441744831
+Belanda,Male,2025-01,Male,Mangrove,tool assisted,0,0
+Belanda,Male,2025-01,Male,Mangrove,unassigned search,302,302
+Belanda,Male,2025-01,Male,Mangrove,without tools,382,382
+Belanda,Male,2025-01,Male,Shore,tool assisted,107,85.14070778384854
+Belanda,Male,2025-01,Male,Shore,unassigned search,102,81.16217003693973
+Belanda,Male,2025-01,Male,Shore,without tools,1145,1394.977296990755
+Belanda,Male,2025-02,Male,Forest,tool assisted,0,0
+Belanda,Male,2025-02,Male,Forest,unassigned search,0,0
+Belanda,Male,2025-02,Male,Forest,without tools,0,0
+Belanda,Male,2025-02,Male,Mangrove,tool assisted,0,0
+Belanda,Male,2025-02,Male,Mangrove,unassigned search,0,0
+Belanda,Male,2025-02,Male,Mangrove,without tools,908,778.8720947714736
+Belanda,Male,2025-02,Male,Shore,tool assisted,0,0
+Belanda,Male,2025-02,Male,Shore,unassigned search,50,38.53215761736
+Belanda,Male,2025-02,Male,Shore,without tools,114,87.85331936758081
+Belanda,Male,2025-03,Male,Forest,tool assisted,0,0
+Belanda,Male,2025-03,Male,Forest,unassigned search,0,0
+Belanda,Male,2025-03,Male,Forest,without tools,47,47
+Belanda,Male,2025-03,Male,Mangrove,tool assisted,0,0
+Belanda,Male,2025-03,Male,Mangrove,unassigned search,12,12
+Belanda,Male,2025-03,Male,Mangrove,without tools,173,173
+Belanda,Male,2025-03,Male,Shore,tool assisted,0,0
+Belanda,Male,2025-03,Male,Shore,unassigned search,39,39
+Belanda,Male,2025-03,Male,Shore,without tools,38,38
+Belanda,Male,2026-03,Male,Forest,tool assisted,0,0
+Belanda,Male,2026-03,Male,Forest,unassigned search,0,0
+Belanda,Male,2026-03,Male,Forest,without tools,796,796
+Belanda,Male,2026-03,Male,Mangrove,tool assisted,0,0
+Belanda,Male,2026-03,Male,Mangrove,unassigned search,0,0
+Belanda,Male,2026-03,Male,Mangrove,without tools,0,0
+Cacao,Female,2024-04,Pregnant,Shore,tool assisted,886,750.2843181872513
+Cacao,Female,2024-04,Pregnant,Shore,unassigned search,0,0
+Cacao,Female,2024-04,Pregnant,Shore,without tools,11,9.315042325123887
+Cacao,Female,2024-05,Pregnant,Shore,tool assisted,695,663.4926574045464
+Cacao,Female,2024-05,Pregnant,Shore,unassigned search,23,21.957310964467002
+Cacao,Female,2024-05,Pregnant,Shore,without tools,161,153.70117675126903
+Cacao,Female,2024-06,Pregnant,Mangrove,tool assisted,354,354
+Cacao,Female,2024-06,Pregnant,Mangrove,unassigned search,41,41
+Cacao,Female,2024-06,Pregnant,Mangrove,without tools,0,0
+Cacao,Female,2024-06,Pregnant,Shore,tool assisted,2370,2196.5713393761635
+Cacao,Female,2024-06,Pregnant,Shore,unassigned search,41,38.26366154632911
+Cacao,Female,2024-06,Pregnant,Shore,without tools,89,81.77350606982837
+Cacao,Female,2024-07,Pregnant,Mangrove,tool assisted,0,0
+Cacao,Female,2024-07,Pregnant,Mangrove,unassigned search,33,33
+Cacao,Female,2024-07,Pregnant,Mangrove,without tools,11,11
+Cacao,Female,2024-08,Pregnant,Shore,tool assisted,3407,3024.3579870022345
+Cacao,Female,2024-08,Pregnant,Shore,unassigned search,258,228.96574319728197
+Cacao,Female,2024-08,Pregnant,Shore,without tools,14,12.282744668647362
+Cacao,Female,2024-09,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Cacao,Female,2024-09,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Cacao,Female,2024-09,Non-lactating & non-pregnant,Forest,without tools,319,319
+Cacao,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,0,0
+Cacao,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,58,137.37093791410535
+Cacao,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,0,0
+Cacao,Female,2024-10,Pregnant,Shore,tool assisted,584,501.13411134712567
+Cacao,Female,2024-10,Pregnant,Shore,unassigned search,50,42.905317752322404
+Cacao,Female,2024-10,Pregnant,Shore,without tools,36,30.89182878167213
+Cacao,Female,2024-11,Pregnant,Forest,tool assisted,0,0
+Cacao,Female,2024-11,Pregnant,Forest,unassigned search,0,0
+Cacao,Female,2024-11,Pregnant,Forest,without tools,36,36
+Cacao,Female,2024-11,Pregnant,Mangrove,tool assisted,457,457
+Cacao,Female,2024-11,Pregnant,Mangrove,unassigned search,190,190
+Cacao,Female,2024-11,Pregnant,Mangrove,without tools,551,551
+Cacao,Female,2024-11,Pregnant,Shore,tool assisted,689,618.8843490049901
+Cacao,Female,2024-11,Pregnant,Shore,unassigned search,56,50.059208544095185
+Cacao,Female,2024-11,Pregnant,Shore,without tools,321,286.9465346902599
+Cacao,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Cacao,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Cacao,Female,2024-12,Pregnant,Forest,without tools,473,473
+Cacao,Female,2024-12,Pregnant,Mangrove,tool assisted,21,21
+Cacao,Female,2024-12,Pregnant,Mangrove,unassigned search,37,37
+Cacao,Female,2024-12,Pregnant,Mangrove,without tools,811,811
+Cacao,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Cacao,Female,2025-01,Pregnant,Forest,unassigned search,0,0
+Cacao,Female,2025-01,Pregnant,Forest,without tools,0,0
+Cacao,Female,2025-01,Pregnant,Mangrove,tool assisted,93,93
+Cacao,Female,2025-01,Pregnant,Mangrove,unassigned search,64,64
+Cacao,Female,2025-01,Pregnant,Mangrove,without tools,885,885
+Cacao,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Cacao,Female,2025-02,Pregnant,Forest,unassigned search,10,10
+Cacao,Female,2025-02,Pregnant,Forest,without tools,760,760
+Cacao,Female,2025-02,Pregnant,Mangrove,tool assisted,648,648
+Cacao,Female,2025-02,Pregnant,Mangrove,unassigned search,183,183
+Cacao,Female,2025-02,Pregnant,Mangrove,without tools,0,0
+Cacao,Female,2025-03,Pregnant,Forest,tool assisted,0,0
+Cacao,Female,2025-03,Pregnant,Forest,unassigned search,90,90
+Cacao,Female,2025-03,Pregnant,Forest,without tools,654,654
+Cacao,Female,2025-12,Lactating,Shore,tool assisted,527,454.8428443676006
+Cacao,Female,2025-12,Lactating,Shore,unassigned search,15,12.946191016155614
+Cacao,Female,2025-12,Lactating,Shore,without tools,69,59.55247867431583
+Cacao,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Cacao,Female,2026-01,Lactating,Forest,unassigned search,0,0
+Cacao,Female,2026-01,Lactating,Forest,without tools,508,508
+Cacao,Female,2026-01,Lactating,Mangrove,tool assisted,526,470.5785522726339
+Cacao,Female,2026-01,Lactating,Mangrove,unassigned search,104,93.12259525741443
+Cacao,Female,2026-01,Lactating,Mangrove,without tools,146,130.58342020420196
+Cacao,Female,2026-01,Lactating,Shore,tool assisted,4365,3920.141150017583
+Cacao,Female,2026-01,Lactating,Shore,unassigned search,186,166.4962424865159
+Cacao,Female,2026-01,Lactating,Shore,without tools,102,92.73364279203362
+Cacao,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Cacao,Female,2026-02,Lactating,Forest,unassigned search,231,231
+Cacao,Female,2026-02,Lactating,Forest,without tools,495,495
+Cacao,Female,2026-02,Lactating,Mangrove,tool assisted,0,0
+Cacao,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Cacao,Female,2026-02,Lactating,Mangrove,without tools,57,57
+Cacao,Female,2026-02,Lactating,Shore,tool assisted,776,727.7053087353452
+Cacao,Female,2026-02,Lactating,Shore,unassigned search,118,105.67530467038425
+Cacao,Female,2026-02,Lactating,Shore,without tools,274,271.80262986943427
+Cacao,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Cacao,Female,2026-03,Lactating,Forest,unassigned search,0,0
+Cacao,Female,2026-03,Lactating,Forest,without tools,74,74
+Dandi,Female,2024-04,Lactating,Shore,tool assisted,787,660.8917367826646
+Dandi,Female,2024-04,Lactating,Shore,unassigned search,0,0
+Dandi,Female,2024-04,Lactating,Shore,without tools,153,128.48339990819272
+Dandi,Female,2024-04,Non-lactating & non-pregnant,Mangrove,tool assisted,262,262
+Dandi,Female,2024-04,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Dandi,Female,2024-04,Non-lactating & non-pregnant,Mangrove,without tools,0,0
+Dandi,Female,2024-04,Non-lactating & non-pregnant,Shore,tool assisted,656,571.2083962042898
+Dandi,Female,2024-04,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Dandi,Female,2024-04,Non-lactating & non-pregnant,Shore,without tools,80,82.7002402985112
+Dandi,Female,2024-05,Lactating,Mangrove,tool assisted,257,257
+Dandi,Female,2024-05,Lactating,Mangrove,unassigned search,83,83
+Dandi,Female,2024-05,Lactating,Mangrove,without tools,36,36
+Dandi,Female,2024-05,Pregnant,Forest,tool assisted,0,0
+Dandi,Female,2024-05,Pregnant,Forest,unassigned search,90,90
+Dandi,Female,2024-05,Pregnant,Forest,without tools,39,39
+Dandi,Female,2024-05,Pregnant,Mangrove,tool assisted,0,0
+Dandi,Female,2024-05,Pregnant,Mangrove,unassigned search,0,0
+Dandi,Female,2024-05,Pregnant,Mangrove,without tools,145,145
+Dandi,Female,2024-06,Non-lactating & non-pregnant,Shore,tool assisted,47,44.28111090444033
+Dandi,Female,2024-06,Non-lactating & non-pregnant,Shore,unassigned search,56,52.76047256699274
+Dandi,Female,2024-06,Non-lactating & non-pregnant,Shore,without tools,500,471.07564791957805
+Dandi,Female,2024-06,Pregnant,Shore,tool assisted,326,310.49497499152795
+Dandi,Female,2024-06,Pregnant,Shore,unassigned search,107,101.91092737451991
+Dandi,Female,2024-06,Pregnant,Shore,without tools,441,420.025410954797
+Dandi,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,11,11.8357138117548
+Dandi,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Dandi,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,402,432.5415411204936
+Dandi,Female,2024-08,Pregnant,Mangrove,tool assisted,0,0
+Dandi,Female,2024-08,Pregnant,Mangrove,unassigned search,0,0
+Dandi,Female,2024-08,Pregnant,Mangrove,without tools,282,282
+Dandi,Female,2024-09,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Dandi,Female,2024-09,Non-lactating & non-pregnant,Forest,unassigned search,26,26
+Dandi,Female,2024-09,Non-lactating & non-pregnant,Forest,without tools,60,60
+Dandi,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,688,604.0637397957422
+Dandi,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,248,216.63529882341606
+Dandi,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,622,544.4395660793043
+Dandi,Female,2024-10,Non-lactating & non-pregnant,Mangrove,tool assisted,295,295
+Dandi,Female,2024-10,Non-lactating & non-pregnant,Mangrove,unassigned search,28,28
+Dandi,Female,2024-10,Non-lactating & non-pregnant,Mangrove,without tools,799,815.8733801434632
+Dandi,Female,2024-10,Non-lactating & non-pregnant,Shore,tool assisted,415,362.4294241069323
+Dandi,Female,2024-10,Non-lactating & non-pregnant,Shore,unassigned search,110,96.39075249238977
+Dandi,Female,2024-10,Non-lactating & non-pregnant,Shore,without tools,91,81.85263613104046
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Forest,tool assisted,44,44
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Forest,without tools,28,28
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Mangrove,tool assisted,117,115.91838565879021
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Mangrove,unassigned search,114,111.75357021441043
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Mangrove,without tools,528,470.55566795658854
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Shore,tool assisted,556,505.1501108415178
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Shore,unassigned search,299,269.6853087390754
+Dandi,Female,2024-11,Non-lactating & non-pregnant,Shore,without tools,1590,1440.579079223497
+Dandi,Female,2024-12,Non-lactating & non-pregnant,Forest,tool assisted,258,258
+Dandi,Female,2024-12,Non-lactating & non-pregnant,Forest,unassigned search,50,50
+Dandi,Female,2024-12,Non-lactating & non-pregnant,Forest,without tools,0,0
+Dandi,Female,2024-12,Pregnant,Shore,tool assisted,328,351.883376279329
+Dandi,Female,2024-12,Pregnant,Shore,unassigned search,101,108.35433232991532
+Dandi,Female,2024-12,Pregnant,Shore,without tools,422,452.72800240816105
+Dandi,Female,2025-01,Pregnant,Mangrove,tool assisted,0,0
+Dandi,Female,2025-01,Pregnant,Mangrove,unassigned search,284,299.3704561026899
+Dandi,Female,2025-01,Pregnant,Mangrove,without tools,647,668.8161312425276
+Dandi,Female,2025-01,Pregnant,Shore,tool assisted,141,151.64860385302904
+Dandi,Female,2025-01,Pregnant,Shore,unassigned search,0,0
+Dandi,Female,2025-01,Pregnant,Shore,without tools,1810,1974.4151192040445
+Dandi,Female,2025-02,Pregnant,Mangrove,tool assisted,0,0
+Dandi,Female,2025-02,Pregnant,Mangrove,unassigned search,0,0
+Dandi,Female,2025-02,Pregnant,Mangrove,without tools,406,354.16349123094375
+Dandi,Female,2025-02,Pregnant,Shore,tool assisted,147,128.23160889396237
+Dandi,Female,2025-02,Pregnant,Shore,unassigned search,0,0
+Dandi,Female,2025-02,Pregnant,Shore,without tools,365,318.39821255983856
+Dandi,Female,2025-12,Lactating,Forest,tool assisted,0,0
+Dandi,Female,2025-12,Lactating,Forest,unassigned search,0,0
+Dandi,Female,2025-12,Lactating,Forest,without tools,0,0
+Dandi,Female,2025-12,Lactating,Mangrove,tool assisted,0,0
+Dandi,Female,2025-12,Lactating,Mangrove,unassigned search,31,29.378421265619224
+Dandi,Female,2025-12,Lactating,Mangrove,without tools,708,675.6931621381061
+Dandi,Female,2025-12,Lactating,Shore,tool assisted,684,616.47622958612
+Dandi,Female,2025-12,Lactating,Shore,unassigned search,350,329.4733838080951
+Dandi,Female,2025-12,Lactating,Shore,without tools,1127,1110.0204450268002
+Dandi,Female,2026-01,Lactating,Forest,tool assisted,314,314
+Dandi,Female,2026-01,Lactating,Forest,unassigned search,154,148.54081873252434
+Dandi,Female,2026-01,Lactating,Forest,without tools,205,194.40276577490022
+Dandi,Female,2026-01,Lactating,Mangrove,tool assisted,1681,1612.8643002841045
+Dandi,Female,2026-01,Lactating,Mangrove,unassigned search,83,83
+Dandi,Female,2026-01,Lactating,Mangrove,without tools,1306,1260.5895486094762
+Dandi,Female,2026-01,Lactating,Shore,tool assisted,3779,3408.0320462378986
+Dandi,Female,2026-01,Lactating,Shore,unassigned search,176,158.22050076305004
+Dandi,Female,2026-01,Lactating,Shore,without tools,1619,1452.827430993066
+Dandi,Female,2026-02,Lactating,Forest,tool assisted,501,501
+Dandi,Female,2026-02,Lactating,Forest,unassigned search,102,102
+Dandi,Female,2026-02,Lactating,Forest,without tools,228,228
+Dandi,Female,2026-02,Lactating,Mangrove,tool assisted,0,0
+Dandi,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Dandi,Female,2026-02,Lactating,Mangrove,without tools,756,756
+Dandi,Female,2026-02,Lactating,Shore,tool assisted,2336,2160.3243995346324
+Dandi,Female,2026-02,Lactating,Shore,unassigned search,105,109.54325144379695
+Dandi,Female,2026-02,Lactating,Shore,without tools,1074,1032.044261708944
+Dandi,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Dandi,Female,2026-03,Lactating,Forest,unassigned search,222,222
+Dandi,Female,2026-03,Lactating,Forest,without tools,467,467
+Dandi,Female,2026-03,Lactating,Shore,tool assisted,859,763.4935805733944
+Dandi,Female,2026-03,Lactating,Shore,unassigned search,0,0
+Dandi,Female,2026-03,Lactating,Shore,without tools,10,8.88816741063323
+Flame,Female,2024-04,Pregnant,Forest,tool assisted,0,0
+Flame,Female,2024-04,Pregnant,Forest,unassigned search,0,0
+Flame,Female,2024-04,Pregnant,Forest,without tools,0,0
+Flame,Female,2024-04,Pregnant,Mangrove,tool assisted,699,699
+Flame,Female,2024-04,Pregnant,Mangrove,unassigned search,5,5
+Flame,Female,2024-04,Pregnant,Mangrove,without tools,0,0
+Flame,Female,2024-04,Pregnant,Shore,tool assisted,1704,1329.2804498093162
+Flame,Female,2024-04,Pregnant,Shore,unassigned search,76,57.37940497808346
+Flame,Female,2024-04,Pregnant,Shore,without tools,0,0
+Flame,Female,2024-05,Lactating,Shore,tool assisted,1033,986.998084485093
+Flame,Female,2024-05,Lactating,Shore,unassigned search,27,25.9362640236167
+Flame,Female,2024-05,Lactating,Shore,without tools,0,0
+Flame,Female,2024-05,Pregnant,Mangrove,tool assisted,111,111
+Flame,Female,2024-05,Pregnant,Mangrove,unassigned search,0,0
+Flame,Female,2024-05,Pregnant,Mangrove,without tools,40,40
+Flame,Female,2024-06,Lactating,Shore,tool assisted,823,742.2768456101347
+Flame,Female,2024-06,Lactating,Shore,unassigned search,0,0
+Flame,Female,2024-06,Lactating,Shore,without tools,283,255.74369144354347
+Flame,Female,2024-08,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Flame,Female,2024-08,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Flame,Female,2024-08,Non-lactating & non-pregnant,Forest,without tools,0,0
+Flame,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,1569,1337.6834005720038
+Flame,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,85,71.82661955492046
+Flame,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,107,93.23574731072077
+Flame,Female,2024-09,Non-lactating & non-pregnant,Mangrove,tool assisted,47,47
+Flame,Female,2024-09,Non-lactating & non-pregnant,Mangrove,unassigned search,104,104
+Flame,Female,2024-09,Non-lactating & non-pregnant,Mangrove,without tools,13,13
+Flame,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,848,835.3204438067914
+Flame,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,141,204.4303112076322
+Flame,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,215,188.2808588159322
+Flame,Female,2024-10,Non-lactating & non-pregnant,Shore,tool assisted,0,0
+Flame,Female,2024-10,Non-lactating & non-pregnant,Shore,unassigned search,25,25.457925629272747
+Flame,Female,2024-10,Non-lactating & non-pregnant,Shore,without tools,208,211.80994123554927
+Flame,Female,2024-11,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Flame,Female,2024-11,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Flame,Female,2024-11,Non-lactating & non-pregnant,Forest,without tools,16,16
+Flame,Female,2024-11,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Flame,Female,2024-11,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Flame,Female,2024-11,Non-lactating & non-pregnant,Mangrove,without tools,135,135
+Flame,Female,2024-11,Non-lactating & non-pregnant,Shore,tool assisted,1634,2254.0876473436356
+Flame,Female,2024-11,Non-lactating & non-pregnant,Shore,unassigned search,106,229.20372742316894
+Flame,Female,2024-11,Non-lactating & non-pregnant,Shore,without tools,124,175.4782237004839
+Flame,Female,2024-12,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Flame,Female,2024-12,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Flame,Female,2024-12,Non-lactating & non-pregnant,Forest,without tools,298,290.1430405756412
+Flame,Female,2024-12,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Flame,Female,2024-12,Non-lactating & non-pregnant,Mangrove,unassigned search,100,89.03161281639318
+Flame,Female,2024-12,Non-lactating & non-pregnant,Mangrove,without tools,139,120.02294915852153
+Flame,Female,2024-12,Non-lactating & non-pregnant,Shore,tool assisted,775,651.186037564222
+Flame,Female,2024-12,Non-lactating & non-pregnant,Shore,unassigned search,228,190.8477478887434
+Flame,Female,2024-12,Non-lactating & non-pregnant,Shore,without tools,563,467.2957360488815
+Flame,Female,2024-12,Pregnant,Shore,tool assisted,905,750.1416264747572
+Flame,Female,2024-12,Pregnant,Shore,unassigned search,5,4.144428875551145
+Flame,Female,2024-12,Pregnant,Shore,without tools,0,0
+Flame,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Flame,Female,2025-01,Pregnant,Forest,unassigned search,141,141
+Flame,Female,2025-01,Pregnant,Forest,without tools,263,263
+Flame,Female,2025-01,Pregnant,Shore,tool assisted,3182,2812.328595585616
+Flame,Female,2025-01,Pregnant,Shore,unassigned search,235,204.2141485560735
+Flame,Female,2025-01,Pregnant,Shore,without tools,960,970.7011913019959
+Flame,Female,2025-02,Pregnant,Mangrove,tool assisted,0,0
+Flame,Female,2025-02,Pregnant,Mangrove,unassigned search,0,0
+Flame,Female,2025-02,Pregnant,Mangrove,without tools,0,0
+Flame,Female,2025-02,Pregnant,Shore,tool assisted,2578,2137.775498375374
+Flame,Female,2025-02,Pregnant,Shore,unassigned search,69,57.98131706437675
+Flame,Female,2025-02,Pregnant,Shore,without tools,0,0
+Flame,Female,2025-03,Pregnant,Forest,tool assisted,0,0
+Flame,Female,2025-03,Pregnant,Forest,unassigned search,0,0
+Flame,Female,2025-03,Pregnant,Forest,without tools,33,33
+Flame,Female,2025-12,Lactating,Mangrove,tool assisted,0,0
+Flame,Female,2025-12,Lactating,Mangrove,unassigned search,0,0
+Flame,Female,2025-12,Lactating,Mangrove,without tools,202,202
+Flame,Female,2026-01,Lactating,Mangrove,tool assisted,0,0
+Flame,Female,2026-01,Lactating,Mangrove,unassigned search,11,11
+Flame,Female,2026-01,Lactating,Mangrove,without tools,1104,1104
+Flame,Female,2026-01,Lactating,Shore,tool assisted,782,668.7226254003665
+Flame,Female,2026-01,Lactating,Shore,unassigned search,0,0
+Flame,Female,2026-01,Lactating,Shore,without tools,55,47.03292122381094
+Flame,Female,2026-02,Lactating,Mangrove,tool assisted,196,196
+Flame,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Flame,Female,2026-02,Lactating,Mangrove,without tools,0,0
+Granny,Female,2024-04,Lactating,Mangrove,tool assisted,98,98
+Granny,Female,2024-04,Lactating,Mangrove,unassigned search,9,9
+Granny,Female,2024-04,Lactating,Mangrove,without tools,12,12
+Granny,Female,2024-05,Lactating,Forest,tool assisted,0,0
+Granny,Female,2024-05,Lactating,Forest,unassigned search,0,0
+Granny,Female,2024-05,Lactating,Forest,without tools,1226,1226
+Granny,Female,2024-05,Lactating,Mangrove,tool assisted,909,909
+Granny,Female,2024-05,Lactating,Mangrove,unassigned search,0,0
+Granny,Female,2024-05,Lactating,Mangrove,without tools,378,378
+Granny,Female,2024-06,Lactating,Forest,tool assisted,0,0
+Granny,Female,2024-06,Lactating,Forest,unassigned search,0,0
+Granny,Female,2024-06,Lactating,Forest,without tools,0,0
+Granny,Female,2024-06,Lactating,Shore,tool assisted,810,706.754961205898
+Granny,Female,2024-06,Lactating,Shore,unassigned search,0,0
+Granny,Female,2024-06,Lactating,Shore,without tools,69,60.2050522508728
+Granny,Female,2024-07,Lactating,Shore,tool assisted,724,550.2376015092491
+Granny,Female,2024-07,Lactating,Shore,unassigned search,16,12.159946994679537
+Granny,Female,2024-07,Lactating,Shore,without tools,232,176.31923142285328
+Granny,Female,2024-08,Lactating,Mangrove,tool assisted,957,951.2676108332772
+Granny,Female,2024-08,Lactating,Mangrove,unassigned search,31,30.159839104918778
+Granny,Female,2024-08,Lactating,Mangrove,without tools,403,396.54212297319225
+Granny,Female,2024-08,Lactating,Shore,tool assisted,4379,3524.6561854749493
+Granny,Female,2024-08,Lactating,Shore,unassigned search,363,311.5505810670717
+Granny,Female,2024-08,Lactating,Shore,without tools,1853,1677.5854192366655
+Granny,Female,2024-09,Lactating,Forest,tool assisted,0,0
+Granny,Female,2024-09,Lactating,Forest,unassigned search,224,224
+Granny,Female,2024-09,Lactating,Forest,without tools,74,74
+Granny,Female,2024-09,Lactating,Mangrove,tool assisted,0,0
+Granny,Female,2024-09,Lactating,Mangrove,unassigned search,0,0
+Granny,Female,2024-09,Lactating,Mangrove,without tools,0,0
+Granny,Female,2024-09,Lactating,Shore,tool assisted,728,561.68755951608955
+Granny,Female,2024-09,Lactating,Shore,unassigned search,49,37.80589342896757
+Granny,Female,2024-09,Lactating,Shore,without tools,73,56.323065720706786
+Granny,Female,2024-10,Lactating,Forest,tool assisted,0,0
+Granny,Female,2024-10,Lactating,Forest,unassigned search,0,0
+Granny,Female,2024-10,Lactating,Forest,without tools,0,0
+Granny,Female,2024-10,Lactating,Mangrove,tool assisted,858,858
+Granny,Female,2024-10,Lactating,Mangrove,unassigned search,0,0
+Granny,Female,2024-10,Lactating,Mangrove,without tools,227,227
+Granny,Female,2024-10,Lactating,Shore,tool assisted,2421,2241.616941263504
+Granny,Female,2024-10,Lactating,Shore,unassigned search,64,48.774584101626786
+Granny,Female,2024-10,Lactating,Shore,without tools,490,363.4221856220501
+Granny,Female,2024-11,Lactating,Forest,tool assisted,0,0
+Granny,Female,2024-11,Lactating,Forest,unassigned search,203,203
+Granny,Female,2024-11,Lactating,Forest,without tools,99,99
+Granny,Female,2024-11,Lactating,Mangrove,tool assisted,468,468
+Granny,Female,2024-11,Lactating,Mangrove,unassigned search,210,210
+Granny,Female,2024-11,Lactating,Mangrove,without tools,1356,1356
+Granny,Female,2024-11,Lactating,Shore,tool assisted,1528,1214.6341422814935
+Granny,Female,2024-11,Lactating,Shore,unassigned search,273,217.1551785699997
+Granny,Female,2024-11,Lactating,Shore,without tools,900,722.8285647747557
+Granny,Female,2024-12,Lactating,Forest,tool assisted,0,0
+Granny,Female,2024-12,Lactating,Forest,unassigned search,0,0
+Granny,Female,2024-12,Lactating,Forest,without tools,0,0
+Granny,Female,2024-12,Lactating,Mangrove,tool assisted,484,381.514758812502
+Granny,Female,2024-12,Lactating,Mangrove,unassigned search,10,7.88253633910128
+Granny,Female,2024-12,Lactating,Mangrove,without tools,0,0
+Granny,Female,2024-12,Lactating,Shore,tool assisted,1981,1548.0301829913192
+Granny,Female,2024-12,Lactating,Shore,unassigned search,300,232.818489777072
+Granny,Female,2024-12,Lactating,Shore,without tools,356,312.76511113209926
+Granny,Female,2025-01,Lactating,Forest,tool assisted,0,0
+Granny,Female,2025-01,Lactating,Forest,unassigned search,0,0
+Granny,Female,2025-01,Lactating,Forest,without tools,831,831
+Granny,Female,2025-01,Lactating,Mangrove,tool assisted,0,0
+Granny,Female,2025-01,Lactating,Mangrove,unassigned search,205,196.41161575895325
+Granny,Female,2025-01,Lactating,Mangrove,without tools,925,913.3579680288033
+Granny,Female,2025-01,Lactating,Shore,tool assisted,2737,2219.3609202658854
+Granny,Female,2025-01,Lactating,Shore,unassigned search,134,127.60642506499855
+Granny,Female,2025-01,Lactating,Shore,without tools,161,148.9228477852874
+Granny,Female,2025-02,Lactating,Forest,tool assisted,0,0
+Granny,Female,2025-02,Lactating,Forest,unassigned search,0,0
+Granny,Female,2025-02,Lactating,Forest,without tools,228,228
+Granny,Female,2025-03,Lactating,Forest,tool assisted,0,0
+Granny,Female,2025-03,Lactating,Forest,unassigned search,0,0
+Granny,Female,2025-03,Lactating,Forest,without tools,0,0
+Granny,Female,2025-03,Lactating,Mangrove,tool assisted,0,0
+Granny,Female,2025-03,Lactating,Mangrove,unassigned search,0,0
+Granny,Female,2025-03,Lactating,Mangrove,without tools,0,0
+Granny,Female,2025-03,Lactating,Shore,tool assisted,556,440.2350278224114
+Granny,Female,2025-03,Lactating,Shore,unassigned search,94,74.42822412824941
+Granny,Female,2025-03,Lactating,Shore,without tools,231,182.903401847081
+Granny,Female,2025-12,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Granny,Female,2025-12,Non-lactating & non-pregnant,Mangrove,unassigned search,53,48.75278249415591
+Granny,Female,2025-12,Non-lactating & non-pregnant,Mangrove,without tools,375,344.9489327416691
+Granny,Female,2025-12,Non-lactating & non-pregnant,Shore,tool assisted,607,786.861863024897
+Granny,Female,2025-12,Non-lactating & non-pregnant,Shore,unassigned search,317,269.9193921420657
+Granny,Female,2025-12,Non-lactating & non-pregnant,Shore,without tools,852,768.0893183353988
+Granny,Female,2026-01,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Granny,Female,2026-01,Non-lactating & non-pregnant,Mangrove,unassigned search,69,68.11719371220713
+Granny,Female,2026-01,Non-lactating & non-pregnant,Mangrove,without tools,2016,1898.8328866886864
+Granny,Female,2026-01,Non-lactating & non-pregnant,Shore,tool assisted,383,321.3843659725236
+Granny,Female,2026-01,Non-lactating & non-pregnant,Shore,unassigned search,195,179.53129467963313
+Granny,Female,2026-01,Non-lactating & non-pregnant,Shore,without tools,467,441.06917717297466
+Granny,Female,2026-01,Pregnant,Forest,tool assisted,0,0
+Granny,Female,2026-01,Pregnant,Forest,unassigned search,0,0
+Granny,Female,2026-01,Pregnant,Forest,without tools,59,59
+Granny,Female,2026-01,Pregnant,Mangrove,tool assisted,0,0
+Granny,Female,2026-01,Pregnant,Mangrove,unassigned search,0,0
+Granny,Female,2026-01,Pregnant,Mangrove,without tools,985,1328.0270467202147
+Granny,Female,2026-01,Pregnant,Shore,tool assisted,1426,1157.911165749638
+Granny,Female,2026-01,Pregnant,Shore,unassigned search,192,151.82021915878576
+Granny,Female,2026-01,Pregnant,Shore,without tools,1202,958.593932413539
+Granny,Female,2026-02,Pregnant,Forest,tool assisted,491,491
+Granny,Female,2026-02,Pregnant,Forest,unassigned search,16,16
+Granny,Female,2026-02,Pregnant,Forest,without tools,4827,4827
+Granny,Female,2026-02,Pregnant,Mangrove,tool assisted,647,647
+Granny,Female,2026-02,Pregnant,Mangrove,unassigned search,10,10
+Granny,Female,2026-02,Pregnant,Mangrove,without tools,517,436.2980111930616
+Granny,Female,2026-02,Pregnant,Shore,tool assisted,1384,1102.0689942380832
+Granny,Female,2026-02,Pregnant,Shore,unassigned search,246,186.82125905148249
+Granny,Female,2026-02,Pregnant,Shore,without tools,32,24.758934297597243
+Granny,Female,2026-03,Pregnant,Forest,tool assisted,0,0
+Granny,Female,2026-03,Pregnant,Forest,unassigned search,58,58
+Granny,Female,2026-03,Pregnant,Forest,without tools,262,563.437943199788
+Granny,Female,2026-03,Pregnant,Shore,tool assisted,1270,1017.0316792626425
+Granny,Female,2026-03,Pregnant,Shore,unassigned search,6,4.843019665560612
+Granny,Female,2026-03,Pregnant,Shore,without tools,85,129.06049030471883
+Harley,Female,2024-03,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2024-03,Lactating,Mangrove,unassigned search,0,0
+Harley,Female,2024-03,Lactating,Mangrove,without tools,0,0
+Harley,Female,2024-04,Lactating,Shore,tool assisted,540,358.3531603460682
+Harley,Female,2024-04,Lactating,Shore,unassigned search,74,49.10765530668343
+Harley,Female,2024-04,Lactating,Shore,without tools,158,104.85148024940514
+Harley,Female,2024-05,Lactating,Shore,tool assisted,1565,1428.7657289821416
+Harley,Female,2024-05,Lactating,Shore,unassigned search,17,15.461078961318325
+Harley,Female,2024-05,Lactating,Shore,without tools,297,268.1179035856043
+Harley,Female,2024-06,Lactating,Forest,tool assisted,0,0
+Harley,Female,2024-06,Lactating,Forest,unassigned search,302,302
+Harley,Female,2024-06,Lactating,Forest,without tools,81,81
+Harley,Female,2024-06,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2024-06,Lactating,Mangrove,unassigned search,0,0
+Harley,Female,2024-06,Lactating,Mangrove,without tools,263,263
+Harley,Female,2024-06,Lactating,Shore,tool assisted,2279,1943.5454379137755
+Harley,Female,2024-06,Lactating,Shore,unassigned search,48,40.90532691960614
+Harley,Female,2024-06,Lactating,Shore,without tools,230,198.58801982318332
+Harley,Female,2024-08,Lactating,Forest,tool assisted,0,0
+Harley,Female,2024-08,Lactating,Forest,unassigned search,0,0
+Harley,Female,2024-08,Lactating,Forest,without tools,0,0
+Harley,Female,2024-08,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2024-08,Lactating,Mangrove,unassigned search,0,0
+Harley,Female,2024-08,Lactating,Mangrove,without tools,445,437.4227793212216
+Harley,Female,2024-08,Lactating,Shore,tool assisted,1522,1185.0981266357944
+Harley,Female,2024-08,Lactating,Shore,unassigned search,51,39.25949064960871
+Harley,Female,2024-08,Lactating,Shore,without tools,272,207.76472669444502
+Harley,Female,2024-09,Lactating,Forest,tool assisted,0,0
+Harley,Female,2024-09,Lactating,Forest,unassigned search,0,0
+Harley,Female,2024-09,Lactating,Forest,without tools,0,0
+Harley,Female,2024-09,Lactating,Shore,tool assisted,639,489.69957288136754
+Harley,Female,2024-09,Lactating,Shore,unassigned search,13,9.962589119652234
+Harley,Female,2024-09,Lactating,Shore,without tools,62,47.51388657064912
+Harley,Female,2024-10,Lactating,Forest,tool assisted,0,0
+Harley,Female,2024-10,Lactating,Forest,unassigned search,0,0
+Harley,Female,2024-10,Lactating,Forest,without tools,0,0
+Harley,Female,2024-10,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2024-10,Lactating,Mangrove,unassigned search,0,0
+Harley,Female,2024-10,Lactating,Mangrove,without tools,0,0
+Harley,Female,2024-10,Lactating,Shore,tool assisted,684,519.8567340585295
+Harley,Female,2024-10,Lactating,Shore,unassigned search,12,9.1202935799742
+Harley,Female,2024-10,Lactating,Shore,without tools,140,112.02076754215321
+Harley,Female,2024-11,Lactating,Forest,tool assisted,0,0
+Harley,Female,2024-11,Lactating,Forest,unassigned search,0,0
+Harley,Female,2024-11,Lactating,Forest,without tools,0,0
+Harley,Female,2024-11,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2024-11,Lactating,Mangrove,unassigned search,0,0
+Harley,Female,2024-11,Lactating,Mangrove,without tools,41,39.251205435678536
+Harley,Female,2024-11,Lactating,Shore,tool assisted,699,579.2428926735274
+Harley,Female,2024-11,Lactating,Shore,unassigned search,108,98.63252530629231
+Harley,Female,2024-11,Lactating,Shore,without tools,294,264.34637992513944
+Harley,Female,2024-11,Pregnant,Forest,tool assisted,0,0
+Harley,Female,2024-11,Pregnant,Forest,unassigned search,0,0
+Harley,Female,2024-11,Pregnant,Forest,without tools,0,0
+Harley,Female,2024-11,Pregnant,Mangrove,tool assisted,0,0
+Harley,Female,2024-11,Pregnant,Mangrove,unassigned search,0,0
+Harley,Female,2024-11,Pregnant,Mangrove,without tools,0,0
+Harley,Female,2024-11,Pregnant,Shore,tool assisted,745,609.1336733675785
+Harley,Female,2024-11,Pregnant,Shore,unassigned search,127,104.39917798501995
+Harley,Female,2024-11,Pregnant,Shore,without tools,580,475.5195831618649
+Harley,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Harley,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Harley,Female,2024-12,Pregnant,Forest,without tools,184,179.5867628250738
+Harley,Female,2024-12,Pregnant,Mangrove,tool assisted,0,0
+Harley,Female,2024-12,Pregnant,Mangrove,unassigned search,0,0
+Harley,Female,2024-12,Pregnant,Mangrove,without tools,0,0
+Harley,Female,2024-12,Pregnant,Shore,tool assisted,748,723.6649777929102
+Harley,Female,2024-12,Pregnant,Shore,unassigned search,350,323.12006255991486
+Harley,Female,2024-12,Pregnant,Shore,without tools,909,838.8308925430451
+Harley,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Harley,Female,2025-01,Pregnant,Forest,unassigned search,13,13
+Harley,Female,2025-01,Pregnant,Forest,without tools,784,759.3670626668575
+Harley,Female,2025-01,Pregnant,Mangrove,tool assisted,899,899
+Harley,Female,2025-01,Pregnant,Mangrove,unassigned search,209,209
+Harley,Female,2025-01,Pregnant,Mangrove,without tools,2,2
+Harley,Female,2025-01,Pregnant,Shore,tool assisted,0,0
+Harley,Female,2025-01,Pregnant,Shore,unassigned search,81,77.9065613581635
+Harley,Female,2025-01,Pregnant,Shore,without tools,79,75.9829425591965
+Harley,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Harley,Female,2025-02,Pregnant,Forest,unassigned search,18,18
+Harley,Female,2025-02,Pregnant,Forest,without tools,125,125
+Harley,Female,2025-02,Pregnant,Mangrove,tool assisted,0,0
+Harley,Female,2025-02,Pregnant,Mangrove,unassigned search,0,0
+Harley,Female,2025-02,Pregnant,Mangrove,without tools,0,0
+Harley,Female,2025-03,Pregnant,Forest,tool assisted,0,0
+Harley,Female,2025-03,Pregnant,Forest,unassigned search,84,84
+Harley,Female,2025-03,Pregnant,Forest,without tools,817,817
+Harley,Female,2025-03,Pregnant,Mangrove,tool assisted,0,0
+Harley,Female,2025-03,Pregnant,Mangrove,unassigned search,0,0
+Harley,Female,2025-03,Pregnant,Mangrove,without tools,0,0
+Harley,Female,2025-03,Pregnant,Shore,tool assisted,259,200.2259480182102
+Harley,Female,2025-03,Pregnant,Shore,unassigned search,23,17.780682642543763
+Harley,Female,2025-03,Pregnant,Shore,without tools,37,79.56603988961888
+Harley,Female,2025-12,Lactating,Forest,tool assisted,0,0
+Harley,Female,2025-12,Lactating,Forest,unassigned search,16,16
+Harley,Female,2025-12,Lactating,Forest,without tools,263,263
+Harley,Female,2025-12,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2025-12,Lactating,Mangrove,unassigned search,0,0
+Harley,Female,2025-12,Lactating,Mangrove,without tools,50,39.0339104712415
+Harley,Female,2025-12,Lactating,Shore,tool assisted,863,674.2907554930696
+Harley,Female,2025-12,Lactating,Shore,unassigned search,42,32.82174719345706
+Harley,Female,2025-12,Lactating,Shore,without tools,172,134.3605999769542
+Harley,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Harley,Female,2026-01,Lactating,Forest,unassigned search,0,0
+Harley,Female,2026-01,Lactating,Forest,without tools,0,0
+Harley,Female,2026-01,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2026-01,Lactating,Mangrove,unassigned search,4,3.249537597507396
+Harley,Female,2026-01,Lactating,Mangrove,without tools,241,195.78464024982063
+Harley,Female,2026-01,Lactating,Shore,tool assisted,3736,3029.5469276541216
+Harley,Female,2026-01,Lactating,Shore,unassigned search,74,61.069270722026744
+Harley,Female,2026-01,Lactating,Shore,without tools,389,319.41804384556457
+Harley,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Harley,Female,2026-02,Lactating,Forest,unassigned search,49,49
+Harley,Female,2026-02,Lactating,Forest,without tools,0,0
+Harley,Female,2026-02,Lactating,Mangrove,tool assisted,0,0
+Harley,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Harley,Female,2026-02,Lactating,Mangrove,without tools,0,0
+Harley,Female,2026-02,Lactating,Shore,tool assisted,2340,1841.8376443206269
+Harley,Female,2026-02,Lactating,Shore,unassigned search,0,0
+Harley,Female,2026-02,Lactating,Shore,without tools,468,434.22645276821754
+Harley,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Harley,Female,2026-03,Lactating,Forest,unassigned search,0,0
+Harley,Female,2026-03,Lactating,Forest,without tools,1020,1020
+Iyla,Female,2024-04,Pregnant,Shore,tool assisted,1287,872.5643490598687
+Iyla,Female,2024-04,Pregnant,Shore,unassigned search,176,125.64573905148734
+Iyla,Female,2024-04,Pregnant,Shore,without tools,255,187.78703237787252
+Iyla,Female,2024-05,Lactating,Forest,tool assisted,0,0
+Iyla,Female,2024-05,Lactating,Forest,unassigned search,0,0
+Iyla,Female,2024-05,Lactating,Forest,without tools,290,290
+Iyla,Female,2024-05,Pregnant,Forest,tool assisted,0,0
+Iyla,Female,2024-05,Pregnant,Forest,unassigned search,0,0
+Iyla,Female,2024-05,Pregnant,Forest,without tools,915,915
+Iyla,Female,2024-05,Pregnant,Mangrove,tool assisted,622,622
+Iyla,Female,2024-05,Pregnant,Mangrove,unassigned search,38,38
+Iyla,Female,2024-05,Pregnant,Mangrove,without tools,191,191
+Iyla,Female,2024-05,Pregnant,Shore,tool assisted,812,731.053672313787
+Iyla,Female,2024-05,Pregnant,Shore,unassigned search,0,0
+Iyla,Female,2024-05,Pregnant,Shore,without tools,118,106.23686371062422
+Iyla,Female,2024-06,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Iyla,Female,2024-06,Non-lactating & non-pregnant,Forest,unassigned search,62,62
+Iyla,Female,2024-06,Non-lactating & non-pregnant,Forest,without tools,45,45
+Iyla,Female,2024-06,Non-lactating & non-pregnant,Shore,tool assisted,1166,966.7000344147107
+Iyla,Female,2024-06,Non-lactating & non-pregnant,Shore,unassigned search,111,102.62847100548477
+Iyla,Female,2024-06,Non-lactating & non-pregnant,Shore,without tools,1158,1074.1557906478456
+Iyla,Female,2024-08,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Iyla,Female,2024-08,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Iyla,Female,2024-08,Non-lactating & non-pregnant,Mangrove,without tools,104,104
+Iyla,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,1200,942.2089914451334
+Iyla,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,264,206.98745576020826
+Iyla,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,681,534.7253932268759
+Iyla,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,414,306.4468957530528
+Iyla,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,271,222.4460240440298
+Iyla,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,1556,1209.8183481031376
+Iyla,Female,2024-10,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Iyla,Female,2024-10,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Iyla,Female,2024-10,Non-lactating & non-pregnant,Forest,without tools,99,208.27781729754614
+Iyla,Female,2024-10,Non-lactating & non-pregnant,Shore,tool assisted,970,897.9344024015878
+Iyla,Female,2024-10,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Iyla,Female,2024-10,Non-lactating & non-pregnant,Shore,without tools,620,558.4812199161181
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Forest,without tools,503,503
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Mangrove,unassigned search,141,141
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Mangrove,without tools,707,707
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Shore,tool assisted,293,228.3684316421609
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Shore,unassigned search,279,217.45662944765493
+Iyla,Female,2024-11,Non-lactating & non-pregnant,Shore,without tools,94,95.66398557893898
+Iyla,Female,2024-11,Pregnant,Mangrove,tool assisted,14,14
+Iyla,Female,2024-11,Pregnant,Mangrove,unassigned search,38,38
+Iyla,Female,2024-11,Pregnant,Mangrove,without tools,0,0
+Iyla,Female,2024-11,Pregnant,Shore,tool assisted,60,57.98400830181984
+Iyla,Female,2024-11,Pregnant,Shore,unassigned search,39,37.6896053961829
+Iyla,Female,2024-11,Pregnant,Shore,without tools,702,678.4128971312921
+Iyla,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Iyla,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Iyla,Female,2024-12,Pregnant,Forest,without tools,0,0
+Iyla,Female,2024-12,Pregnant,Mangrove,tool assisted,22,22
+Iyla,Female,2024-12,Pregnant,Mangrove,unassigned search,39,39
+Iyla,Female,2024-12,Pregnant,Mangrove,without tools,14,14
+Iyla,Female,2024-12,Pregnant,Shore,tool assisted,718,543.4391210150376
+Iyla,Female,2024-12,Pregnant,Shore,unassigned search,194,331.56147155876897
+Iyla,Female,2024-12,Pregnant,Shore,without tools,801,1169.8508220664157
+Iyla,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Iyla,Female,2025-01,Pregnant,Forest,unassigned search,0,0
+Iyla,Female,2025-01,Pregnant,Forest,without tools,321,321
+Iyla,Female,2025-01,Pregnant,Mangrove,tool assisted,0,0
+Iyla,Female,2025-01,Pregnant,Mangrove,unassigned search,0,0
+Iyla,Female,2025-01,Pregnant,Mangrove,without tools,0,0
+Iyla,Female,2025-01,Pregnant,Shore,tool assisted,213,205.21174600744223
+Iyla,Female,2025-01,Pregnant,Shore,unassigned search,424,403.55453074732617
+Iyla,Female,2025-01,Pregnant,Shore,without tools,2491,2375.870060349419
+Iyla,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Iyla,Female,2025-02,Pregnant,Forest,unassigned search,0,0
+Iyla,Female,2025-02,Pregnant,Forest,without tools,0,0
+Iyla,Female,2025-03,Pregnant,Forest,tool assisted,0,0
+Iyla,Female,2025-03,Pregnant,Forest,unassigned search,51,51
+Iyla,Female,2025-03,Pregnant,Forest,without tools,1046,1046
+Iyla,Female,2025-03,Pregnant,Mangrove,tool assisted,838,837.2410638992834
+Iyla,Female,2025-03,Pregnant,Mangrove,unassigned search,119,114.19340469546137
+Iyla,Female,2025-03,Pregnant,Mangrove,without tools,0,0
+Iyla,Female,2025-03,Pregnant,Shore,tool assisted,613,467.2249626270038
+Iyla,Female,2025-03,Pregnant,Shore,unassigned search,268,229.565222690808
+Iyla,Female,2025-03,Pregnant,Shore,without tools,718,538.8750515726591
+Iyla,Female,2025-12,Lactating,Shore,tool assisted,869,662.351594669681
+Iyla,Female,2025-12,Lactating,Shore,unassigned search,0,0
+Iyla,Female,2025-12,Lactating,Shore,without tools,49,37.347788422110895
+Iyla,Female,2026-01,Lactating,Forest,tool assisted,230,230
+Iyla,Female,2026-01,Lactating,Forest,unassigned search,799,799
+Iyla,Female,2026-01,Lactating,Forest,without tools,193,193
+Iyla,Female,2026-01,Lactating,Mangrove,tool assisted,82,82
+Iyla,Female,2026-01,Lactating,Mangrove,unassigned search,0,0
+Iyla,Female,2026-01,Lactating,Mangrove,without tools,279,279
+Iyla,Female,2026-01,Lactating,Shore,tool assisted,4020,3130.966117540794
+Iyla,Female,2026-01,Lactating,Shore,unassigned search,53,40.99574184933728
+Iyla,Female,2026-01,Lactating,Shore,without tools,394,312.1748079245121
+Iyla,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Iyla,Female,2026-02,Lactating,Forest,unassigned search,168,168
+Iyla,Female,2026-02,Lactating,Forest,without tools,2361,2361
+Iyla,Female,2026-02,Lactating,Mangrove,tool assisted,309,309
+Iyla,Female,2026-02,Lactating,Mangrove,unassigned search,356,356
+Iyla,Female,2026-02,Lactating,Mangrove,without tools,1241,1241
+Iyla,Female,2026-02,Lactating,Shore,tool assisted,994,948.8724939501985
+Iyla,Female,2026-02,Lactating,Shore,unassigned search,53,49.498158388522
+Iyla,Female,2026-02,Lactating,Shore,without tools,223,210.1819382523258
+Iyla,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Iyla,Female,2026-03,Lactating,Forest,unassigned search,0,0
+Iyla,Female,2026-03,Lactating,Forest,without tools,0,0
+Iyla,Female,2026-03,Lactating,Shore,tool assisted,1592,1232.0328597901985
+Iyla,Female,2026-03,Lactating,Shore,unassigned search,28,21.663789384681166
+Iyla,Female,2026-03,Lactating,Shore,without tools,644,501.60702725203714
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Forest,unassigned search,25,25
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Forest,without tools,504,504
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Mangrove,without tools,665,665
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Shore,tool assisted,409,256.30484725684835
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Shore,unassigned search,135,84.59939946130692
+Jim_lim,Female,2024-04,Non-lactating & non-pregnant,Shore,without tools,14,8.773271055246642
+Jim_lim,Female,2024-05,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-05,Non-lactating & non-pregnant,Forest,unassigned search,120,120
+Jim_lim,Female,2024-05,Non-lactating & non-pregnant,Forest,without tools,1020,1020
+Jim_lim,Female,2024-05,Non-lactating & non-pregnant,Shore,tool assisted,1603,1401.9879772319266
+Jim_lim,Female,2024-05,Non-lactating & non-pregnant,Shore,unassigned search,97,86.29532800998626
+Jim_lim,Female,2024-05,Non-lactating & non-pregnant,Shore,without tools,0,0
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Forest,unassigned search,187,187
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Forest,without tools,572,572
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Mangrove,tool assisted,10,10
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Mangrove,unassigned search,23,23
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Mangrove,without tools,598,598
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Shore,tool assisted,477,391.8169271943029
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Shore,unassigned search,57,46.310968352822904
+Jim_lim,Female,2024-06,Non-lactating & non-pregnant,Shore,without tools,897,731.7834193617329
+Jim_lim,Female,2024-07,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-07,Non-lactating & non-pregnant,Forest,unassigned search,175,175
+Jim_lim,Female,2024-07,Non-lactating & non-pregnant,Forest,without tools,636,636
+Jim_lim,Female,2024-07,Non-lactating & non-pregnant,Shore,tool assisted,0,0
+Jim_lim,Female,2024-07,Non-lactating & non-pregnant,Shore,unassigned search,42,82.03667886733243
+Jim_lim,Female,2024-07,Non-lactating & non-pregnant,Shore,without tools,35,68.36389905611036
+Jim_lim,Female,2024-08,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Jim_lim,Female,2024-08,Non-lactating & non-pregnant,Mangrove,unassigned search,42,42
+Jim_lim,Female,2024-08,Non-lactating & non-pregnant,Mangrove,without tools,470,470
+Jim_lim,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,1445,1052.5829511946233
+Jim_lim,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,145,112.32193800930874
+Jim_lim,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,1052,831.4393064324466
+Jim_lim,Female,2024-09,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-09,Non-lactating & non-pregnant,Forest,unassigned search,52,52
+Jim_lim,Female,2024-09,Non-lactating & non-pregnant,Forest,without tools,260,260
+Jim_lim,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,253,499.81135409451804
+Jim_lim,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,39,77.04601901061741
+Jim_lim,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,5,9.555880968069001
+Jim_lim,Female,2024-10,Pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-10,Pregnant,Forest,unassigned search,0,0
+Jim_lim,Female,2024-10,Pregnant,Forest,without tools,63,63
+Jim_lim,Female,2024-10,Pregnant,Mangrove,tool assisted,0,0
+Jim_lim,Female,2024-10,Pregnant,Mangrove,unassigned search,0,0
+Jim_lim,Female,2024-10,Pregnant,Mangrove,without tools,11,7.3581014286145745
+Jim_lim,Female,2024-10,Pregnant,Shore,tool assisted,1328,989.1347422938718
+Jim_lim,Female,2024-10,Pregnant,Shore,unassigned search,23,17.621643975230977
+Jim_lim,Female,2024-10,Pregnant,Shore,without tools,469,373.52754490052416
+Jim_lim,Female,2024-11,Pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-11,Pregnant,Forest,unassigned search,19,14.097029276650296
+Jim_lim,Female,2024-11,Pregnant,Forest,without tools,101,74.93683983903578
+Jim_lim,Female,2024-11,Pregnant,Mangrove,tool assisted,0,0
+Jim_lim,Female,2024-11,Pregnant,Mangrove,unassigned search,79,79
+Jim_lim,Female,2024-11,Pregnant,Mangrove,without tools,984,984
+Jim_lim,Female,2024-11,Pregnant,Shore,tool assisted,401,327.22490101946283
+Jim_lim,Female,2024-11,Pregnant,Shore,unassigned search,124,93.39212122186184
+Jim_lim,Female,2024-11,Pregnant,Shore,without tools,1548,1248.1390626349848
+Jim_lim,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Jim_lim,Female,2024-12,Pregnant,Forest,without tools,476,476
+Jim_lim,Female,2024-12,Pregnant,Mangrove,tool assisted,145,122.22018493195237
+Jim_lim,Female,2024-12,Pregnant,Mangrove,unassigned search,160,160
+Jim_lim,Female,2024-12,Pregnant,Mangrove,without tools,596,576.5193305624972
+Jim_lim,Female,2024-12,Pregnant,Shore,tool assisted,917,641.0672359715824
+Jim_lim,Female,2024-12,Pregnant,Shore,unassigned search,67,56.042736516632644
+Jim_lim,Female,2024-12,Pregnant,Shore,without tools,92,77.54660009475599
+Jim_lim,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2025-01,Pregnant,Forest,unassigned search,0,0
+Jim_lim,Female,2025-01,Pregnant,Forest,without tools,15,15
+Jim_lim,Female,2025-01,Pregnant,Mangrove,tool assisted,15,30.983792542135053
+Jim_lim,Female,2025-01,Pregnant,Mangrove,unassigned search,0,0
+Jim_lim,Female,2025-01,Pregnant,Mangrove,without tools,630,595.3436056870585
+Jim_lim,Female,2025-01,Pregnant,Shore,tool assisted,1866,1397.9040176204953
+Jim_lim,Female,2025-01,Pregnant,Shore,unassigned search,168,340.3712358943366
+Jim_lim,Female,2025-01,Pregnant,Shore,without tools,52,48.91476373006622
+Jim_lim,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2025-02,Pregnant,Forest,unassigned search,270,270
+Jim_lim,Female,2025-02,Pregnant,Forest,without tools,1440,1440
+Jim_lim,Female,2025-02,Pregnant,Mangrove,tool assisted,0,0
+Jim_lim,Female,2025-02,Pregnant,Mangrove,unassigned search,0,0
+Jim_lim,Female,2025-02,Pregnant,Mangrove,without tools,0,0
+Jim_lim,Female,2025-03,Lactating,Forest,tool assisted,0,0
+Jim_lim,Female,2025-03,Lactating,Forest,unassigned search,0,0
+Jim_lim,Female,2025-03,Lactating,Forest,without tools,745,745
+Jim_lim,Female,2025-03,Lactating,Mangrove,tool assisted,0,0
+Jim_lim,Female,2025-03,Lactating,Mangrove,unassigned search,24,24
+Jim_lim,Female,2025-03,Lactating,Mangrove,without tools,794,794
+Jim_lim,Female,2025-03,Lactating,Shore,tool assisted,1385,986.3364257167202
+Jim_lim,Female,2025-03,Lactating,Shore,unassigned search,120,86.66217943415165
+Jim_lim,Female,2025-03,Lactating,Shore,without tools,44,31.55345138639341
+Jim_lim,Female,2025-12,Lactating,Forest,tool assisted,0,0
+Jim_lim,Female,2025-12,Lactating,Forest,unassigned search,6,6
+Jim_lim,Female,2025-12,Lactating,Forest,without tools,87,87
+Jim_lim,Female,2025-12,Lactating,Mangrove,tool assisted,0,0
+Jim_lim,Female,2025-12,Lactating,Mangrove,unassigned search,0,0
+Jim_lim,Female,2025-12,Lactating,Mangrove,without tools,100,100
+Jim_lim,Female,2025-12,Lactating,Shore,tool assisted,913,644.3452440852496
+Jim_lim,Female,2025-12,Lactating,Shore,unassigned search,0,0
+Jim_lim,Female,2025-12,Lactating,Shore,without tools,8,5.645960517723984
+Jim_lim,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Jim_lim,Female,2026-01,Lactating,Forest,unassigned search,169,169
+Jim_lim,Female,2026-01,Lactating,Forest,without tools,425,425
+Jim_lim,Female,2026-01,Lactating,Mangrove,tool assisted,0,0
+Jim_lim,Female,2026-01,Lactating,Mangrove,unassigned search,0,0
+Jim_lim,Female,2026-01,Lactating,Mangrove,without tools,82,59.49500715498931
+Jim_lim,Female,2026-01,Lactating,Shore,tool assisted,3220,2378.7654036500267
+Jim_lim,Female,2026-01,Lactating,Shore,unassigned search,55,40.316474353541274
+Jim_lim,Female,2026-01,Lactating,Shore,without tools,60,44.109400185441494
+Jim_lim,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Jim_lim,Female,2026-02,Lactating,Forest,unassigned search,14,14
+Jim_lim,Female,2026-02,Lactating,Forest,without tools,1739,1739
+Jim_lim,Female,2026-02,Pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2026-02,Pregnant,Forest,unassigned search,54,54
+Jim_lim,Female,2026-02,Pregnant,Forest,without tools,568,568
+Jim_lim,Female,2026-02,Pregnant,Mangrove,tool assisted,0,0
+Jim_lim,Female,2026-02,Pregnant,Mangrove,unassigned search,36,36
+Jim_lim,Female,2026-02,Pregnant,Mangrove,without tools,645,645
+Jim_lim,Female,2026-02,Pregnant,Shore,tool assisted,2718,1937.1783886055211
+Jim_lim,Female,2026-02,Pregnant,Shore,unassigned search,108,90.37996554911878
+Jim_lim,Female,2026-02,Pregnant,Shore,without tools,513,414.280995332638
+Jim_lim,Female,2026-03,Pregnant,Forest,tool assisted,0,0
+Jim_lim,Female,2026-03,Pregnant,Forest,unassigned search,82,82
+Jim_lim,Female,2026-03,Pregnant,Forest,without tools,387,387
+Jim_lim,Female,2026-03,Pregnant,Mangrove,tool assisted,0,0
+Jim_lim,Female,2026-03,Pregnant,Mangrove,unassigned search,0,0
+Jim_lim,Female,2026-03,Pregnant,Mangrove,without tools,0,0
+Jim_lim,Female,2026-03,Pregnant,Shore,tool assisted,0,0
+Jim_lim,Female,2026-03,Pregnant,Shore,unassigned search,0,0
+Jim_lim,Female,2026-03,Pregnant,Shore,without tools,0,0
+Kal,Male,2024-04,Male,Forest,tool assisted,0,0
+Kal,Male,2024-04,Male,Forest,unassigned search,0,0
+Kal,Male,2024-04,Male,Forest,without tools,756,756
+Kal,Male,2024-04,Male,Mangrove,tool assisted,0,0
+Kal,Male,2024-04,Male,Mangrove,unassigned search,0,0
+Kal,Male,2024-04,Male,Mangrove,without tools,0,0
+Kal,Male,2024-05,Male,Forest,tool assisted,0,0
+Kal,Male,2024-05,Male,Forest,unassigned search,0,0
+Kal,Male,2024-05,Male,Forest,without tools,136,136
+Kal,Male,2024-06,Male,Shore,tool assisted,806,549.0669517549624
+Kal,Male,2024-06,Male,Shore,unassigned search,0,0
+Kal,Male,2024-06,Male,Shore,without tools,311,237.53833722460283
+Kal,Male,2024-08,Male,Forest,tool assisted,0,0
+Kal,Male,2024-08,Male,Forest,unassigned search,34,34
+Kal,Male,2024-08,Male,Forest,without tools,23,23
+Kal,Male,2024-08,Male,Shore,tool assisted,0,0
+Kal,Male,2024-08,Male,Shore,unassigned search,0,0
+Kal,Male,2024-08,Male,Shore,without tools,0,0
+Kal,Male,2024-09,Male,Forest,tool assisted,0,0
+Kal,Male,2024-09,Male,Forest,unassigned search,55,55
+Kal,Male,2024-09,Male,Forest,without tools,179,179
+Kal,Male,2024-09,Male,Shore,tool assisted,0,0
+Kal,Male,2024-09,Male,Shore,unassigned search,0,0
+Kal,Male,2024-09,Male,Shore,without tools,119,82.59469778727122
+Kal,Male,2024-10,Male,Mangrove,tool assisted,0,0
+Kal,Male,2024-10,Male,Mangrove,unassigned search,0,0
+Kal,Male,2024-10,Male,Mangrove,without tools,0,0
+Kal,Male,2024-11,Male,Forest,tool assisted,0,0
+Kal,Male,2024-11,Male,Forest,unassigned search,5,5
+Kal,Male,2024-11,Male,Forest,without tools,16,16
+Kal,Male,2024-11,Male,Mangrove,tool assisted,0,0
+Kal,Male,2024-11,Male,Mangrove,unassigned search,0,0
+Kal,Male,2024-11,Male,Mangrove,without tools,0,0
+Kal,Male,2024-11,Male,Shore,tool assisted,0,0
+Kal,Male,2024-11,Male,Shore,unassigned search,0,0
+Kal,Male,2024-11,Male,Shore,without tools,0,0
+Kal,Male,2025-01,Male,Forest,tool assisted,0,0
+Kal,Male,2025-01,Male,Forest,unassigned search,0,0
+Kal,Male,2025-01,Male,Forest,without tools,0,0
+Kal,Male,2025-01,Male,Mangrove,tool assisted,0,0
+Kal,Male,2025-01,Male,Mangrove,unassigned search,18,18
+Kal,Male,2025-01,Male,Mangrove,without tools,241,241
+Kal,Male,2025-01,Male,Shore,tool assisted,1707,1230.3843406870121
+Kal,Male,2025-01,Male,Shore,unassigned search,28,18.343747059065258
+Kal,Male,2025-01,Male,Shore,without tools,353,278.34039169360017
+Kal,Male,2025-02,Male,Forest,tool assisted,0,0
+Kal,Male,2025-02,Male,Forest,unassigned search,0,0
+Kal,Male,2025-02,Male,Forest,without tools,0,0
+Kal,Male,2025-02,Male,Mangrove,tool assisted,0,0
+Kal,Male,2025-02,Male,Mangrove,unassigned search,0,0
+Kal,Male,2025-02,Male,Mangrove,without tools,0,0
+Kal,Male,2025-02,Male,Shore,tool assisted,821,514.1149051794393
+Kal,Male,2025-02,Male,Shore,unassigned search,86,53.85369286897904
+Kal,Male,2025-02,Male,Shore,without tools,0,0
+Kal,Male,2025-03,Male,Mangrove,tool assisted,909,909
+Kal,Male,2025-03,Male,Mangrove,unassigned search,13,13
+Kal,Male,2025-03,Male,Mangrove,without tools,0,0
+Kal,Male,2025-03,Male,Shore,tool assisted,0,0
+Kal,Male,2025-03,Male,Shore,unassigned search,253,186.8908618522089
+Kal,Male,2025-03,Male,Shore,without tools,381,281.44434136636994
+Kal,Male,2026-03,Male,Mangrove,tool assisted,268,268
+Kal,Male,2026-03,Male,Mangrove,unassigned search,14,14
+Kal,Male,2026-03,Male,Mangrove,without tools,96,96
+Kaya,Female,2024-04,Lactating,Mangrove,tool assisted,366,366
+Kaya,Female,2024-04,Lactating,Mangrove,unassigned search,5,5
+Kaya,Female,2024-04,Lactating,Mangrove,without tools,238,238
+Kaya,Female,2024-04,Lactating,Shore,tool assisted,1383,986.896929760573
+Kaya,Female,2024-04,Lactating,Shore,unassigned search,0,0
+Kaya,Female,2024-04,Lactating,Shore,without tools,6,4.385313984052225
+Kaya,Female,2024-05,Lactating,Forest,tool assisted,0,0
+Kaya,Female,2024-05,Lactating,Forest,unassigned search,0,0
+Kaya,Female,2024-05,Lactating,Forest,without tools,14,14
+Kaya,Female,2024-05,Lactating,Mangrove,tool assisted,508,508
+Kaya,Female,2024-05,Lactating,Mangrove,unassigned search,18,18
+Kaya,Female,2024-05,Lactating,Mangrove,without tools,0,0
+Kaya,Female,2024-05,Lactating,Shore,tool assisted,2447,2299.737926177292
+Kaya,Female,2024-05,Lactating,Shore,unassigned search,79,73.4713661848762
+Kaya,Female,2024-05,Lactating,Shore,without tools,85,79.88417383170554
+Kaya,Female,2024-06,Lactating,Forest,tool assisted,0,0
+Kaya,Female,2024-06,Lactating,Forest,unassigned search,14,14
+Kaya,Female,2024-06,Lactating,Forest,without tools,113,113
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Forest,without tools,0,0
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Mangrove,unassigned search,44,44
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Mangrove,without tools,413,413
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Shore,tool assisted,1126,1111.0946002503342
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Shore,unassigned search,47,76.48516083582425
+Kaya,Female,2024-06,Non-lactating & non-pregnant,Shore,without tools,231,468.6808544929093
+Kaya,Female,2024-07,Non-lactating & non-pregnant,Shore,tool assisted,0,0
+Kaya,Female,2024-07,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Kaya,Female,2024-07,Non-lactating & non-pregnant,Shore,without tools,0,0
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Forest,without tools,0,0
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Mangrove,unassigned search,87,87
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Mangrove,without tools,94,94
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,1982,1678.8404860733906
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,165,171.50508051380461
+Kaya,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,564,535.3589594189783
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Forest,without tools,608,608
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Mangrove,without tools,0,0
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,34,24.895483714003497
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Kaya,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,0,0
+Kaya,Female,2024-10,Pregnant,Shore,tool assisted,453,343.65512012686963
+Kaya,Female,2024-10,Pregnant,Shore,unassigned search,19,14.443347133460867
+Kaya,Female,2024-10,Pregnant,Shore,without tools,436,360.4002696070901
+Kaya,Female,2024-11,Pregnant,Forest,tool assisted,0,0
+Kaya,Female,2024-11,Pregnant,Forest,unassigned search,0,0
+Kaya,Female,2024-11,Pregnant,Forest,without tools,0,0
+Kaya,Female,2024-11,Pregnant,Mangrove,tool assisted,272,272
+Kaya,Female,2024-11,Pregnant,Mangrove,unassigned search,45,45
+Kaya,Female,2024-11,Pregnant,Mangrove,without tools,280,280
+Kaya,Female,2024-11,Pregnant,Shore,tool assisted,92,74.21805266804989
+Kaya,Female,2024-11,Pregnant,Shore,unassigned search,0,0
+Kaya,Female,2024-11,Pregnant,Shore,without tools,40,32.26871855132604
+Kaya,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Kaya,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Kaya,Female,2024-12,Pregnant,Forest,without tools,87,87
+Kaya,Female,2024-12,Pregnant,Mangrove,tool assisted,0,0
+Kaya,Female,2024-12,Pregnant,Mangrove,unassigned search,0,0
+Kaya,Female,2024-12,Pregnant,Mangrove,without tools,895,895
+Kaya,Female,2024-12,Pregnant,Shore,tool assisted,1808,1409.421653604801
+Kaya,Female,2024-12,Pregnant,Shore,unassigned search,66,61.250699190598766
+Kaya,Female,2024-12,Pregnant,Shore,without tools,337,301.9166428599813
+Kaya,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Kaya,Female,2025-01,Pregnant,Forest,unassigned search,373,373
+Kaya,Female,2025-01,Pregnant,Forest,without tools,162,162
+Kaya,Female,2025-01,Pregnant,Mangrove,tool assisted,0,0
+Kaya,Female,2025-01,Pregnant,Mangrove,unassigned search,0,0
+Kaya,Female,2025-01,Pregnant,Mangrove,without tools,100,80.3777000432523
+Kaya,Female,2025-01,Pregnant,Shore,tool assisted,1784,1440.6649355962136
+Kaya,Female,2025-01,Pregnant,Shore,unassigned search,171,151.71081406846503
+Kaya,Female,2025-01,Pregnant,Shore,without tools,1142,1014.2097636991933
+Kaya,Female,2025-02,Pregnant,Forest,tool assisted,277,277
+Kaya,Female,2025-02,Pregnant,Forest,unassigned search,241,241
+Kaya,Female,2025-02,Pregnant,Forest,without tools,1321,1321
+Kaya,Female,2025-02,Pregnant,Mangrove,tool assisted,0,0
+Kaya,Female,2025-02,Pregnant,Mangrove,unassigned search,86,86
+Kaya,Female,2025-02,Pregnant,Mangrove,without tools,439,439
+Kaya,Female,2025-03,Lactating,Forest,tool assisted,0,0
+Kaya,Female,2025-03,Lactating,Forest,unassigned search,69,69
+Kaya,Female,2025-03,Lactating,Forest,without tools,1060,1060
+Kaya,Female,2025-03,Lactating,Shore,tool assisted,572,437.036703816856
+Kaya,Female,2025-03,Lactating,Shore,unassigned search,14,10.696702540972
+Kaya,Female,2025-03,Lactating,Shore,without tools,0,0
+Kaya,Female,2025-03,Pregnant,Forest,tool assisted,0,0
+Kaya,Female,2025-03,Pregnant,Forest,unassigned search,0,0
+Kaya,Female,2025-03,Pregnant,Forest,without tools,0,0
+Kaya,Female,2025-12,Lactating,Forest,tool assisted,298,298
+Kaya,Female,2025-12,Lactating,Forest,unassigned search,0,0
+Kaya,Female,2025-12,Lactating,Forest,without tools,60,60
+Kaya,Female,2025-12,Lactating,Mangrove,tool assisted,0,0
+Kaya,Female,2025-12,Lactating,Mangrove,unassigned search,0,0
+Kaya,Female,2025-12,Lactating,Mangrove,without tools,0,0
+Kaya,Female,2025-12,Lactating,Shore,tool assisted,2210,1710.762872323361
+Kaya,Female,2025-12,Lactating,Shore,unassigned search,127,99.52557164600816
+Kaya,Female,2025-12,Lactating,Shore,without tools,193,149.97617272342904
+Kaya,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Kaya,Female,2026-01,Lactating,Forest,unassigned search,6,6
+Kaya,Female,2026-01,Lactating,Forest,without tools,153,153
+Kaya,Female,2026-01,Lactating,Mangrove,tool assisted,153,153
+Kaya,Female,2026-01,Lactating,Mangrove,unassigned search,63,55.578488455651275
+Kaya,Female,2026-01,Lactating,Mangrove,without tools,873,847.4370157916877
+Kaya,Female,2026-01,Lactating,Shore,tool assisted,6489,5957.649811845661
+Kaya,Female,2026-01,Lactating,Shore,unassigned search,97,80.19917470442009
+Kaya,Female,2026-01,Lactating,Shore,without tools,799,673.0290283624628
+Kaya,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Kaya,Female,2026-02,Lactating,Forest,unassigned search,326,326
+Kaya,Female,2026-02,Lactating,Forest,without tools,2451,2451
+Kaya,Female,2026-02,Lactating,Mangrove,tool assisted,44,44
+Kaya,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Kaya,Female,2026-02,Lactating,Mangrove,without tools,754,754
+Kaya,Female,2026-02,Lactating,Shore,tool assisted,2804,2425.322985274686
+Kaya,Female,2026-02,Lactating,Shore,unassigned search,152,138.8341877982771
+Kaya,Female,2026-02,Lactating,Shore,without tools,602,549.469632713224
+Kaya,Female,2026-03,Lactating,Forest,tool assisted,102,102
+Kaya,Female,2026-03,Lactating,Forest,unassigned search,6,6
+Kaya,Female,2026-03,Lactating,Forest,without tools,653,653
+Kaya,Female,2026-03,Lactating,Mangrove,tool assisted,0,0
+Kaya,Female,2026-03,Lactating,Mangrove,unassigned search,0,0
+Kaya,Female,2026-03,Lactating,Mangrove,without tools,0,0
+Kaya,Female,2026-03,Lactating,Shore,tool assisted,992,908.4892169799564
+Kaya,Female,2026-03,Lactating,Shore,unassigned search,0,0
+Kaya,Female,2026-03,Lactating,Shore,without tools,45,34.675864736533065
+Lady_boy,Male,2024-05,Male,Mangrove,tool assisted,101,101
+Lady_boy,Male,2024-05,Male,Mangrove,unassigned search,191,191
+Lady_boy,Male,2024-05,Male,Mangrove,without tools,0,0
+Lady_boy,Male,2024-06,Male,Mangrove,tool assisted,0,0
+Lady_boy,Male,2024-06,Male,Mangrove,unassigned search,45,45
+Lady_boy,Male,2024-06,Male,Mangrove,without tools,335,335
+Lady_boy,Male,2024-08,Male,Mangrove,tool assisted,48,48
+Lady_boy,Male,2024-08,Male,Mangrove,unassigned search,106,106
+Lady_boy,Male,2024-08,Male,Mangrove,without tools,620,620
+Lady_boy,Male,2024-09,Male,Shore,tool assisted,198,106.25169667564406
+Lady_boy,Male,2024-09,Male,Shore,unassigned search,9,4.829622576165639
+Lady_boy,Male,2024-09,Male,Shore,without tools,686,368.1245652499587
+Lady_boy,Male,2024-10,Male,Shore,tool assisted,0,0
+Lady_boy,Male,2024-10,Male,Shore,unassigned search,0,0
+Lady_boy,Male,2024-10,Male,Shore,without tools,109,157.59563657050165
+Lady_boy,Male,2024-11,Male,Mangrove,tool assisted,0,0
+Lady_boy,Male,2024-11,Male,Mangrove,unassigned search,0,0
+Lady_boy,Male,2024-11,Male,Mangrove,without tools,128,128
+Lip,Female,2024-03,Pregnant,Mangrove,tool assisted,0,0
+Lip,Female,2024-03,Pregnant,Mangrove,unassigned search,0,0
+Lip,Female,2024-03,Pregnant,Mangrove,without tools,930,930
+Lip,Female,2024-04,Lactating,Mangrove,tool assisted,400,400
+Lip,Female,2024-04,Lactating,Mangrove,unassigned search,20,20
+Lip,Female,2024-04,Lactating,Mangrove,without tools,0,0
+Lip,Female,2024-04,Lactating,Shore,tool assisted,999,760.2872279176559
+Lip,Female,2024-04,Lactating,Shore,unassigned search,34,25.54203916204983
+Lip,Female,2024-04,Lactating,Shore,without tools,26,19.636424386220995
+Lip,Female,2024-05,Lactating,Forest,tool assisted,0,0
+Lip,Female,2024-05,Lactating,Forest,unassigned search,176,176
+Lip,Female,2024-05,Lactating,Forest,without tools,426,426
+Lip,Female,2024-05,Lactating,Mangrove,tool assisted,561,561
+Lip,Female,2024-05,Lactating,Mangrove,unassigned search,0,0
+Lip,Female,2024-05,Lactating,Mangrove,without tools,358,358
+Lip,Female,2024-05,Lactating,Shore,tool assisted,595,550.2155678374373
+Lip,Female,2024-05,Lactating,Shore,unassigned search,0,0
+Lip,Female,2024-05,Lactating,Shore,without tools,44,40.688210058566796
+Lip,Female,2024-06,Lactating,Forest,tool assisted,0,0
+Lip,Female,2024-06,Lactating,Forest,unassigned search,165,165
+Lip,Female,2024-06,Lactating,Forest,without tools,634,634
+Lip,Female,2024-06,Lactating,Mangrove,tool assisted,877,877
+Lip,Female,2024-06,Lactating,Mangrove,unassigned search,15,15
+Lip,Female,2024-06,Lactating,Mangrove,without tools,0,0
+Lip,Female,2024-06,Lactating,Shore,tool assisted,4302,3896.565200055702
+Lip,Female,2024-06,Lactating,Shore,unassigned search,172,153.26347544550927
+Lip,Female,2024-06,Lactating,Shore,without tools,756,684.5725240610914
+Lip,Female,2024-07,Lactating,Forest,tool assisted,0,0
+Lip,Female,2024-07,Lactating,Forest,unassigned search,24,24
+Lip,Female,2024-07,Lactating,Forest,without tools,853,853
+Lip,Female,2024-07,Lactating,Shore,tool assisted,1521,1308.382161347094
+Lip,Female,2024-07,Lactating,Shore,unassigned search,0,0
+Lip,Female,2024-07,Lactating,Shore,without tools,41,35.40799838240424
+Lip,Female,2024-08,Lactating,Mangrove,tool assisted,832,832
+Lip,Female,2024-08,Lactating,Mangrove,unassigned search,122,122
+Lip,Female,2024-08,Lactating,Mangrove,without tools,766,766
+Lip,Female,2024-08,Lactating,Shore,tool assisted,5840,5100.316163481403
+Lip,Female,2024-08,Lactating,Shore,unassigned search,32,31.682795670450915
+Lip,Female,2024-08,Lactating,Shore,without tools,767,698.1193433950177
+Lip,Female,2024-09,Lactating,Forest,tool assisted,0,0
+Lip,Female,2024-09,Lactating,Forest,unassigned search,50,50
+Lip,Female,2024-09,Lactating,Forest,without tools,42,42
+Lip,Female,2024-09,Lactating,Mangrove,tool assisted,0,0
+Lip,Female,2024-09,Lactating,Mangrove,unassigned search,11,11
+Lip,Female,2024-09,Lactating,Mangrove,without tools,0,0
+Lip,Female,2024-09,Lactating,Shore,tool assisted,1721,1408.6409695542434
+Lip,Female,2024-09,Lactating,Shore,unassigned search,0,0
+Lip,Female,2024-09,Lactating,Shore,without tools,137,109.02359401312671
+Lip,Female,2024-10,Lactating,Forest,tool assisted,0,0
+Lip,Female,2024-10,Lactating,Forest,unassigned search,24,24
+Lip,Female,2024-10,Lactating,Forest,without tools,17,17
+Lip,Female,2024-10,Lactating,Mangrove,tool assisted,0,0
+Lip,Female,2024-10,Lactating,Mangrove,unassigned search,0,0
+Lip,Female,2024-10,Lactating,Mangrove,without tools,0,0
+Lip,Female,2024-10,Lactating,Shore,tool assisted,563,456.1228386212166
+Lip,Female,2024-10,Lactating,Shore,unassigned search,145,117.47391047970943
+Lip,Female,2024-10,Lactating,Shore,without tools,23,18.633792696781498
+Lip,Female,2024-11,Lactating,Forest,tool assisted,0,0
+Lip,Female,2024-11,Lactating,Forest,unassigned search,0,0
+Lip,Female,2024-11,Lactating,Forest,without tools,31,31
+Lip,Female,2024-11,Lactating,Mangrove,tool assisted,0,0
+Lip,Female,2024-11,Lactating,Mangrove,unassigned search,0,0
+Lip,Female,2024-11,Lactating,Mangrove,without tools,918,918
+Lip,Female,2024-11,Lactating,Shore,tool assisted,894,785.6174228916365
+Lip,Female,2024-11,Lactating,Shore,unassigned search,8,7.030133538180192
+Lip,Female,2024-11,Lactating,Shore,without tools,0,0
+Lip,Female,2024-12,Lactating,Forest,tool assisted,0,0
+Lip,Female,2024-12,Lactating,Forest,unassigned search,16,16
+Lip,Female,2024-12,Lactating,Forest,without tools,169,169
+Lip,Female,2024-12,Lactating,Mangrove,tool assisted,0,0
+Lip,Female,2024-12,Lactating,Mangrove,unassigned search,5,5
+Lip,Female,2024-12,Lactating,Mangrove,without tools,296,296
+Lip,Female,2024-12,Lactating,Shore,tool assisted,123,122.6778198253737
+Lip,Female,2024-12,Lactating,Shore,unassigned search,0,0
+Lip,Female,2024-12,Lactating,Shore,without tools,731,729.0852544093348
+Lip,Female,2025-01,Lactating,Mangrove,tool assisted,0,0
+Lip,Female,2025-01,Lactating,Mangrove,unassigned search,177,177
+Lip,Female,2025-01,Lactating,Mangrove,without tools,645,645
+Lip,Female,2025-01,Lactating,Shore,tool assisted,2040,1755.9766546958551
+Lip,Female,2025-01,Lactating,Shore,unassigned search,66,56.997430129638786
+Lip,Female,2025-01,Lactating,Shore,without tools,336,294.46787398805776
+Lip,Female,2025-02,Lactating,Forest,tool assisted,0,0
+Lip,Female,2025-02,Lactating,Forest,unassigned search,4,4
+Lip,Female,2025-02,Lactating,Forest,without tools,30,30
+Lip,Female,2025-02,Lactating,Shore,tool assisted,548,448.9600521182208
+Lip,Female,2025-02,Lactating,Shore,unassigned search,0,0
+Lip,Female,2025-02,Lactating,Shore,without tools,341,279.3711273217396
+Lip,Female,2025-03,Lactating,Forest,tool assisted,0,0
+Lip,Female,2025-03,Lactating,Forest,unassigned search,23,23
+Lip,Female,2025-03,Lactating,Forest,without tools,947,947
+Lip,Female,2025-03,Lactating,Mangrove,tool assisted,0,0
+Lip,Female,2025-03,Lactating,Mangrove,unassigned search,23,19.14931133033263
+Lip,Female,2025-03,Lactating,Mangrove,without tools,26,21.6470475908108
+Lip,Female,2025-03,Lactating,Shore,tool assisted,897,746.7833231297257
+Lip,Female,2025-03,Lactating,Shore,unassigned search,109,90.74985182886552
+Lip,Female,2025-03,Lactating,Shore,without tools,908,922.5079875437091
+Lip,Female,2025-12,Pregnant,Forest,tool assisted,0,0
+Lip,Female,2025-12,Pregnant,Forest,unassigned search,0,0
+Lip,Female,2025-12,Pregnant,Forest,without tools,0,0
+Lip,Female,2025-12,Pregnant,Shore,tool assisted,154,130.8022197792427
+Lip,Female,2025-12,Pregnant,Shore,unassigned search,12,10.192380762018912
+Lip,Female,2025-12,Pregnant,Shore,without tools,123,124.9868219747207
+Lip,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Lip,Female,2026-01,Lactating,Forest,unassigned search,0,0
+Lip,Female,2026-01,Lactating,Forest,without tools,0,0
+Lip,Female,2026-01,Pregnant,Forest,tool assisted,5,5
+Lip,Female,2026-01,Pregnant,Forest,unassigned search,236,230.6737124816097
+Lip,Female,2026-01,Pregnant,Forest,without tools,561,561
+Lip,Female,2026-01,Pregnant,Mangrove,tool assisted,13,30.98536879593844
+Lip,Female,2026-01,Pregnant,Mangrove,unassigned search,0,0
+Lip,Female,2026-01,Pregnant,Mangrove,without tools,390,887.4338907779954
+Lip,Female,2026-01,Pregnant,Shore,tool assisted,2229,1932.2704780360393
+Lip,Female,2026-01,Pregnant,Shore,unassigned search,95,81.8438423490581
+Lip,Female,2026-01,Pregnant,Shore,without tools,111,96.7833252594448
+Lip,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Lip,Female,2026-03,Lactating,Forest,unassigned search,180,180
+Lip,Female,2026-03,Lactating,Forest,without tools,73,73
+Manee,Female,2025-12,Lactating,Forest,tool assisted,0,0
+Manee,Female,2025-12,Lactating,Forest,unassigned search,0,0
+Manee,Female,2025-12,Lactating,Forest,without tools,0,0
+Manee,Female,2025-12,Lactating,Mangrove,tool assisted,0,0
+Manee,Female,2025-12,Lactating,Mangrove,unassigned search,37,37
+Manee,Female,2025-12,Lactating,Mangrove,without tools,855,855
+Manee,Female,2025-12,Lactating,Shore,tool assisted,926,925.9995454411882
+Manee,Female,2025-12,Lactating,Shore,unassigned search,0,0
+Manee,Female,2025-12,Lactating,Shore,without tools,0,0
+Manee,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Manee,Female,2026-01,Lactating,Forest,unassigned search,0,0
+Manee,Female,2026-01,Lactating,Forest,without tools,35,35
+Manee,Female,2026-01,Lactating,Mangrove,tool assisted,0,0
+Manee,Female,2026-01,Lactating,Mangrove,unassigned search,0,0
+Manee,Female,2026-01,Lactating,Mangrove,without tools,0,0
+Manee,Female,2026-01,Lactating,Shore,tool assisted,1639,1638.9994480867526
+Manee,Female,2026-01,Lactating,Shore,unassigned search,101,100.99995938001913
+Manee,Female,2026-01,Lactating,Shore,without tools,56,55.9999768562775
+Manee,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Manee,Female,2026-02,Lactating,Forest,unassigned search,0,0
+Manee,Female,2026-02,Lactating,Forest,without tools,0,0
+Manee,Female,2026-02,Lactating,Mangrove,tool assisted,0,0
+Manee,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Manee,Female,2026-02,Lactating,Mangrove,without tools,0,0
+Manee,Female,2026-02,Lactating,Shore,tool assisted,511,510.99976246340935
+Manee,Female,2026-02,Lactating,Shore,unassigned search,0,0
+Manee,Female,2026-02,Lactating,Shore,without tools,0,0
+Manee,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Manee,Female,2026-03,Lactating,Forest,unassigned search,19,19
+Manee,Female,2026-03,Lactating,Forest,without tools,124,124
+Naina,Female,2024-04,Lactating,Forest,tool assisted,0,0
+Naina,Female,2024-04,Lactating,Forest,unassigned search,0,0
+Naina,Female,2024-04,Lactating,Forest,without tools,243,243
+Naina,Female,2024-04,Pregnant,Shore,tool assisted,165,99.23772787337673
+Naina,Female,2024-04,Pregnant,Shore,unassigned search,79,47.5138212242228
+Naina,Female,2024-04,Pregnant,Shore,without tools,3,1.804322324970486
+Naina,Female,2024-05,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2024-05,Pregnant,Forest,unassigned search,362,362
+Naina,Female,2024-05,Pregnant,Forest,without tools,706,706
+Naina,Female,2024-05,Pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2024-05,Pregnant,Mangrove,unassigned search,0,0
+Naina,Female,2024-05,Pregnant,Mangrove,without tools,233,233
+Naina,Female,2024-06,Non-lactating & non-pregnant,Forest,tool assisted,103,103
+Naina,Female,2024-06,Non-lactating & non-pregnant,Forest,unassigned search,190,190
+Naina,Female,2024-06,Non-lactating & non-pregnant,Forest,without tools,246,246
+Naina,Female,2024-06,Non-lactating & non-pregnant,Shore,tool assisted,592,487.7941539911963
+Naina,Female,2024-06,Non-lactating & non-pregnant,Shore,unassigned search,32,25.304042023530688
+Naina,Female,2024-06,Non-lactating & non-pregnant,Shore,without tools,116,104.2820735411787
+Naina,Female,2024-06,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2024-06,Pregnant,Forest,unassigned search,0,0
+Naina,Female,2024-06,Pregnant,Forest,without tools,34,34
+Naina,Female,2024-07,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2024-07,Pregnant,Forest,unassigned search,66,66
+Naina,Female,2024-07,Pregnant,Forest,without tools,172,172
+Naina,Female,2024-07,Pregnant,Shore,tool assisted,17,11.56527159680439
+Naina,Female,2024-07,Pregnant,Shore,unassigned search,213,160.1658402960832
+Naina,Female,2024-07,Pregnant,Shore,without tools,512,360.12351152315335
+Naina,Female,2024-08,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2024-08,Pregnant,Forest,unassigned search,6,4.211694591658578
+Naina,Female,2024-08,Pregnant,Forest,without tools,84,58.96372428322009
+Naina,Female,2024-08,Pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2024-08,Pregnant,Mangrove,unassigned search,88,88
+Naina,Female,2024-08,Pregnant,Mangrove,without tools,463,463
+Naina,Female,2024-08,Pregnant,Shore,tool assisted,1949,1880.486497836633
+Naina,Female,2024-08,Pregnant,Shore,unassigned search,375,350.3431398498566
+Naina,Female,2024-08,Pregnant,Shore,without tools,605,590.2006194939186
+Naina,Female,2024-09,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2024-09,Pregnant,Forest,unassigned search,34,34
+Naina,Female,2024-09,Pregnant,Forest,without tools,121,121
+Naina,Female,2024-09,Pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2024-09,Pregnant,Mangrove,unassigned search,33,33
+Naina,Female,2024-09,Pregnant,Mangrove,without tools,190,190
+Naina,Female,2024-09,Pregnant,Shore,tool assisted,1352,995.3095160609558
+Naina,Female,2024-09,Pregnant,Shore,unassigned search,386,278.54966117572826
+Naina,Female,2024-09,Pregnant,Shore,without tools,540,421.296154130333
+Naina,Female,2024-10,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2024-10,Pregnant,Forest,unassigned search,0,0
+Naina,Female,2024-10,Pregnant,Forest,without tools,14,14
+Naina,Female,2024-10,Pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2024-10,Pregnant,Mangrove,unassigned search,95,95
+Naina,Female,2024-10,Pregnant,Mangrove,without tools,392,392
+Naina,Female,2024-10,Pregnant,Shore,tool assisted,0,0
+Naina,Female,2024-10,Pregnant,Shore,unassigned search,28,23.23092383866293
+Naina,Female,2024-10,Pregnant,Shore,without tools,731,606.4930473593787
+Naina,Female,2024-11,Lactating,Shore,tool assisted,263,200.22361423443843
+Naina,Female,2024-11,Lactating,Shore,unassigned search,46,35.02009982807668
+Naina,Female,2024-11,Lactating,Shore,without tools,43,32.736180274071685
+Naina,Female,2024-11,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2024-11,Pregnant,Forest,unassigned search,0,0
+Naina,Female,2024-11,Pregnant,Forest,without tools,0,0
+Naina,Female,2024-11,Pregnant,Shore,tool assisted,1697,2039.135343389718
+Naina,Female,2024-11,Pregnant,Shore,unassigned search,405,436.4073627253226
+Naina,Female,2024-11,Pregnant,Shore,without tools,466,602.6740749234513
+Naina,Female,2024-12,Lactating,Forest,tool assisted,0,0
+Naina,Female,2024-12,Lactating,Forest,unassigned search,41,41
+Naina,Female,2024-12,Lactating,Forest,without tools,404,404
+Naina,Female,2024-12,Lactating,Mangrove,tool assisted,0,0
+Naina,Female,2024-12,Lactating,Mangrove,unassigned search,32,22.01421966560355
+Naina,Female,2024-12,Lactating,Mangrove,without tools,189,189
+Naina,Female,2024-12,Lactating,Shore,tool assisted,437,308.9437138238406
+Naina,Female,2024-12,Lactating,Shore,unassigned search,171,143.74638429641362
+Naina,Female,2024-12,Lactating,Shore,without tools,666,471.8038207291959
+Naina,Female,2025-01,Lactating,Forest,tool assisted,0,0
+Naina,Female,2025-01,Lactating,Forest,unassigned search,127,127
+Naina,Female,2025-01,Lactating,Forest,without tools,78,78
+Naina,Female,2025-01,Lactating,Mangrove,tool assisted,7,7
+Naina,Female,2025-01,Lactating,Mangrove,unassigned search,0,0
+Naina,Female,2025-01,Lactating,Mangrove,without tools,502,502
+Naina,Female,2025-01,Lactating,Shore,tool assisted,2478,1949.074499624955
+Naina,Female,2025-01,Lactating,Shore,unassigned search,117,83.96393047179392
+Naina,Female,2025-01,Lactating,Shore,without tools,533,381.26682047829354
+Naina,Female,2025-02,Lactating,Forest,tool assisted,0,0
+Naina,Female,2025-02,Lactating,Forest,unassigned search,61,61
+Naina,Female,2025-02,Lactating,Forest,without tools,30,30
+Naina,Female,2025-02,Lactating,Mangrove,tool assisted,0,0
+Naina,Female,2025-02,Lactating,Mangrove,unassigned search,16,11.118186921597855
+Naina,Female,2025-02,Lactating,Mangrove,without tools,123,85.47106195978351
+Naina,Female,2025-02,Lactating,Shore,tool assisted,447,310.6143471221401
+Naina,Female,2025-02,Lactating,Shore,unassigned search,84,58.37048133838874
+Naina,Female,2025-02,Lactating,Shore,without tools,0,0
+Naina,Female,2025-03,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Naina,Female,2025-03,Non-lactating & non-pregnant,Forest,unassigned search,336,336
+Naina,Female,2025-03,Non-lactating & non-pregnant,Forest,without tools,599,599
+Naina,Female,2025-03,Non-lactating & non-pregnant,Mangrove,tool assisted,397,397
+Naina,Female,2025-03,Non-lactating & non-pregnant,Mangrove,unassigned search,139,101.44102527748589
+Naina,Female,2025-03,Non-lactating & non-pregnant,Mangrove,without tools,635,567.2988566547994
+Naina,Female,2025-03,Non-lactating & non-pregnant,Shore,tool assisted,1197,873.7727539867452
+Naina,Female,2025-03,Non-lactating & non-pregnant,Shore,unassigned search,153,111.55737874258335
+Naina,Female,2025-03,Non-lactating & non-pregnant,Shore,without tools,484,353.3830515708324
+Naina,Female,2025-12,Pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2025-12,Pregnant,Mangrove,unassigned search,0,0
+Naina,Female,2025-12,Pregnant,Mangrove,without tools,0,0
+Naina,Female,2025-12,Pregnant,Shore,tool assisted,182,124.51283033565029
+Naina,Female,2025-12,Pregnant,Shore,unassigned search,4,2.736545721662644
+Naina,Female,2025-12,Pregnant,Shore,without tools,33,22.576502203716814
+Naina,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Naina,Female,2026-01,Lactating,Forest,unassigned search,42,42
+Naina,Female,2026-01,Lactating,Forest,without tools,325,325
+Naina,Female,2026-01,Lactating,Shore,tool assisted,1719,1279.9779510490587
+Naina,Female,2026-01,Lactating,Shore,unassigned search,167,122.81058077960942
+Naina,Female,2026-01,Lactating,Shore,without tools,0,0
+Naina,Female,2026-01,Pregnant,Forest,tool assisted,0,0
+Naina,Female,2026-01,Pregnant,Forest,unassigned search,0,0
+Naina,Female,2026-01,Pregnant,Forest,without tools,167,167
+Naina,Female,2026-01,Pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2026-01,Pregnant,Mangrove,unassigned search,0,0
+Naina,Female,2026-01,Pregnant,Mangrove,without tools,87,87
+Naina,Female,2026-02,Lactating,Forest,tool assisted,85,85
+Naina,Female,2026-02,Lactating,Forest,unassigned search,68,68
+Naina,Female,2026-02,Lactating,Forest,without tools,0,0
+Naina,Female,2026-02,Lactating,Mangrove,tool assisted,0,0
+Naina,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Naina,Female,2026-02,Lactating,Mangrove,without tools,21,21
+Naina,Female,2026-02,Lactating,Shore,tool assisted,683,485.88277660000773
+Naina,Female,2026-02,Lactating,Shore,unassigned search,58,41.260909286677084
+Naina,Female,2026-02,Lactating,Shore,without tools,93,66.1597338562236
+Naina,Female,2026-02,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Naina,Female,2026-02,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Naina,Female,2026-02,Non-lactating & non-pregnant,Forest,without tools,1100,1100
+Naina,Female,2026-02,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2026-02,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Naina,Female,2026-02,Non-lactating & non-pregnant,Mangrove,without tools,0,0
+Naina,Female,2026-02,Non-lactating & non-pregnant,Shore,tool assisted,844,576.0688010976066
+Naina,Female,2026-02,Non-lactating & non-pregnant,Shore,unassigned search,24,16.371558494132
+Naina,Female,2026-02,Non-lactating & non-pregnant,Shore,without tools,13,8.893868756076591
+Naina,Female,2026-03,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Naina,Female,2026-03,Non-lactating & non-pregnant,Forest,unassigned search,165,157.94365577459646
+Naina,Female,2026-03,Non-lactating & non-pregnant,Forest,without tools,332,288.05822005089624
+Naina,Female,2026-03,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Naina,Female,2026-03,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Naina,Female,2026-03,Non-lactating & non-pregnant,Mangrove,without tools,0,0
+Naina,Female,2026-03,Non-lactating & non-pregnant,Shore,tool assisted,1320,916.4147789137108
+Naina,Female,2026-03,Non-lactating & non-pregnant,Shore,unassigned search,53,37.374602751031816
+Naina,Female,2026-03,Non-lactating & non-pregnant,Shore,without tools,183,129.54412730393761
+Pat,Male,2024-03,Male,Mangrove,tool assisted,179,179
+Pat,Male,2024-03,Male,Mangrove,unassigned search,95,95
+Pat,Male,2024-03,Male,Mangrove,without tools,490,490
+Pat,Male,2024-04,Male,Forest,tool assisted,0,0
+Pat,Male,2024-04,Male,Forest,unassigned search,0,0
+Pat,Male,2024-04,Male,Forest,without tools,0,0
+Pat,Male,2024-04,Male,Shore,tool assisted,22,35.96247202934276
+Pat,Male,2024-04,Male,Shore,unassigned search,51,85.25332253168916
+Pat,Male,2024-04,Male,Shore,without tools,610,1020.0462467772901
+Pat,Male,2024-05,Male,Forest,tool assisted,0,0
+Pat,Male,2024-05,Male,Forest,unassigned search,62,62
+Pat,Male,2024-05,Male,Forest,without tools,860,860
+Pat,Male,2024-06,Male,Forest,tool assisted,0,0
+Pat,Male,2024-06,Male,Forest,unassigned search,426,426
+Pat,Male,2024-06,Male,Forest,without tools,834,834
+Pat,Male,2024-08,Male,Mangrove,tool assisted,330,330
+Pat,Male,2024-08,Male,Mangrove,unassigned search,202,202
+Pat,Male,2024-08,Male,Mangrove,without tools,1101,1101
+Pat,Male,2024-09,Male,Forest,tool assisted,0,0
+Pat,Male,2024-09,Male,Forest,unassigned search,0,0
+Pat,Male,2024-09,Male,Forest,without tools,0,0
+Pat,Male,2024-09,Male,Mangrove,tool assisted,0,0
+Pat,Male,2024-09,Male,Mangrove,unassigned search,0,0
+Pat,Male,2024-09,Male,Mangrove,without tools,0,0
+Pat,Male,2024-10,Male,Shore,tool assisted,791,508.974189629691
+Pat,Male,2024-10,Male,Shore,unassigned search,377,244.459923811683
+Pat,Male,2024-10,Male,Shore,without tools,414,272.6232205172345
+Pat,Male,2024-11,Male,Forest,tool assisted,0,0
+Pat,Male,2024-11,Male,Forest,unassigned search,0,0
+Pat,Male,2024-11,Male,Forest,without tools,0,0
+Pat,Male,2024-11,Male,Shore,tool assisted,1105,887.9976997176603
+Pat,Male,2024-11,Male,Shore,unassigned search,272,216.86938002403622
+Pat,Male,2024-11,Male,Shore,without tools,470,392.6150739979592
+Pat,Male,2024-12,Male,Forest,tool assisted,0,0
+Pat,Male,2024-12,Male,Forest,unassigned search,0,0
+Pat,Male,2024-12,Male,Forest,without tools,0,0
+Pat,Male,2024-12,Male,Shore,tool assisted,237,158.15513914637816
+Pat,Male,2024-12,Male,Shore,unassigned search,136,90.75569166205668
+Pat,Male,2024-12,Male,Shore,without tools,298,198.86173614185947
+Pat,Male,2025-01,Male,Forest,tool assisted,0,0
+Pat,Male,2025-01,Male,Forest,unassigned search,0,0
+Pat,Male,2025-01,Male,Forest,without tools,639,639
+Pat,Male,2025-01,Male,Mangrove,tool assisted,0,0
+Pat,Male,2025-01,Male,Mangrove,unassigned search,14,14
+Pat,Male,2025-01,Male,Mangrove,without tools,54,54
+Pat,Male,2025-01,Male,Shore,tool assisted,127,88.17333825808103
+Pat,Male,2025-01,Male,Shore,unassigned search,104,72.204938416066355
+Pat,Male,2025-01,Male,Shore,without tools,0,0
+Pat,Male,2025-02,Male,Forest,tool assisted,0,0
+Pat,Male,2025-02,Male,Forest,unassigned search,208,208
+Pat,Male,2025-02,Male,Forest,without tools,851,851
+Pat,Male,2025-02,Male,Mangrove,tool assisted,116,116
+Pat,Male,2025-02,Male,Mangrove,unassigned search,50,50
+Pat,Male,2025-02,Male,Mangrove,without tools,88,82.48388398684878
+Pat,Male,2025-02,Male,Shore,tool assisted,363,255.3059805933069
+Pat,Male,2025-02,Male,Shore,unassigned search,250,180.67746459239598
+Pat,Male,2025-02,Male,Shore,without tools,107,89.11441171493394
+Pat,Male,2025-03,Male,Forest,tool assisted,0,0
+Pat,Male,2025-03,Male,Forest,unassigned search,0,0
+Pat,Male,2025-03,Male,Forest,without tools,577,577
+Pat,Male,2025-03,Male,Mangrove,tool assisted,487,487
+Pat,Male,2025-03,Male,Mangrove,unassigned search,195,195
+Pat,Male,2025-03,Male,Mangrove,without tools,124,124
+Pat,Male,2025-03,Male,Shore,tool assisted,926,654.5473805583542
+Pat,Male,2025-03,Male,Shore,unassigned search,0,0
+Pat,Male,2025-03,Male,Shore,without tools,0,0
+Pat,Male,2026-02,Male,Forest,tool assisted,0,0
+Pat,Male,2026-02,Male,Forest,unassigned search,0,0
+Pat,Male,2026-02,Male,Forest,without tools,88,88
+Pat,Male,2026-03,Male,Forest,tool assisted,0,0
+Pat,Male,2026-03,Male,Forest,unassigned search,0,0
+Pat,Male,2026-03,Male,Forest,without tools,0,0
+Quindoline,Female,2024-04,Pregnant,Forest,tool assisted,0,0
+Quindoline,Female,2024-04,Pregnant,Forest,unassigned search,0,0
+Quindoline,Female,2024-04,Pregnant,Forest,without tools,0,0
+Quindoline,Female,2024-04,Pregnant,Mangrove,tool assisted,747,747
+Quindoline,Female,2024-04,Pregnant,Mangrove,unassigned search,81,81
+Quindoline,Female,2024-04,Pregnant,Mangrove,without tools,0,0
+Quindoline,Female,2024-05,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2024-05,Lactating,Forest,unassigned search,41,41
+Quindoline,Female,2024-05,Lactating,Forest,without tools,423,423
+Quindoline,Female,2024-05,Pregnant,Forest,tool assisted,0,0
+Quindoline,Female,2024-05,Pregnant,Forest,unassigned search,0,0
+Quindoline,Female,2024-05,Pregnant,Forest,without tools,10,10
+Quindoline,Female,2024-05,Pregnant,Mangrove,tool assisted,424,424
+Quindoline,Female,2024-05,Pregnant,Mangrove,unassigned search,0,0
+Quindoline,Female,2024-05,Pregnant,Mangrove,without tools,0,0
+Quindoline,Female,2024-05,Pregnant,Shore,tool assisted,1262,1202.9557862561653
+Quindoline,Female,2024-05,Pregnant,Shore,unassigned search,77,77
+Quindoline,Female,2024-05,Pregnant,Shore,without tools,0,0
+Quindoline,Female,2024-06,Lactating,Forest,tool assisted,124,124
+Quindoline,Female,2024-06,Lactating,Forest,unassigned search,105,105
+Quindoline,Female,2024-06,Lactating,Forest,without tools,151,151
+Quindoline,Female,2024-06,Lactating,Shore,tool assisted,2962,2572.9490536316944
+Quindoline,Female,2024-06,Lactating,Shore,unassigned search,13,11.054772741973597
+Quindoline,Female,2024-06,Lactating,Shore,without tools,441,381.33034631583774
+Quindoline,Female,2024-07,Lactating,Mangrove,tool assisted,0,0
+Quindoline,Female,2024-07,Lactating,Mangrove,unassigned search,148,148
+Quindoline,Female,2024-07,Lactating,Mangrove,without tools,1152,1152
+Quindoline,Female,2024-08,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2024-08,Lactating,Forest,unassigned search,0,0
+Quindoline,Female,2024-08,Lactating,Forest,without tools,0,0
+Quindoline,Female,2024-08,Lactating,Mangrove,tool assisted,417,417
+Quindoline,Female,2024-08,Lactating,Mangrove,unassigned search,166,166
+Quindoline,Female,2024-08,Lactating,Mangrove,without tools,324,324
+Quindoline,Female,2024-08,Lactating,Shore,tool assisted,3708,3084.6702513210607
+Quindoline,Female,2024-08,Lactating,Shore,unassigned search,34,27.881643504291805
+Quindoline,Female,2024-08,Lactating,Shore,without tools,647,539.0071167639318
+Quindoline,Female,2024-09,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2024-09,Lactating,Forest,unassigned search,0,0
+Quindoline,Female,2024-09,Lactating,Forest,without tools,12,12
+Quindoline,Female,2024-09,Lactating,Mangrove,tool assisted,104,104
+Quindoline,Female,2024-09,Lactating,Mangrove,unassigned search,65,65
+Quindoline,Female,2024-09,Lactating,Mangrove,without tools,0,0
+Quindoline,Female,2024-10,Lactating,Mangrove,tool assisted,227,174.63268518490077
+Quindoline,Female,2024-10,Lactating,Mangrove,unassigned search,127,97.55205227802784
+Quindoline,Female,2024-10,Lactating,Mangrove,without tools,106,86.52261725475857
+Quindoline,Female,2024-10,Lactating,Shore,tool assisted,1023,814.2966835950883
+Quindoline,Female,2024-10,Lactating,Shore,unassigned search,221,172.69164525629782
+Quindoline,Female,2024-10,Lactating,Shore,without tools,127,99.44289402081
+Quindoline,Female,2024-11,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2024-11,Lactating,Forest,unassigned search,17,17
+Quindoline,Female,2024-11,Lactating,Forest,without tools,16,16
+Quindoline,Female,2024-11,Lactating,Mangrove,tool assisted,266,266
+Quindoline,Female,2024-11,Lactating,Mangrove,unassigned search,339,339
+Quindoline,Female,2024-11,Lactating,Mangrove,without tools,30,30
+Quindoline,Female,2024-11,Lactating,Shore,tool assisted,870,730.6768964003097
+Quindoline,Female,2024-11,Lactating,Shore,unassigned search,205,172.1585185757424
+Quindoline,Female,2024-11,Lactating,Shore,without tools,481,407.1782442725488
+Quindoline,Female,2024-12,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2024-12,Lactating,Forest,unassigned search,0,0
+Quindoline,Female,2024-12,Lactating,Forest,without tools,98,76.22071135340033
+Quindoline,Female,2024-12,Lactating,Mangrove,tool assisted,0,0
+Quindoline,Female,2024-12,Lactating,Mangrove,unassigned search,0,0
+Quindoline,Female,2024-12,Lactating,Mangrove,without tools,403,403
+Quindoline,Female,2024-12,Lactating,Shore,tool assisted,2057,1633.2602064523696
+Quindoline,Female,2024-12,Lactating,Shore,unassigned search,131,103.37104351400421
+Quindoline,Female,2024-12,Lactating,Shore,without tools,379,300.4966279371696
+Quindoline,Female,2025-01,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2025-01,Lactating,Forest,unassigned search,0,0
+Quindoline,Female,2025-01,Lactating,Forest,without tools,130,130
+Quindoline,Female,2025-01,Lactating,Shore,tool assisted,2540,2103.7672397729098
+Quindoline,Female,2025-01,Lactating,Shore,unassigned search,441,372.9385117100137
+Quindoline,Female,2025-01,Lactating,Shore,without tools,1387,1269.4233904738796
+Quindoline,Female,2025-02,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2025-02,Lactating,Forest,unassigned search,302,302
+Quindoline,Female,2025-02,Lactating,Forest,without tools,1227,1227
+Quindoline,Female,2025-02,Lactating,Mangrove,tool assisted,571,457.70383747352867
+Quindoline,Female,2025-02,Lactating,Mangrove,unassigned search,12,9.618994833068903
+Quindoline,Female,2025-02,Lactating,Mangrove,without tools,0,0
+Quindoline,Female,2025-02,Lactating,Shore,tool assisted,763,608.8135150572714
+Quindoline,Female,2025-02,Lactating,Shore,unassigned search,35,27.134157288670178
+Quindoline,Female,2025-02,Lactating,Shore,without tools,231,179.65858152124812
+Quindoline,Female,2025-03,Lactating,Forest,tool assisted,0,0
+Quindoline,Female,2025-03,Lactating,Forest,unassigned search,81,81
+Quindoline,Female,2025-03,Lactating,Forest,without tools,1537,1537
+Quindoline,Female,2025-03,Lactating,Shore,tool assisted,942,742.206947363698
+Quindoline,Female,2025-03,Lactating,Shore,unassigned search,17,16.340375220746484
+Quindoline,Female,2025-03,Lactating,Shore,without tools,34,32.68075044149297
+Quindoline,Female,2025-12,Non-lactating & non-pregnant,Shore,tool assisted,206,455.89628045378555
+Quindoline,Female,2025-12,Non-lactating & non-pregnant,Shore,unassigned search,62,137.21150188414904
+Quindoline,Female,2025-12,Non-lactating & non-pregnant,Shore,without tools,0,0
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Forest,unassigned search,27,27
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Forest,without tools,272,272
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Mangrove,tool assisted,329,376.978154540444
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Mangrove,unassigned search,29,32.89012063841438
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Mangrove,without tools,849,849
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Shore,tool assisted,3356,3930.935187672484
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Shore,unassigned search,475,678.0835448565194
+Quindoline,Female,2026-01,Non-lactating & non-pregnant,Shore,without tools,1300,1256.3277922301645
+Quindoline,Female,2026-02,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Quindoline,Female,2026-02,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Quindoline,Female,2026-02,Non-lactating & non-pregnant,Forest,without tools,925,925
+Quindoline,Female,2026-02,Non-lactating & non-pregnant,Shore,tool assisted,794,838.0392392422619
+Quindoline,Female,2026-02,Non-lactating & non-pregnant,Shore,unassigned search,78,63.08973174228293
+Quindoline,Female,2026-02,Non-lactating & non-pregnant,Shore,without tools,90,108.64986698826239
+Quindoline,Female,2026-02,Pregnant,Forest,tool assisted,0,0
+Quindoline,Female,2026-02,Pregnant,Forest,unassigned search,0,0
+Quindoline,Female,2026-02,Pregnant,Forest,without tools,0,0
+Quindoline,Female,2026-02,Pregnant,Mangrove,tool assisted,860,860
+Quindoline,Female,2026-02,Pregnant,Mangrove,unassigned search,0,0
+Quindoline,Female,2026-02,Pregnant,Mangrove,without tools,0,0
+Quindoline,Female,2026-02,Pregnant,Shore,tool assisted,2534,2110.3095954449027
+Quindoline,Female,2026-02,Pregnant,Shore,unassigned search,207,183.75749057475454
+Quindoline,Female,2026-02,Pregnant,Shore,without tools,191,168.3150877638808
+Quindoline,Female,2026-03,Pregnant,Forest,tool assisted,209,209
+Quindoline,Female,2026-03,Pregnant,Forest,unassigned search,186,186
+Quindoline,Female,2026-03,Pregnant,Forest,without tools,776,736.7815671224573
+Quindoline,Female,2026-03,Pregnant,Mangrove,tool assisted,132,132
+Quindoline,Female,2026-03,Pregnant,Mangrove,unassigned search,0,0
+Quindoline,Female,2026-03,Pregnant,Mangrove,without tools,344,344
+Quindoline,Female,2026-03,Pregnant,Shore,tool assisted,1086,882.1790667827726
+Quindoline,Female,2026-03,Pregnant,Shore,unassigned search,0,0
+Quindoline,Female,2026-03,Pregnant,Shore,without tools,58,51.87437585849063
+Rambo,Male,2024-04,Male,Shore,tool assisted,86,81.79586145676967
+Rambo,Male,2024-04,Male,Shore,unassigned search,27,25.68009603875327
+Rambo,Male,2024-04,Male,Shore,without tools,289,274.8721390814702
+Rambo,Male,2024-10,Male,Forest,tool assisted,0,0
+Rambo,Male,2024-10,Male,Forest,unassigned search,0,0
+Rambo,Male,2024-10,Male,Forest,without tools,0,0
+Robin,Female,2024-04,Non-lactating & non-pregnant,Mangrove,tool assisted,706,706
+Robin,Female,2024-04,Non-lactating & non-pregnant,Mangrove,unassigned search,24,24
+Robin,Female,2024-04,Non-lactating & non-pregnant,Mangrove,without tools,249,249
+Robin,Female,2024-04,Non-lactating & non-pregnant,Shore,tool assisted,821,588.506021956578
+Robin,Female,2024-04,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Robin,Female,2024-04,Non-lactating & non-pregnant,Shore,without tools,94,68.2095041285801
+Robin,Female,2024-05,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Robin,Female,2024-05,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Robin,Female,2024-05,Non-lactating & non-pregnant,Forest,without tools,113,113
+Robin,Female,2024-05,Non-lactating & non-pregnant,Shore,tool assisted,838,782.1998173481278
+Robin,Female,2024-05,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Robin,Female,2024-05,Non-lactating & non-pregnant,Shore,without tools,68,63.472061550922064
+Robin,Female,2024-06,Non-lactating & non-pregnant,Mangrove,tool assisted,161,161
+Robin,Female,2024-06,Non-lactating & non-pregnant,Mangrove,unassigned search,4,4
+Robin,Female,2024-06,Non-lactating & non-pregnant,Mangrove,without tools,49,49
+Robin,Female,2024-06,Non-lactating & non-pregnant,Shore,tool assisted,971,999.5181162751356
+Robin,Female,2024-06,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Robin,Female,2024-06,Non-lactating & non-pregnant,Shore,without tools,256,247.94424829481952
+Robin,Female,2024-08,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Robin,Female,2024-08,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Robin,Female,2024-08,Non-lactating & non-pregnant,Mangrove,without tools,318,288.9045835546228
+Robin,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,1092,868.5353272699481
+Robin,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,99,78.992505300086
+Robin,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,1224,1130.433759267799
+Robin,Female,2024-09,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Robin,Female,2024-09,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Robin,Female,2024-09,Non-lactating & non-pregnant,Forest,without tools,39,39
+Robin,Female,2024-09,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Robin,Female,2024-09,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Robin,Female,2024-09,Non-lactating & non-pregnant,Mangrove,without tools,137,137
+Robin,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,310,231.54321413153642
+Robin,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,41,30.64074476135505
+Robin,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,546,408.0894073362095
+Robin,Female,2024-10,Non-lactating & non-pregnant,Mangrove,tool assisted,167,366.18172331324814
+Robin,Female,2024-10,Non-lactating & non-pregnant,Mangrove,unassigned search,3,6.57811479005835
+Robin,Female,2024-10,Non-lactating & non-pregnant,Mangrove,without tools,167,366.18172331324814
+Robin,Female,2024-10,Non-lactating & non-pregnant,Shore,tool assisted,1504,1198.176732761212
+Robin,Female,2024-10,Non-lactating & non-pregnant,Shore,unassigned search,233,283.7324111215936
+Robin,Female,2024-10,Non-lactating & non-pregnant,Shore,without tools,26,19.719496434283634
+Robin,Female,2024-11,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Robin,Female,2024-11,Non-lactating & non-pregnant,Forest,unassigned search,53,43.35456338109165
+Robin,Female,2024-11,Non-lactating & non-pregnant,Forest,without tools,61,49.898648419747
+Robin,Female,2024-11,Non-lactating & non-pregnant,Shore,tool assisted,250,209.3927115291265
+Robin,Female,2024-11,Non-lactating & non-pregnant,Shore,unassigned search,150,125.90012040811655
+Robin,Female,2024-11,Non-lactating & non-pregnant,Shore,without tools,773,651.6056376311994
+Robin,Female,2024-11,Pregnant,Mangrove,tool assisted,0,0
+Robin,Female,2024-11,Pregnant,Mangrove,unassigned search,14,11.564470197064091
+Robin,Female,2024-11,Pregnant,Mangrove,without tools,1086,1056.849839739036
+Robin,Female,2024-11,Pregnant,Shore,tool assisted,830,698.9243600341615
+Robin,Female,2024-11,Pregnant,Shore,unassigned search,251,289.85713790234865
+Robin,Female,2024-11,Pregnant,Shore,without tools,667,583.4275651840602
+Robin,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Robin,Female,2024-12,Pregnant,Forest,unassigned search,93,93
+Robin,Female,2024-12,Pregnant,Forest,without tools,169,169
+Robin,Female,2024-12,Pregnant,Mangrove,tool assisted,0,0
+Robin,Female,2024-12,Pregnant,Mangrove,unassigned search,0,0
+Robin,Female,2024-12,Pregnant,Mangrove,without tools,194,182.2965651072173
+Robin,Female,2024-12,Pregnant,Shore,tool assisted,1477,1269.5690310290195
+Robin,Female,2024-12,Pregnant,Shore,unassigned search,220,214.71287567567452
+Robin,Female,2024-12,Pregnant,Shore,without tools,115,111.17597139175379
+Robin,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Robin,Female,2025-01,Pregnant,Forest,unassigned search,0,0
+Robin,Female,2025-01,Pregnant,Forest,without tools,77,77
+Robin,Female,2025-01,Pregnant,Mangrove,tool assisted,0,0
+Robin,Female,2025-01,Pregnant,Mangrove,unassigned search,163,163
+Robin,Female,2025-01,Pregnant,Mangrove,without tools,785,785
+Robin,Female,2025-01,Pregnant,Shore,tool assisted,339,286.7443056769576
+Robin,Female,2025-01,Pregnant,Shore,unassigned search,94,85.17066024209714
+Robin,Female,2025-01,Pregnant,Shore,without tools,544,525.700045581188
+Robin,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Robin,Female,2025-02,Pregnant,Forest,unassigned search,17,17
+Robin,Female,2025-02,Pregnant,Forest,without tools,250,279.81926018777125
+Robin,Female,2025-02,Pregnant,Shore,tool assisted,0,0
+Robin,Female,2025-02,Pregnant,Shore,unassigned search,0,0
+Robin,Female,2025-02,Pregnant,Shore,without tools,0,0
+Robin,Female,2025-03,Pregnant,Forest,tool assisted,123,123
+Robin,Female,2025-03,Pregnant,Forest,unassigned search,36,36
+Robin,Female,2025-03,Pregnant,Forest,without tools,1030,1030
+Robin,Female,2025-03,Pregnant,Mangrove,tool assisted,0,0
+Robin,Female,2025-03,Pregnant,Mangrove,unassigned search,0,0
+Robin,Female,2025-03,Pregnant,Mangrove,without tools,0,0
+Robin,Female,2025-12,Lactating,Shore,tool assisted,1828,1432.7647318635168
+Robin,Female,2025-12,Lactating,Shore,unassigned search,0,0
+Robin,Female,2025-12,Lactating,Shore,without tools,13,10.177149173175556
+Robin,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Robin,Female,2026-01,Lactating,Forest,unassigned search,0,0
+Robin,Female,2026-01,Lactating,Forest,without tools,32,32
+Robin,Female,2026-01,Lactating,Mangrove,tool assisted,146,121.4526923581584
+Robin,Female,2026-01,Lactating,Mangrove,unassigned search,0,0
+Robin,Female,2026-01,Lactating,Mangrove,without tools,1431,1178.0774683673117
+Robin,Female,2026-01,Lactating,Shore,tool assisted,4783,3906.7932888638425
+Robin,Female,2026-01,Lactating,Shore,unassigned search,92,74.79096484027671
+Robin,Female,2026-01,Lactating,Shore,without tools,380,309.0313489897925
+Robin,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Robin,Female,2026-02,Lactating,Forest,unassigned search,277,277
+Robin,Female,2026-02,Lactating,Forest,without tools,417,381.0745190726453
+Robin,Female,2026-02,Lactating,Mangrove,tool assisted,305,305
+Robin,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Robin,Female,2026-02,Lactating,Mangrove,without tools,0,0
+Robin,Female,2026-02,Lactating,Shore,tool assisted,1561,1353.7876600486438
+Robin,Female,2026-02,Lactating,Shore,unassigned search,13,10.236501467126558
+Robin,Female,2026-02,Lactating,Shore,without tools,90,71.67294324234207
+Robin,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Robin,Female,2026-03,Lactating,Forest,unassigned search,187,187
+Robin,Female,2026-03,Lactating,Forest,without tools,1564,1564
+Robin,Female,2026-03,Lactating,Mangrove,tool assisted,0,0
+Robin,Female,2026-03,Lactating,Mangrove,unassigned search,0,0
+Robin,Female,2026-03,Lactating,Mangrove,without tools,0,0
+Robin,Female,2026-03,Lactating,Shore,tool assisted,794,625.6913493081385
+Robin,Female,2026-03,Lactating,Shore,unassigned search,7,5.516170585840012
+Robin,Female,2026-03,Lactating,Shore,without tools,56,44.129364686720095
+Santa,Female,2024-05,Pregnant,Shore,tool assisted,2192,2078.4457633908733
+Santa,Female,2024-05,Pregnant,Shore,unassigned search,103,96.22131576180368
+Santa,Female,2024-05,Pregnant,Shore,without tools,20,18.859956863678395
+Santa,Female,2024-06,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Santa,Female,2024-06,Non-lactating & non-pregnant,Forest,unassigned search,66,168.7520258777714
+Santa,Female,2024-06,Non-lactating & non-pregnant,Forest,without tools,39,99.71710620050128
+Santa,Female,2024-06,Non-lactating & non-pregnant,Shore,tool assisted,649,576.0933019354435
+Santa,Female,2024-06,Non-lactating & non-pregnant,Shore,unassigned search,132,232.34534295839882
+Santa,Female,2024-06,Non-lactating & non-pregnant,Shore,without tools,84,129.6468271125492
+Santa,Female,2024-06,Pregnant,Forest,tool assisted,0,0
+Santa,Female,2024-06,Pregnant,Forest,unassigned search,192,192
+Santa,Female,2024-06,Pregnant,Forest,without tools,596,596
+Santa,Female,2024-06,Pregnant,Shore,tool assisted,650,588.7803859117083
+Santa,Female,2024-06,Pregnant,Shore,unassigned search,0,0
+Santa,Female,2024-06,Pregnant,Shore,without tools,0,0
+Santa,Female,2024-07,Pregnant,Forest,tool assisted,0,0
+Santa,Female,2024-07,Pregnant,Forest,unassigned search,51,51
+Santa,Female,2024-07,Pregnant,Forest,without tools,769,769
+Santa,Female,2024-08,Pregnant,Shore,tool assisted,1789,1566.4894134082142
+Santa,Female,2024-08,Pregnant,Shore,unassigned search,31,27.00016947915869
+Santa,Female,2024-08,Pregnant,Shore,without tools,24,20.903357016122854
+Santa,Female,2024-10,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Santa,Female,2024-10,Non-lactating & non-pregnant,Forest,unassigned search,148,148
+Santa,Female,2024-10,Non-lactating & non-pregnant,Forest,without tools,245,245
+Santa,Female,2024-10,Non-lactating & non-pregnant,Shore,tool assisted,558,471.94585868280024
+Santa,Female,2024-10,Non-lactating & non-pregnant,Shore,unassigned search,56,47.36374209003013
+Santa,Female,2024-10,Non-lactating & non-pregnant,Shore,without tools,0,0
+Santa,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Santa,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Santa,Female,2024-12,Pregnant,Forest,without tools,0,0
+Santa,Female,2024-12,Pregnant,Mangrove,tool assisted,0,0
+Santa,Female,2024-12,Pregnant,Mangrove,unassigned search,334,334
+Santa,Female,2024-12,Pregnant,Mangrove,without tools,349,349
+Santa,Female,2024-12,Pregnant,Shore,tool assisted,680,566.0416503326985
+Santa,Female,2024-12,Pregnant,Shore,unassigned search,28,23.307597366640525
+Santa,Female,2024-12,Pregnant,Shore,without tools,11,9.156556108323063
+Santa,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Santa,Female,2025-01,Pregnant,Forest,unassigned search,227,227
+Santa,Female,2025-01,Pregnant,Forest,without tools,44,44
+Santa,Female,2025-01,Pregnant,Shore,tool assisted,514,438.3017102150924
+Santa,Female,2025-01,Pregnant,Shore,unassigned search,44,37.519990757712186
+Santa,Female,2025-01,Pregnant,Shore,without tools,321,273.7253871187639
+Santa,Female,2025-02,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Santa,Female,2025-02,Non-lactating & non-pregnant,Mangrove,unassigned search,12,9.962666609819989
+Santa,Female,2025-02,Non-lactating & non-pregnant,Mangrove,without tools,179,148.6097769298148
+Santa,Female,2025-02,Non-lactating & non-pregnant,Shore,tool assisted,295,244.9155541580747
+Santa,Female,2025-02,Non-lactating & non-pregnant,Shore,unassigned search,76,63.09688852885993
+Santa,Female,2025-02,Non-lactating & non-pregnant,Shore,without tools,112,92.98488835831989
+Santa,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Santa,Female,2025-02,Pregnant,Forest,unassigned search,0,0
+Santa,Female,2025-02,Pregnant,Forest,without tools,0,0
+Santa,Female,2025-02,Pregnant,Mangrove,tool assisted,14,14
+Santa,Female,2025-02,Pregnant,Mangrove,unassigned search,41,41
+Santa,Female,2025-02,Pregnant,Mangrove,without tools,0,0
+Santa,Female,2025-02,Pregnant,Shore,tool assisted,212,174.68587565628155
+Santa,Female,2025-02,Pregnant,Shore,unassigned search,35,28.83964928287667
+Santa,Female,2025-02,Pregnant,Shore,without tools,0,0
+Santa,Female,2025-03,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Santa,Female,2025-03,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Santa,Female,2025-03,Non-lactating & non-pregnant,Forest,without tools,0,0
+Santa,Female,2025-03,Non-lactating & non-pregnant,Shore,tool assisted,309,269.1583481141272
+Santa,Female,2025-03,Non-lactating & non-pregnant,Shore,unassigned search,20,17.4212523051215
+Santa,Female,2025-03,Non-lactating & non-pregnant,Shore,without tools,23,20.034440150889722
+Santa,Female,2025-03,Pregnant,Forest,tool assisted,0,0
+Santa,Female,2025-03,Pregnant,Forest,unassigned search,0,0
+Santa,Female,2025-03,Pregnant,Forest,without tools,0,0
+Santa,Female,2025-03,Pregnant,Mangrove,tool assisted,0,0
+Santa,Female,2025-03,Pregnant,Mangrove,unassigned search,15,15
+Santa,Female,2025-03,Pregnant,Mangrove,without tools,0,0
+Santa,Female,2025-03,Pregnant,Shore,tool assisted,91,91
+Santa,Female,2025-03,Pregnant,Shore,unassigned search,18,18
+Santa,Female,2025-03,Pregnant,Shore,without tools,0,0
+Santa,Female,2026-01,Pregnant,Mangrove,tool assisted,0,0
+Santa,Female,2026-01,Pregnant,Mangrove,unassigned search,6,6
+Santa,Female,2026-01,Pregnant,Mangrove,without tools,691,691
+Santa,Female,2026-03,Pregnant,Shore,tool assisted,832,730.6934553478327
+Santa,Female,2026-03,Pregnant,Shore,unassigned search,0,0
+Santa,Female,2026-03,Pregnant,Shore,without tools,91,79.91959667866921
+Ted,Male,2024-04,Male,Mangrove,tool assisted,641,641
+Ted,Male,2024-04,Male,Mangrove,unassigned search,273,273
+Ted,Male,2024-04,Male,Mangrove,without tools,196,196
+Ted,Male,2024-04,Male,Shore,tool assisted,0,0
+Ted,Male,2024-04,Male,Shore,unassigned search,33,43.77826740023055
+Ted,Male,2024-04,Male,Shore,without tools,0,0
+Ted,Male,2024-05,Male,Forest,tool assisted,0,0
+Ted,Male,2024-05,Male,Forest,unassigned search,24,24
+Ted,Male,2024-05,Male,Forest,without tools,21,21
+Ted,Male,2024-05,Male,Mangrove,tool assisted,424,424
+Ted,Male,2024-05,Male,Mangrove,unassigned search,64,64
+Ted,Male,2024-05,Male,Mangrove,without tools,31,31
+Ted,Male,2024-06,Male,Forest,tool assisted,0,0
+Ted,Male,2024-06,Male,Forest,unassigned search,132,132
+Ted,Male,2024-06,Male,Forest,without tools,205,205
+Ted,Male,2024-06,Male,Shore,tool assisted,646,461.7019857573897
+Ted,Male,2024-06,Male,Shore,unassigned search,55,39.30899259544339
+Ted,Male,2024-06,Male,Shore,without tools,77,55.03258963362075
+Ted,Male,2024-08,Male,Mangrove,tool assisted,0,0
+Ted,Male,2024-08,Male,Mangrove,unassigned search,9,9
+Ted,Male,2024-08,Male,Mangrove,without tools,60,60
+Ted,Male,2024-08,Male,Shore,tool assisted,851,483.4048079486147
+Ted,Male,2024-08,Male,Shore,unassigned search,36,20.449557093008377
+Ted,Male,2024-08,Male,Shore,without tools,0,0
+Ted,Male,2024-09,Male,Forest,tool assisted,0,0
+Ted,Male,2024-09,Male,Forest,unassigned search,12,12
+Ted,Male,2024-09,Male,Forest,without tools,76,76
+Ted,Male,2024-10,Male,Mangrove,tool assisted,0,0
+Ted,Male,2024-10,Male,Mangrove,unassigned search,0,0
+Ted,Male,2024-10,Male,Mangrove,without tools,0,0
+Ted,Male,2024-10,Male,Shore,tool assisted,220,121.98912637735451
+Ted,Male,2024-10,Male,Shore,unassigned search,75,41.58720217409813
+Ted,Male,2024-10,Male,Shore,without tools,344,273.69958443537394
+Ted,Male,2024-11,Male,Mangrove,tool assisted,96,96
+Ted,Male,2024-11,Male,Mangrove,unassigned search,8,8
+Ted,Male,2024-11,Male,Mangrove,without tools,847,847
+Ted,Male,2024-11,Male,Shore,tool assisted,523,314.68413837171215
+Ted,Male,2024-11,Male,Shore,unassigned search,226,135.98205596942057
+Ted,Male,2024-11,Male,Shore,without tools,63,37.90650232775883
+Ted,Male,2024-12,Male,Forest,tool assisted,0,0
+Ted,Male,2024-12,Male,Forest,unassigned search,0,0
+Ted,Male,2024-12,Male,Forest,without tools,49,49
+Ted,Male,2024-12,Male,Mangrove,tool assisted,0,0
+Ted,Male,2024-12,Male,Mangrove,unassigned search,0,0
+Ted,Male,2024-12,Male,Mangrove,without tools,225,225
+Ted,Male,2024-12,Male,Shore,tool assisted,0,0
+Ted,Male,2024-12,Male,Shore,unassigned search,213,150.20115069593828
+Ted,Male,2024-12,Male,Shore,without tools,73,51.47738967513377
+Ted,Male,2025-01,Male,Forest,tool assisted,0,0
+Ted,Male,2025-01,Male,Forest,unassigned search,17,17
+Ted,Male,2025-01,Male,Forest,without tools,243,243
+Ted,Male,2025-01,Male,Mangrove,tool assisted,0,0
+Ted,Male,2025-01,Male,Mangrove,unassigned search,55,54.126876729580914
+Ted,Male,2025-01,Male,Mangrove,without tools,911,906.0523014676252
+Ted,Male,2025-01,Male,Shore,tool assisted,1978,1389.4553281782864
+Ted,Male,2025-01,Male,Shore,unassigned search,196,130.5424058891451
+Ted,Male,2025-01,Male,Shore,without tools,796,509.0222369888357
+Ted,Male,2025-02,Male,Forest,tool assisted,0,0
+Ted,Male,2025-02,Male,Forest,unassigned search,96,96
+Ted,Male,2025-02,Male,Forest,without tools,374,374
+Ted,Male,2025-02,Male,Mangrove,tool assisted,65,65
+Ted,Male,2025-02,Male,Mangrove,unassigned search,0,0
+Ted,Male,2025-02,Male,Mangrove,without tools,25,25
+Ted,Male,2025-03,Male,Forest,tool assisted,0,0
+Ted,Male,2025-03,Male,Forest,unassigned search,0,0
+Ted,Male,2025-03,Male,Forest,without tools,765,765
+Ted,Male,2025-03,Male,Mangrove,tool assisted,295,193.6707416929789
+Ted,Male,2025-03,Male,Mangrove,unassigned search,34,22.321373618851805
+Ted,Male,2025-03,Male,Mangrove,without tools,26,17.069285708533734
+Ted,Male,2025-03,Male,Shore,tool assisted,88,84.2321139434402
+Ted,Male,2025-03,Male,Shore,unassigned search,202,282.2462575462344
+Ted,Male,2025-03,Male,Shore,without tools,312,489.4953540934985
+Ted,Male,2026-03,Male,Forest,tool assisted,0,0
+Ted,Male,2026-03,Male,Forest,unassigned search,0,0
+Ted,Male,2026-03,Male,Forest,without tools,652,652
+Ted,Male,2026-03,Male,Shore,tool assisted,554,305.2743359616641
+Ted,Male,2026-03,Male,Shore,unassigned search,0,0
+Ted,Male,2026-03,Male,Shore,without tools,21,11.571770857752611
+Tin_tin,Male,2024-04,Male,Forest,tool assisted,0,0
+Tin_tin,Male,2024-04,Male,Forest,unassigned search,40,40
+Tin_tin,Male,2024-04,Male,Forest,without tools,37,37
+Tin_tin,Male,2024-04,Male,Mangrove,tool assisted,0,0
+Tin_tin,Male,2024-04,Male,Mangrove,unassigned search,162,162
+Tin_tin,Male,2024-04,Male,Mangrove,without tools,426,426
+Tin_tin,Male,2024-05,Male,Shore,tool assisted,464,364.0904151368453
+Tin_tin,Male,2024-05,Male,Shore,unassigned search,118,92.59195902187014
+Tin_tin,Male,2024-05,Male,Shore,without tools,0,0
+Tin_tin,Male,2024-10,Male,Forest,tool assisted,0,0
+Tin_tin,Male,2024-10,Male,Forest,unassigned search,0,0
+Tin_tin,Male,2024-10,Male,Forest,without tools,0,0
+Tin_tin,Male,2024-11,Male,Forest,tool assisted,0,0
+Tin_tin,Male,2024-11,Male,Forest,unassigned search,12,12
+Tin_tin,Male,2024-11,Male,Forest,without tools,94,94
+Tin_tin,Male,2024-12,Male,Shore,tool assisted,630,355.0796095469414
+Tin_tin,Male,2024-12,Male,Shore,unassigned search,83,46.78032951173991
+Tin_tin,Male,2024-12,Male,Shore,without tools,118,115.1569719535994
+Tin_tin,Male,2025-02,Male,Forest,tool assisted,0,0
+Tin_tin,Male,2025-02,Male,Forest,unassigned search,0,0
+Tin_tin,Male,2025-02,Male,Forest,without tools,0,0
+Tutu,Male,2024-04,Male,Forest,tool assisted,0,0
+Tutu,Male,2024-04,Male,Forest,unassigned search,47,47
+Tutu,Male,2024-04,Male,Forest,without tools,25,25
+Tutu,Male,2024-04,Male,Mangrove,tool assisted,0,0
+Tutu,Male,2024-04,Male,Mangrove,unassigned search,40,40
+Tutu,Male,2024-04,Male,Mangrove,without tools,448,448
+Tutu,Male,2024-04,Male,Shore,tool assisted,289,194.16517502488014
+Tutu,Male,2024-04,Male,Shore,unassigned search,95,63.825922586033265
+Tutu,Male,2024-04,Male,Shore,without tools,394,264.70961577786426
+Tutu,Male,2024-05,Male,Forest,tool assisted,0,0
+Tutu,Male,2024-05,Male,Forest,unassigned search,72,72
+Tutu,Male,2024-05,Male,Forest,without tools,341,341
+Tutu,Male,2024-05,Male,Mangrove,tool assisted,0,0
+Tutu,Male,2024-05,Male,Mangrove,unassigned search,0,0
+Tutu,Male,2024-05,Male,Mangrove,without tools,923,923
+Tutu,Male,2024-06,Male,Forest,tool assisted,0,0
+Tutu,Male,2024-06,Male,Forest,unassigned search,105,105
+Tutu,Male,2024-06,Male,Forest,without tools,823,823
+Tutu,Male,2024-06,Male,Mangrove,tool assisted,0,0
+Tutu,Male,2024-06,Male,Mangrove,unassigned search,4,4
+Tutu,Male,2024-06,Male,Mangrove,without tools,243,243
+Tutu,Male,2024-06,Male,Shore,tool assisted,1801,1501.1576668052937
+Tutu,Male,2024-06,Male,Shore,unassigned search,4,3.354914990422096
+Tutu,Male,2024-06,Male,Shore,without tools,0,0
+Tutu,Male,2024-09,Male,Forest,tool assisted,0,0
+Tutu,Male,2024-09,Male,Forest,unassigned search,0,0
+Tutu,Male,2024-09,Male,Forest,without tools,0,0
+Tutu,Male,2024-10,Male,Forest,tool assisted,0,0
+Tutu,Male,2024-10,Male,Forest,unassigned search,11,11
+Tutu,Male,2024-10,Male,Forest,without tools,102,102
+Tutu,Male,2024-11,Male,Mangrove,tool assisted,0,0
+Tutu,Male,2024-11,Male,Mangrove,unassigned search,0,0
+Tutu,Male,2024-11,Male,Mangrove,without tools,17,17
+Tutu,Male,2025-01,Male,Mangrove,tool assisted,0,0
+Tutu,Male,2025-01,Male,Mangrove,unassigned search,75,75
+Tutu,Male,2025-01,Male,Mangrove,without tools,592,592
+Tutu,Male,2025-01,Male,Shore,tool assisted,1953,1547.2955943997265
+Tutu,Male,2025-01,Male,Shore,unassigned search,252,203.3557544894682
+Tutu,Male,2025-01,Male,Shore,without tools,1174,1072.4627009521312
+Tutu,Male,2025-02,Male,Forest,tool assisted,0,0
+Tutu,Male,2025-02,Male,Forest,unassigned search,71,101.50492526815923
+Tutu,Male,2025-02,Male,Forest,without tools,771,771
+Tutu,Male,2025-02,Male,Mangrove,tool assisted,0,0
+Tutu,Male,2025-02,Male,Mangrove,unassigned search,166,166
+Tutu,Male,2025-02,Male,Mangrove,without tools,0,0
+Tutu,Male,2025-02,Male,Shore,tool assisted,0,0
+Tutu,Male,2025-02,Male,Shore,unassigned search,0,0
+Tutu,Male,2025-02,Male,Shore,without tools,0,0
+Tutu,Male,2025-03,Male,Forest,tool assisted,0,0
+Tutu,Male,2025-03,Male,Forest,unassigned search,28,28
+Tutu,Male,2025-03,Male,Forest,without tools,254,254
+Tutu,Male,2025-03,Male,Shore,tool assisted,1876,1454.9837271395995
+Tutu,Male,2025-03,Male,Shore,unassigned search,0,0
+Tutu,Male,2025-03,Male,Shore,without tools,0,0
+Tutu,Male,2026-02,Male,Forest,tool assisted,0,0
+Tutu,Male,2026-02,Male,Forest,unassigned search,0,0
+Tutu,Male,2026-02,Male,Forest,without tools,40,40
+Vula,Female,2024-04,Pregnant,Forest,tool assisted,0,0
+Vula,Female,2024-04,Pregnant,Forest,unassigned search,0,0
+Vula,Female,2024-04,Pregnant,Forest,without tools,22,22
+Vula,Female,2024-05,Lactating,Forest,tool assisted,0,0
+Vula,Female,2024-05,Lactating,Forest,unassigned search,0,0
+Vula,Female,2024-05,Lactating,Forest,without tools,223,223
+Vula,Female,2024-05,Lactating,Mangrove,tool assisted,761,761
+Vula,Female,2024-05,Lactating,Mangrove,unassigned search,14,14
+Vula,Female,2024-05,Lactating,Mangrove,without tools,0,0
+Vula,Female,2024-06,Lactating,Forest,tool assisted,0,0
+Vula,Female,2024-06,Lactating,Forest,unassigned search,400,400
+Vula,Female,2024-06,Lactating,Forest,without tools,787,787
+Vula,Female,2024-06,Lactating,Mangrove,tool assisted,161,161
+Vula,Female,2024-06,Lactating,Mangrove,unassigned search,29,29
+Vula,Female,2024-06,Lactating,Mangrove,without tools,0,0
+Vula,Female,2024-06,Lactating,Shore,tool assisted,3090,2775.6720721289003
+Vula,Female,2024-06,Lactating,Shore,unassigned search,209,188.2372088816796
+Vula,Female,2024-06,Lactating,Shore,without tools,133,120.8861539045522
+Vula,Female,2024-07,Lactating,Shore,tool assisted,491,399.34943183823856
+Vula,Female,2024-07,Lactating,Shore,unassigned search,50,40.66694825236645
+Vula,Female,2024-07,Lactating,Shore,without tools,11,8.94672861552062
+Vula,Female,2024-08,Lactating,Forest,tool assisted,0,0
+Vula,Female,2024-08,Lactating,Forest,unassigned search,0,0
+Vula,Female,2024-08,Lactating,Forest,without tools,39,39
+Vula,Female,2024-08,Lactating,Mangrove,tool assisted,193,193
+Vula,Female,2024-08,Lactating,Mangrove,unassigned search,169,169
+Vula,Female,2024-08,Lactating,Mangrove,without tools,547,547
+Vula,Female,2024-08,Lactating,Shore,tool assisted,6007,5108.626974611776
+Vula,Female,2024-08,Lactating,Shore,unassigned search,166,143.70100453498551
+Vula,Female,2024-08,Lactating,Shore,without tools,112,94.36585665082501
+Vula,Female,2024-09,Lactating,Forest,tool assisted,80,80
+Vula,Female,2024-09,Lactating,Forest,unassigned search,0,0
+Vula,Female,2024-09,Lactating,Forest,without tools,0,0
+Vula,Female,2024-09,Lactating,Shore,tool assisted,202,166.16107831945615
+Vula,Female,2024-09,Lactating,Shore,unassigned search,0,0
+Vula,Female,2024-09,Lactating,Shore,without tools,9,7.403216360767848
+Vula,Female,2024-10,Lactating,Forest,tool assisted,0,0
+Vula,Female,2024-10,Lactating,Forest,unassigned search,0,0
+Vula,Female,2024-10,Lactating,Forest,without tools,79,79
+Vula,Female,2024-10,Lactating,Shore,tool assisted,1530,1218.0213857030394
+Vula,Female,2024-10,Lactating,Shore,unassigned search,117,94.70500593547568
+Vula,Female,2024-10,Lactating,Shore,without tools,19,15.30800397030196
+Vula,Female,2024-11,Lactating,Forest,tool assisted,0,0
+Vula,Female,2024-11,Lactating,Forest,unassigned search,140,140
+Vula,Female,2024-11,Lactating,Forest,without tools,318,318
+Vula,Female,2024-11,Lactating,Mangrove,tool assisted,622,622
+Vula,Female,2024-11,Lactating,Mangrove,unassigned search,73,62.30487098520006
+Vula,Female,2024-11,Lactating,Mangrove,without tools,632,582.773104808592
+Vula,Female,2024-11,Lactating,Shore,tool assisted,708,610.631125680306
+Vula,Female,2024-11,Lactating,Shore,unassigned search,67,57.91168154884079
+Vula,Female,2024-11,Lactating,Shore,without tools,436,379.3478490064389
+Vula,Female,2024-12,Lactating,Forest,tool assisted,0,0
+Vula,Female,2024-12,Lactating,Forest,unassigned search,0,0
+Vula,Female,2024-12,Lactating,Forest,without tools,86,86
+Vula,Female,2024-12,Lactating,Mangrove,tool assisted,7,5.746840161366828
+Vula,Female,2024-12,Lactating,Mangrove,unassigned search,10,8.20977165909547
+Vula,Female,2024-12,Lactating,Mangrove,without tools,0,0
+Vula,Female,2024-12,Lactating,Shore,tool assisted,1795,1504.8773023181832
+Vula,Female,2024-12,Lactating,Shore,unassigned search,94,81.86797275073441
+Vula,Female,2024-12,Lactating,Shore,without tools,452,442.194340484704
+Vula,Female,2025-01,Lactating,Forest,tool assisted,0,0
+Vula,Female,2025-01,Lactating,Forest,unassigned search,0,0
+Vula,Female,2025-01,Lactating,Forest,without tools,0,0
+Vula,Female,2025-01,Lactating,Mangrove,tool assisted,239,202.42994274963246
+Vula,Female,2025-01,Lactating,Mangrove,unassigned search,158,133.82397888887837
+Vula,Female,2025-01,Lactating,Mangrove,without tools,155,135.41436264415464
+Vula,Female,2025-01,Lactating,Shore,tool assisted,1745,1515.908416759446
+Vula,Female,2025-01,Lactating,Shore,unassigned search,63,53.84830690194157
+Vula,Female,2025-01,Lactating,Shore,without tools,507,423.4189652981132
+Vula,Female,2025-02,Lactating,Forest,tool assisted,0,0
+Vula,Female,2025-02,Lactating,Forest,unassigned search,117,117
+Vula,Female,2025-02,Lactating,Forest,without tools,1468,1468
+Vula,Female,2025-02,Lactating,Mangrove,tool assisted,124,124
+Vula,Female,2025-02,Lactating,Mangrove,unassigned search,0,0
+Vula,Female,2025-02,Lactating,Mangrove,without tools,0,0
+Vula,Female,2025-02,Lactating,Shore,tool assisted,478,478
+Vula,Female,2025-02,Lactating,Shore,unassigned search,39,39
+Vula,Female,2025-02,Lactating,Shore,without tools,57,57
+Vula,Female,2025-03,Lactating,Forest,tool assisted,0,0
+Vula,Female,2025-03,Lactating,Forest,unassigned search,102,102
+Vula,Female,2025-03,Lactating,Forest,without tools,976,976
+Vula,Female,2025-03,Lactating,Shore,tool assisted,613,717.9895939924713
+Vula,Female,2025-03,Lactating,Shore,unassigned search,115,119.38468239725407
+Vula,Female,2025-03,Lactating,Shore,without tools,62,149.5228000117441
+Vula,Female,2025-12,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Vula,Female,2025-12,Non-lactating & non-pregnant,Mangrove,unassigned search,43,43
+Vula,Female,2025-12,Non-lactating & non-pregnant,Mangrove,without tools,739,739
+Vula,Female,2025-12,Non-lactating & non-pregnant,Shore,tool assisted,802,651.4078294834918
+Vula,Female,2025-12,Non-lactating & non-pregnant,Shore,unassigned search,40,32.82190537493881
+Vula,Female,2025-12,Non-lactating & non-pregnant,Shore,without tools,585,481.415078293295
+Vula,Female,2026-01,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Vula,Female,2026-01,Non-lactating & non-pregnant,Forest,unassigned search,88,88
+Vula,Female,2026-01,Non-lactating & non-pregnant,Forest,without tools,220,220
+Vula,Female,2026-01,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Vula,Female,2026-01,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Vula,Female,2026-01,Non-lactating & non-pregnant,Mangrove,without tools,952,952
+Vula,Female,2026-01,Non-lactating & non-pregnant,Shore,tool assisted,3829,3287.338481456694
+Vula,Female,2026-01,Non-lactating & non-pregnant,Shore,unassigned search,125,108.06256235030722
+Vula,Female,2026-01,Non-lactating & non-pregnant,Shore,without tools,568,485.125347737444
+Vula,Female,2026-02,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Vula,Female,2026-02,Non-lactating & non-pregnant,Forest,unassigned search,583,583
+Vula,Female,2026-02,Non-lactating & non-pregnant,Forest,without tools,1669,1669
+Vula,Female,2026-02,Non-lactating & non-pregnant,Mangrove,tool assisted,16,16
+Vula,Female,2026-02,Non-lactating & non-pregnant,Mangrove,unassigned search,28,28
+Vula,Female,2026-02,Non-lactating & non-pregnant,Mangrove,without tools,161,157.29476141878126
+Vula,Female,2026-02,Non-lactating & non-pregnant,Shore,tool assisted,900,1096.1825698406744
+Vula,Female,2026-02,Non-lactating & non-pregnant,Shore,unassigned search,119,209.41449259036835
+Vula,Female,2026-02,Non-lactating & non-pregnant,Shore,without tools,55,50.038543694624146
+Vula,Female,2026-03,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Vula,Female,2026-03,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Vula,Female,2026-03,Non-lactating & non-pregnant,Forest,without tools,1067,1067
+Vula,Female,2026-03,Non-lactating & non-pregnant,Shore,tool assisted,738,627.2617482818988
+Vula,Female,2026-03,Non-lactating & non-pregnant,Shore,unassigned search,67,56.946527283045015
+Vula,Female,2026-03,Non-lactating & non-pregnant,Shore,without tools,0,0
+Whitney,Female,2024-03,Non-lactating & non-pregnant,Shore,tool assisted,757,611.9455895672945
+Whitney,Female,2024-03,Non-lactating & non-pregnant,Shore,unassigned search,40,32.33530195864172
+Whitney,Female,2024-03,Non-lactating & non-pregnant,Shore,without tools,103,83.26340254350242
+Whitney,Female,2024-04,Non-lactating & non-pregnant,Shore,tool assisted,531,402.24886837530386
+Whitney,Female,2024-04,Non-lactating & non-pregnant,Shore,unassigned search,43,32.92558991672662
+Whitney,Female,2024-04,Non-lactating & non-pregnant,Shore,without tools,61,43.76420863011864
+Whitney,Female,2024-05,Lactating,Mangrove,tool assisted,92,92
+Whitney,Female,2024-05,Lactating,Mangrove,unassigned search,26,26
+Whitney,Female,2024-05,Lactating,Mangrove,without tools,57,57
+Whitney,Female,2024-05,Lactating,Shore,tool assisted,684,634.2236336586058
+Whitney,Female,2024-05,Lactating,Shore,unassigned search,77,71.39652016332258
+Whitney,Female,2024-05,Lactating,Shore,without tools,21,19.471778226360705
+Whitney,Female,2024-05,Pregnant,Shore,tool assisted,828,778.0000355548207
+Whitney,Female,2024-05,Pregnant,Shore,unassigned search,0,0
+Whitney,Female,2024-05,Pregnant,Shore,without tools,16,15.033817112170448
+Whitney,Female,2024-06,Lactating,Forest,tool assisted,0,0
+Whitney,Female,2024-06,Lactating,Forest,unassigned search,80,80
+Whitney,Female,2024-06,Lactating,Forest,without tools,186,186
+Whitney,Female,2024-06,Lactating,Mangrove,tool assisted,97,97
+Whitney,Female,2024-06,Lactating,Mangrove,unassigned search,12,12
+Whitney,Female,2024-06,Lactating,Mangrove,without tools,569,569
+Whitney,Female,2024-06,Lactating,Shore,tool assisted,3035,2709.3053437459807
+Whitney,Female,2024-06,Lactating,Shore,unassigned search,0,0
+Whitney,Female,2024-06,Lactating,Shore,without tools,354,316.46438225953443
+Whitney,Female,2024-07,Lactating,Shore,tool assisted,1320,1108.5939123516255
+Whitney,Female,2024-07,Lactating,Shore,unassigned search,41,33.772274135505
+Whitney,Female,2024-07,Lactating,Shore,without tools,315,262.527426809734
+Whitney,Female,2024-08,Lactating,Forest,tool assisted,0,0
+Whitney,Female,2024-08,Lactating,Forest,unassigned search,0,0
+Whitney,Female,2024-08,Lactating,Forest,without tools,0,0
+Whitney,Female,2024-08,Lactating,Shore,tool assisted,625,527.70988488682
+Whitney,Female,2024-08,Lactating,Shore,unassigned search,38,31.54785509051988
+Whitney,Female,2024-08,Lactating,Shore,without tools,183,149.472737905966
+Whitney,Female,2024-08,Non-lactating & non-pregnant,Shore,tool assisted,884,718.195962517201
+Whitney,Female,2024-08,Non-lactating & non-pregnant,Shore,unassigned search,19,15.436338560890066
+Whitney,Female,2024-08,Non-lactating & non-pregnant,Shore,without tools,0,0
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Forest,without tools,103,103
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Mangrove,without tools,67,67
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Shore,tool assisted,315,256.5304812218815
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Shore,unassigned search,109,88.76769032757169
+Whitney,Female,2024-09,Non-lactating & non-pregnant,Shore,without tools,119,96.91151512826633
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Forest,without tools,80,80
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Mangrove,without tools,50,50
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Shore,tool assisted,924,792.81908429651
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Whitney,Female,2024-11,Non-lactating & non-pregnant,Shore,without tools,18,18.87589384511688
+Whitney,Female,2024-11,Pregnant,Shore,tool assisted,350,295.1688264435869
+Whitney,Female,2024-11,Pregnant,Shore,unassigned search,12,10.120074049494407
+Whitney,Female,2024-11,Pregnant,Shore,without tools,66,55.66040727221924
+Whitney,Female,2024-12,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Whitney,Female,2024-12,Non-lactating & non-pregnant,Mangrove,unassigned search,6,4.765814062140216
+Whitney,Female,2024-12,Non-lactating & non-pregnant,Mangrove,without tools,509,404.29989293822837
+Whitney,Female,2024-12,Non-lactating & non-pregnant,Shore,tool assisted,30,23.82907031070108
+Whitney,Female,2024-12,Non-lactating & non-pregnant,Shore,unassigned search,18,14.297442186420648
+Whitney,Female,2024-12,Non-lactating & non-pregnant,Shore,without tools,25,19.8575585922509
+Whitney,Female,2024-12,Pregnant,Forest,tool assisted,0,0
+Whitney,Female,2024-12,Pregnant,Forest,unassigned search,0,0
+Whitney,Female,2024-12,Pregnant,Forest,without tools,32,32
+Whitney,Female,2024-12,Pregnant,Mangrove,tool assisted,0,0
+Whitney,Female,2024-12,Pregnant,Mangrove,unassigned search,0,0
+Whitney,Female,2024-12,Pregnant,Mangrove,without tools,505,1141.3920165684076
+Whitney,Female,2024-12,Pregnant,Shore,tool assisted,0,0
+Whitney,Female,2024-12,Pregnant,Shore,unassigned search,0,0
+Whitney,Female,2024-12,Pregnant,Shore,without tools,42,94.9276528631151
+Whitney,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Whitney,Female,2025-01,Pregnant,Forest,unassigned search,0,0
+Whitney,Female,2025-01,Pregnant,Forest,without tools,21,21
+Whitney,Female,2025-01,Pregnant,Mangrove,tool assisted,291,291.8502229173977
+Whitney,Female,2025-01,Pregnant,Mangrove,unassigned search,135,135
+Whitney,Female,2025-01,Pregnant,Mangrove,without tools,853,957.7248824958117
+Whitney,Female,2025-01,Pregnant,Shore,tool assisted,2027,1870.2037229727694
+Whitney,Female,2025-01,Pregnant,Shore,unassigned search,240,229.39251588738222
+Whitney,Female,2025-01,Pregnant,Shore,without tools,220,330.6936123916549
+Whitney,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Whitney,Female,2025-02,Pregnant,Forest,unassigned search,150,150
+Whitney,Female,2025-02,Pregnant,Forest,without tools,77,77
+Whitney,Female,2025-02,Pregnant,Mangrove,tool assisted,120,120
+Whitney,Female,2025-02,Pregnant,Mangrove,unassigned search,80,80
+Whitney,Female,2025-02,Pregnant,Mangrove,without tools,222,222
+Whitney,Female,2025-03,Pregnant,Mangrove,tool assisted,491,491
+Whitney,Female,2025-03,Pregnant,Mangrove,unassigned search,21,21
+Whitney,Female,2025-03,Pregnant,Mangrove,without tools,123,123
+Whitney,Female,2025-03,Pregnant,Shore,tool assisted,1004,900.1482002530469
+Whitney,Female,2025-03,Pregnant,Shore,unassigned search,124,120.06700731226603
+Whitney,Female,2025-03,Pregnant,Shore,without tools,250,241.9415560361572
+Whitney,Female,2025-12,Lactating,Mangrove,tool assisted,0,0
+Whitney,Female,2025-12,Lactating,Mangrove,unassigned search,27,27
+Whitney,Female,2025-12,Lactating,Mangrove,without tools,520,520
+Whitney,Female,2025-12,Lactating,Shore,tool assisted,817,653.9289036800602
+Whitney,Female,2025-12,Lactating,Shore,unassigned search,58,46.91774765228551
+Whitney,Female,2025-12,Lactating,Shore,without tools,35,27.923682906638717
+Whitney,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Whitney,Female,2026-01,Lactating,Forest,unassigned search,63,63
+Whitney,Female,2026-01,Lactating,Forest,without tools,303,272.191135873264
+Whitney,Female,2026-01,Lactating,Mangrove,tool assisted,186,186
+Whitney,Female,2026-01,Lactating,Mangrove,unassigned search,51,51
+Whitney,Female,2026-01,Lactating,Mangrove,without tools,1359,1359
+Whitney,Female,2026-01,Lactating,Shore,tool assisted,2010,1700.7140102139147
+Whitney,Female,2026-01,Lactating,Shore,unassigned search,107,91.17819454474396
+Whitney,Female,2026-01,Lactating,Shore,without tools,0,0
+Whitney,Female,2026-02,Lactating,Forest,tool assisted,553,553
+Whitney,Female,2026-02,Lactating,Forest,unassigned search,0,0
+Whitney,Female,2026-02,Lactating,Forest,without tools,1171,1171
+Whitney,Female,2026-02,Lactating,Mangrove,tool assisted,0,0
+Whitney,Female,2026-02,Lactating,Mangrove,unassigned search,0,0
+Whitney,Female,2026-02,Lactating,Mangrove,without tools,0,0
+Whitney,Female,2026-02,Lactating,Shore,tool assisted,1991,2287.383019847284
+Whitney,Female,2026-02,Lactating,Shore,unassigned search,141,141.34512342433268
+Whitney,Female,2026-02,Lactating,Shore,without tools,162,224.49213126648448
+Whitney,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Whitney,Female,2026-03,Lactating,Forest,unassigned search,38,38
+Whitney,Female,2026-03,Lactating,Forest,without tools,45,45
+Whitney,Female,2026-03,Lactating,Shore,tool assisted,948,774.9844356471252
+Whitney,Female,2026-03,Lactating,Shore,unassigned search,69,57.48497559692598
+Whitney,Female,2026-03,Lactating,Shore,without tools,528,448.7688654228991
+Yaiko,Female,2024-04,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2024-04,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Yaiko,Female,2024-04,Non-lactating & non-pregnant,Forest,without tools,0,0
+Yaiko,Female,2024-04,Non-lactating & non-pregnant,Mangrove,tool assisted,634,634
+Yaiko,Female,2024-04,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Yaiko,Female,2024-04,Non-lactating & non-pregnant,Mangrove,without tools,867,867
+Yaiko,Female,2024-04,Pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2024-04,Pregnant,Forest,unassigned search,89,89
+Yaiko,Female,2024-04,Pregnant,Forest,without tools,176,176
+Yaiko,Female,2024-04,Pregnant,Mangrove,tool assisted,900,900
+Yaiko,Female,2024-04,Pregnant,Mangrove,unassigned search,0,0
+Yaiko,Female,2024-04,Pregnant,Mangrove,without tools,0,0
+Yaiko,Female,2024-04,Pregnant,Shore,tool assisted,855,696.1224734703799
+Yaiko,Female,2024-04,Pregnant,Shore,unassigned search,0,0
+Yaiko,Female,2024-04,Pregnant,Shore,without tools,24,19.540279957063294
+Yaiko,Female,2024-05,Non-lactating & non-pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2024-05,Non-lactating & non-pregnant,Forest,unassigned search,0,0
+Yaiko,Female,2024-05,Non-lactating & non-pregnant,Forest,without tools,203,203
+Yaiko,Female,2024-05,Pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2024-05,Pregnant,Forest,unassigned search,88,88
+Yaiko,Female,2024-05,Pregnant,Forest,without tools,604,604
+Yaiko,Female,2024-05,Pregnant,Shore,tool assisted,926,885.627797037655
+Yaiko,Female,2024-05,Pregnant,Shore,unassigned search,0,0
+Yaiko,Female,2024-05,Pregnant,Shore,without tools,0,0
+Yaiko,Female,2024-06,Pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2024-06,Pregnant,Forest,unassigned search,366,366
+Yaiko,Female,2024-06,Pregnant,Forest,without tools,577,577
+Yaiko,Female,2024-06,Pregnant,Shore,tool assisted,899,822.5798568016726
+Yaiko,Female,2024-06,Pregnant,Shore,unassigned search,36,32.96218622799229
+Yaiko,Female,2024-06,Pregnant,Shore,without tools,317,290.36497713310956
+Yaiko,Female,2024-08,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Yaiko,Female,2024-08,Non-lactating & non-pregnant,Mangrove,unassigned search,36,36
+Yaiko,Female,2024-08,Non-lactating & non-pregnant,Mangrove,without tools,518,518
+Yaiko,Female,2024-08,Pregnant,Shore,tool assisted,1446,1243.4700009663347
+Yaiko,Female,2024-08,Pregnant,Shore,unassigned search,0,0
+Yaiko,Female,2024-08,Pregnant,Shore,without tools,170,146.3158031330062
+Yaiko,Female,2024-10,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Yaiko,Female,2024-10,Non-lactating & non-pregnant,Mangrove,unassigned search,0,0
+Yaiko,Female,2024-10,Non-lactating & non-pregnant,Mangrove,without tools,132,132
+Yaiko,Female,2024-10,Non-lactating & non-pregnant,Shore,tool assisted,323,267.6126596241416
+Yaiko,Female,2024-10,Non-lactating & non-pregnant,Shore,unassigned search,190,158.09947002190026
+Yaiko,Female,2024-10,Non-lactating & non-pregnant,Shore,without tools,588,497.79793544701386
+Yaiko,Female,2024-11,Non-lactating & non-pregnant,Mangrove,tool assisted,0,0
+Yaiko,Female,2024-11,Non-lactating & non-pregnant,Mangrove,unassigned search,3,2.696427621883497
+Yaiko,Female,2024-11,Non-lactating & non-pregnant,Mangrove,without tools,418,375.70224864910057
+Yaiko,Female,2024-11,Non-lactating & non-pregnant,Shore,tool assisted,185,166.2797033494823
+Yaiko,Female,2024-11,Non-lactating & non-pregnant,Shore,unassigned search,0,0
+Yaiko,Female,2024-11,Non-lactating & non-pregnant,Shore,without tools,179,160.88684810571533
+Yaiko,Female,2024-11,Pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2024-11,Pregnant,Forest,unassigned search,0,0
+Yaiko,Female,2024-11,Pregnant,Forest,without tools,83,83
+Yaiko,Female,2024-11,Pregnant,Mangrove,tool assisted,0,0
+Yaiko,Female,2024-11,Pregnant,Mangrove,unassigned search,95,83.71467173531768
+Yaiko,Female,2024-11,Pregnant,Mangrove,without tools,1385,1302.111209642161
+Yaiko,Female,2024-11,Pregnant,Shore,tool assisted,621,543.7830876918633
+Yaiko,Female,2024-11,Pregnant,Shore,unassigned search,26,22.78313895440323
+Yaiko,Female,2024-11,Pregnant,Shore,without tools,182,159.31422490468867
+Yaiko,Female,2024-12,Pregnant,Mangrove,tool assisted,14,11.647328335199521
+Yaiko,Female,2024-12,Pregnant,Mangrove,unassigned search,147,122.29694751959498
+Yaiko,Female,2024-12,Pregnant,Mangrove,without tools,777,647.8232008098587
+Yaiko,Female,2024-12,Pregnant,Shore,tool assisted,650,556.3296862659296
+Yaiko,Female,2024-12,Pregnant,Shore,unassigned search,34,28.673115102130193
+Yaiko,Female,2024-12,Pregnant,Shore,without tools,349,300.40199656635093
+Yaiko,Female,2025-01,Pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2025-01,Pregnant,Forest,unassigned search,28,28
+Yaiko,Female,2025-01,Pregnant,Forest,without tools,33,33
+Yaiko,Female,2025-01,Pregnant,Mangrove,tool assisted,0,0
+Yaiko,Female,2025-01,Pregnant,Mangrove,unassigned search,371,371
+Yaiko,Female,2025-01,Pregnant,Mangrove,without tools,1123,1123
+Yaiko,Female,2025-02,Pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2025-02,Pregnant,Forest,unassigned search,0,0
+Yaiko,Female,2025-02,Pregnant,Forest,without tools,123,123
+Yaiko,Female,2025-02,Pregnant,Mangrove,tool assisted,452,452
+Yaiko,Female,2025-02,Pregnant,Mangrove,unassigned search,44,44
+Yaiko,Female,2025-02,Pregnant,Mangrove,without tools,0,0
+Yaiko,Female,2025-02,Pregnant,Shore,tool assisted,639,554.2985637344391
+Yaiko,Female,2025-02,Pregnant,Shore,unassigned search,91,78.93766713589038
+Yaiko,Female,2025-02,Pregnant,Shore,without tools,94,81.54000781069996
+Yaiko,Female,2025-03,Pregnant,Forest,tool assisted,0,0
+Yaiko,Female,2025-03,Pregnant,Forest,unassigned search,0,0
+Yaiko,Female,2025-03,Pregnant,Forest,without tools,49,76.3231460844198
+Yaiko,Female,2025-03,Pregnant,Mangrove,tool assisted,40,35.39228691468528
+Yaiko,Female,2025-03,Pregnant,Mangrove,unassigned search,32,28.313829531748222
+Yaiko,Female,2025-03,Pregnant,Mangrove,without tools,35,30.968251050349618
+Yaiko,Female,2025-03,Pregnant,Shore,tool assisted,537,941.058046345708
+Yaiko,Female,2025-03,Pregnant,Shore,unassigned search,65,131.2334463813095
+Yaiko,Female,2025-03,Pregnant,Shore,without tools,55,48.66439450769226
+Yaiko,Female,2025-12,Lactating,Forest,tool assisted,211,211
+Yaiko,Female,2025-12,Lactating,Forest,unassigned search,27,27
+Yaiko,Female,2025-12,Lactating,Forest,without tools,107,107
+Yaiko,Female,2025-12,Lactating,Shore,tool assisted,802,681.8300089712535
+Yaiko,Female,2025-12,Lactating,Shore,unassigned search,27,22.954376860628237
+Yaiko,Female,2025-12,Lactating,Shore,without tools,69,58.66118531049438
+Yaiko,Female,2026-01,Lactating,Forest,tool assisted,0,0
+Yaiko,Female,2026-01,Lactating,Forest,unassigned search,272,247.85055953672492
+Yaiko,Female,2026-01,Lactating,Forest,without tools,1600,1559.533370034512
+Yaiko,Female,2026-01,Lactating,Mangrove,tool assisted,0,0
+Yaiko,Female,2026-01,Lactating,Mangrove,unassigned search,0,0
+Yaiko,Female,2026-01,Lactating,Mangrove,without tools,0,0
+Yaiko,Female,2026-01,Lactating,Shore,tool assisted,3646,4037.618328764719
+Yaiko,Female,2026-01,Lactating,Shore,unassigned search,114,102.6586990760393
+Yaiko,Female,2026-01,Lactating,Shore,without tools,1250,1137.1411400707693
+Yaiko,Female,2026-02,Lactating,Forest,tool assisted,0,0
+Yaiko,Female,2026-02,Lactating,Forest,unassigned search,88,88
+Yaiko,Female,2026-02,Lactating,Forest,without tools,1758,1758
+Yaiko,Female,2026-02,Lactating,Mangrove,tool assisted,12,12
+Yaiko,Female,2026-02,Lactating,Mangrove,unassigned search,4,4
+Yaiko,Female,2026-02,Lactating,Mangrove,without tools,97,97
+Yaiko,Female,2026-02,Lactating,Shore,tool assisted,2250,2012.5852097772172
+Yaiko,Female,2026-02,Lactating,Shore,unassigned search,128,192.48936867649533
+Yaiko,Female,2026-02,Lactating,Shore,without tools,189,440.27688695515815
+Yaiko,Female,2026-03,Lactating,Forest,tool assisted,0,0
+Yaiko,Female,2026-03,Lactating,Forest,unassigned search,0,0
+Yaiko,Female,2026-03,Lactating,Forest,without tools,192,192
+Yaiko,Female,2026-03,Lactating,Mangrove,tool assisted,11,11
+Yaiko,Female,2026-03,Lactating,Mangrove,unassigned search,0,0
+Yaiko,Female,2026-03,Lactating,Mangrove,without tools,0,0
+Yaiko,Female,2026-03,Lactating,Shore,tool assisted,83,72.64396331566144
+Yaiko,Female,2026-03,Lactating,Shore,unassigned search,0,0
+Yaiko,Female,2026-03,Lactating,Shore,without tools,0,0

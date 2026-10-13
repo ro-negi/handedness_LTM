@@ -1,0 +1,121 @@
+sex,repro_state,foraging_method,food.category,weighted_food_seconds,proportion
+Female,Lactating,tool assisted,Drink,0,0
+Female,Lactating,tool assisted,Fruits,0,0
+Female,Lactating,tool assisted,Insects,0,0
+Female,Lactating,tool assisted,Leaves,0,0
+Female,Lactating,tool assisted,Other shellfish,17821.22596040848,0.10915305522576707
+Female,Lactating,tool assisted,Others,285.2876973828591,0.0017473558697276843
+Female,Lactating,tool assisted,Oysters,140698.95792891967,0.8617656921662887
+Female,Lactating,tool assisted,Search,0,0
+Female,Lactating,tool assisted,Seeds,4051.0797355258987,0.024812419250965435
+Female,Lactating,tool assisted,Unknown,411.6771625076597,0.0025214774872511464
+Female,Lactating,unassigned search,Drink,0,0
+Female,Lactating,unassigned search,Fruits,0,0
+Female,Lactating,unassigned search,Insects,0,0
+Female,Lactating,unassigned search,Leaves,0,0
+Female,Lactating,unassigned search,Other shellfish,0,0
+Female,Lactating,unassigned search,Others,0,0
+Female,Lactating,unassigned search,Oysters,0,0
+Female,Lactating,unassigned search,Search,16294.420030719719,1
+Female,Lactating,unassigned search,Seeds,0,0
+Female,Lactating,unassigned search,Unknown,0,0
+Female,Lactating,without tools,Drink,3227.548607067936,0.03660184014851013
+Female,Lactating,without tools,Fruits,54637.49825903149,0.619613589401003
+Female,Lactating,without tools,Insects,17343.656415591515,0.19668479610934667
+Female,Lactating,without tools,Leaves,2081.6806144769407,0.023607186247941624
+Female,Lactating,without tools,Other shellfish,700.7862502918048,0.00794722851122488
+Female,Lactating,without tools,Others,3706.2926617484077,0.04203101116799259
+Female,Lactating,without tools,Oysters,0,0
+Female,Lactating,without tools,Search,0,0
+Female,Lactating,without tools,Seeds,3637.4027657749,0.04124976903433485
+Female,Lactating,without tools,Unknown,2845.0891488484085,0.032264579379646274
+Female,Non-lactating & non-pregnant,tool assisted,Drink,0,0
+Female,Non-lactating & non-pregnant,tool assisted,Fruits,0,0
+Female,Non-lactating & non-pregnant,tool assisted,Insects,0,0
+Female,Non-lactating & non-pregnant,tool assisted,Leaves,0,0
+Female,Non-lactating & non-pregnant,tool assisted,Other shellfish,6166.494965696085,0.12037041516270292
+Female,Non-lactating & non-pregnant,tool assisted,Others,125.1118817063598,0.0024421927248069243
+Female,Non-lactating & non-pregnant,tool assisted,Oysters,43514.313622089096,0.8494024604493724
+Female,Non-lactating & non-pregnant,tool assisted,Search,0,0
+Female,Non-lactating & non-pregnant,tool assisted,Seeds,1272.3148649414275,0.024835675592478193
+Female,Non-lactating & non-pregnant,tool assisted,Unknown,151.08839400083846,0.0029492560706394777
+Female,Non-lactating & non-pregnant,unassigned search,Drink,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Fruits,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Insects,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Leaves,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Other shellfish,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Others,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Oysters,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Search,10774.502153843736,1
+Female,Non-lactating & non-pregnant,unassigned search,Seeds,0,0
+Female,Non-lactating & non-pregnant,unassigned search,Unknown,0,0
+Female,Non-lactating & non-pregnant,without tools,Drink,1176.3667837984394,0.022445329318029564
+Female,Non-lactating & non-pregnant,without tools,Fruits,28112.85089494356,0.5363991954687726
+Female,Non-lactating & non-pregnant,without tools,Insects,12090.175613702388,0.23068313123065615
+Female,Non-lactating & non-pregnant,without tools,Leaves,3894.996721340201,0.07431736878938065
+Female,Non-lactating & non-pregnant,without tools,Other shellfish,2183.9666593984393,0.041670550006105936
+Female,Non-lactating & non-pregnant,without tools,Others,1546.4790551211695,0.0295071504514508
+Female,Non-lactating & non-pregnant,without tools,Oysters,0,0
+Female,Non-lactating & non-pregnant,without tools,Search,0,0
+Female,Non-lactating & non-pregnant,without tools,Seeds,1818,0.03468782803303757
+Female,Non-lactating & non-pregnant,without tools,Unknown,1587.47944820356,0.030289446702566808
+Female,Pregnant,tool assisted,Drink,0,0
+Female,Pregnant,tool assisted,Fruits,0,0
+Female,Pregnant,tool assisted,Insects,0,0
+Female,Pregnant,tool assisted,Leaves,0,0
+Female,Pregnant,tool assisted,Other shellfish,9655.200903329489,0.11786806635714364
+Female,Pregnant,tool assisted,Others,147.88706389058694,0.0018053650498362909
+Female,Pregnant,tool assisted,Oysters,70785.55162694257,0.8641307601806991
+Female,Pregnant,tool assisted,Search,0,0
+Female,Pregnant,tool assisted,Seeds,1208,0.014746935416986483
+Female,Pregnant,tool assisted,Unknown,118.68490156591834,0.0014488729953344335
+Female,Pregnant,unassigned search,Drink,0,0
+Female,Pregnant,unassigned search,Fruits,0,0
+Female,Pregnant,unassigned search,Insects,0,0
+Female,Pregnant,unassigned search,Leaves,0,0
+Female,Pregnant,unassigned search,Other shellfish,0,0
+Female,Pregnant,unassigned search,Others,0,0
+Female,Pregnant,unassigned search,Oysters,0,0
+Female,Pregnant,unassigned search,Search,15106.191751111415,1
+Female,Pregnant,unassigned search,Seeds,0,0
+Female,Pregnant,unassigned search,Unknown,0,0
+Female,Pregnant,without tools,Drink,1732.248877854391,0.023298186186057612
+Female,Pregnant,without tools,Fruits,41516.395044004916,0.5583820626902156
+Female,Pregnant,without tools,Insects,17973.79607872923,0.24174173403486285
+Female,Pregnant,without tools,Leaves,3160.408020944789,0.04250646395977685
+Female,Pregnant,without tools,Other shellfish,1854.8071594171079,0.024946555366142296
+Female,Pregnant,without tools,Others,2287.4811614603723,0.030765880514129484
+Female,Pregnant,without tools,Oysters,31.451564211263076,4.2301334883494034e-4
+Female,Pregnant,without tools,Search,0,0
+Female,Pregnant,without tools,Seeds,4329.781567122457,0.05823415929743713
+Female,Pregnant,without tools,Unknown,1464.8638806796287,0.019701944602543223
+Male,Male,tool assisted,Drink,0,0
+Male,Male,tool assisted,Fruits,0,0
+Male,Male,tool assisted,Insects,0,0
+Male,Male,tool assisted,Leaves,0,0
+Male,Male,tool assisted,Other shellfish,5839.771126706639,0.16564734856434637
+Male,Male,tool assisted,Others,414.06465002695967,0.01174510266293103
+Male,Male,tool assisted,Oysters,28138.251045629262,0.7981522867617995
+Male,Male,tool assisted,Search,0,0
+Male,Male,tool assisted,Seeds,687.2466179015755,0.019494013993903093
+Male,Male,tool assisted,Unknown,174.90502065579395,0.0049612480170200925
+Male,Male,unassigned search,Drink,0,0
+Male,Male,unassigned search,Fruits,0,0
+Male,Male,unassigned search,Insects,0,0
+Male,Male,unassigned search,Leaves,0,0
+Male,Male,unassigned search,Other shellfish,0,0
+Male,Male,unassigned search,Others,0,0
+Male,Male,unassigned search,Oysters,0,0
+Male,Male,unassigned search,Search,8772.47012035988,1
+Male,Male,unassigned search,Seeds,0,0
+Male,Male,unassigned search,Unknown,0,0
+Male,Male,without tools,Drink,969.2657164933166,0.021434803753538914
+Male,Male,without tools,Fruits,29710.18859490549,0.6570252627075358
+Male,Male,without tools,Insects,5918.956213598865,0.13089461713686462
+Male,Male,without tools,Leaves,3284.4069339347116,0.07263293942795554
+Male,Male,without tools,Other shellfish,243.72953914615357,0.0053899511265488005
+Male,Male,without tools,Others,2635.2929047174557,0.05827812258755537
+Male,Male,without tools,Oysters,11.571770857752611,2.559036528334263e-4
+Male,Male,without tools,Search,0,0
+Male,Male,without tools,Seeds,1326,0.029323795625436817
+Male,Male,without tools,Unknown,1119.8367803140047,0.024764603981730818
